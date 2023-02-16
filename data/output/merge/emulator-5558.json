@@ -1,0 +1,377 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 14,
+            "width": 14,
+            "position": {
+                "column_min": 23,
+                "row_min": 37,
+                "column_max": 37,
+                "row_max": 51
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 17,
+            "width": 20,
+            "position": {
+                "column_min": 661,
+                "row_min": 36,
+                "column_max": 681,
+                "row_max": 53
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 16,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 154,
+                "column_max": 685,
+                "row_max": 170
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 16,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 208,
+                "column_max": 685,
+                "row_max": 224
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 16,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 262,
+                "column_max": 685,
+                "row_max": 278
+            }
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 16,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 575,
+                "column_max": 685,
+                "row_max": 591
+            }
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "height": 15,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 630,
+                "column_max": 685,
+                "row_max": 645
+            }
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 16,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 684,
+                "column_max": 685,
+                "row_max": 700
+            }
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 16,
+            "width": 15,
+            "position": {
+                "column_min": 670,
+                "row_min": 738,
+                "column_max": 685,
+                "row_max": 754
+            }
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 14,
+            "width": 13,
+            "position": {
+                "column_min": 238,
+                "row_min": 773,
+                "column_max": 251,
+                "row_max": 787
+            }
+        },
+        {
+            "id": 10,
+            "class": "Compo",
+            "height": 13,
+            "width": 13,
+            "position": {
+                "column_min": 347,
+                "row_min": 773,
+                "column_max": 360,
+                "row_max": 786
+            }
+        },
+        {
+            "id": 11,
+            "class": "Compo",
+            "height": 13,
+            "width": 13,
+            "position": {
+                "column_min": 455,
+                "row_min": 773,
+                "column_max": 468,
+                "row_max": 786
+            }
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 13,
+            "width": 147,
+            "position": {
+                "column_min": 68,
+                "row_min": 38,
+                "column_max": 215,
+                "row_max": 51
+            },
+            "text_content": "Email notifications",
+            "keyboard": false
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 17,
+            "width": 271,
+            "position": {
+                "column_min": 20,
+                "row_min": 95,
+                "column_max": 291,
+                "row_max": 112
+            },
+            "text_content": "Related to you and your Tweets",
+            "keyboard": false
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 12,
+            "width": 126,
+            "position": {
+                "column_min": 12,
+                "row_min": 156,
+                "column_max": 138,
+                "row_max": 168
+            },
+            "text_content": "New notifications",
+            "keyboard": false
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 17,
+            "width": 120,
+            "position": {
+                "column_min": 13,
+                "row_min": 208,
+                "column_max": 133,
+                "row_max": 225
+            },
+            "text_content": "Direct Messages",
+            "keyboard": false
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 18,
+            "width": 131,
+            "position": {
+                "column_min": 12,
+                "row_min": 261,
+                "column_max": 143,
+                "row_max": 279
+            },
+            "text_content": "Tweets emailed to",
+            "keyboard": false
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 15,
+            "width": 26,
+            "position": {
+                "column_min": 147,
+                "row_min": 264,
+                "column_max": 173,
+                "row_max": 279
+            },
+            "text_content": "you",
+            "keyboard": false
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 20,
+            "width": 163,
+            "position": {
+                "column_min": 20,
+                "row_min": 322,
+                "column_max": 183,
+                "row_max": 342
+            },
+            "text_content": "From your network",
+            "keyboard": false
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 14,
+            "width": 169,
+            "position": {
+                "column_min": 12,
+                "row_min": 379,
+                "column_max": 181,
+                "row_max": 393
+            },
+            "text_content": "Top Tweets and Stories",
+            "keyboard": false
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 12,
+            "width": 61,
+            "position": {
+                "column_min": 12,
+                "row_min": 403,
+                "column_max": 73,
+                "row_max": 415
+            },
+            "text_content": "Periodically",
+            "keyboard": false
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 14,
+            "width": 337,
+            "position": {
+                "column_min": 13,
+                "row_min": 442,
+                "column_max": 350,
+                "row_max": 456
+            },
+            "text_content": "Updates about the performance of your Tweets",
+            "keyboard": false
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 11,
+            "width": 18,
+            "position": {
+                "column_min": 12,
+                "row_min": 465,
+                "column_max": 30,
+                "row_max": 476
+            },
+            "text_content": "Off",
+            "keyboard": false
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 16,
+            "width": 110,
+            "position": {
+                "column_min": 20,
+                "row_min": 515,
+                "column_max": 130,
+                "row_max": 531
+            },
+            "text_content": "From Twitter",
+            "keyboard": false
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 16,
+            "width": 380,
+            "position": {
+                "column_min": 12,
+                "row_min": 576,
+                "column_max": 392,
+                "row_max": 592
+            },
+            "text_content": "News about updates to Twitter products and features",
+            "keyboard": false
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 16,
+            "width": 246,
+            "position": {
+                "column_min": 13,
+                "row_min": 630,
+                "column_max": 259,
+                "row_max": 646
+            },
+            "text_content": "Tips on getting more out of Twitter",
+            "keyboard": false
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 15,
+            "width": 396,
+            "position": {
+                "column_min": 12,
+                "row_min": 685,
+                "column_max": 408,
+                "row_max": 700
+            },
+            "text_content": "Things you've missed since you last logged into Twitter",
+            "keyboard": false
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 15,
+            "width": 497,
+            "position": {
+                "column_min": 12,
+                "row_min": 739,
+                "column_max": 509,
+                "row_max": 754
+            },
+            "text_content": "News about Twitter on partner products and other third - party services",
+            "keyboard": false
+        }
+    ],
+    "img_shape": [
+        800,
+        709,
+        3
+    ]
+}

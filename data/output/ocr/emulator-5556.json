@@ -1,0 +1,64 @@
+{
+    "img_shape": [
+        800,
+        378,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "1:50",
+            "keyboard": false,
+            "column_min": 27,
+            "row_min": 7,
+            "column_max": 51,
+            "row_max": 17,
+            "width": 24,
+            "height": 10
+        },
+        {
+            "id": 1,
+            "content": "\u2190",
+            "keyboard": false,
+            "column_min": 17,
+            "row_min": 42,
+            "column_max": 34,
+            "row_max": 56,
+            "width": 17,
+            "height": 14
+        },
+        {
+            "id": 2,
+            "content": "Tweet",
+            "keyboard": false,
+            "column_min": 69,
+            "row_min": 42,
+            "column_max": 122,
+            "row_max": 56,
+            "width": 53,
+            "height": 14
+        },
+        {
+            "id": 4,
+            "content": "o(",
+            "keyboard": false,
+            "column_min": 348,
+            "row_min": 742,
+            "column_max": 360,
+            "row_max": 755,
+            "width": 12,
+            "height": 13
+        },
+        {
+            "id": 3,
+            "content": "Tweet your reply",
+            "keyboard": false,
+            "column_min": 11,
+            "row_min": 746,
+            "column_max": 116,
+            "row_max": 760,
+            "width": 105,
+            "height": 14
+        }
+    ]
+}

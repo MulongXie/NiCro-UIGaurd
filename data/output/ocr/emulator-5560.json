@@ -1,0 +1,169 @@
+{
+    "img_shape": [
+        800,
+        480,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "4:51",
+            "column_min": 13,
+            "row_min": 9,
+            "column_max": 49,
+            "row_max": 27,
+            "width": 36,
+            "height": 18
+        },
+        {
+            "id": 1,
+            "content": "Booking.com",
+            "column_min": 118,
+            "row_min": 61,
+            "column_max": 283,
+            "row_max": 98,
+            "width": 165,
+            "height": 37
+        },
+        {
+            "id": 2,
+            "content": "Stays",
+            "column_min": 130,
+            "row_min": 158,
+            "column_max": 179,
+            "row_max": 181,
+            "width": 49,
+            "height": 23
+        },
+        {
+            "id": 3,
+            "content": "Car rental",
+            "column_min": 330,
+            "row_min": 151,
+            "column_max": 419,
+            "row_max": 182,
+            "width": 89,
+            "height": 31
+        },
+        {
+            "id": 4,
+            "content": "Coronavirus COVID 19 update",
+            "column_min": 85,
+            "row_min": 240,
+            "column_max": 424,
+            "row_max": 272,
+            "width": 339,
+            "height": 32
+        },
+        {
+            "id": 5,
+            "content": "Your safety matters . If you think",
+            "column_min": 84,
+            "row_min": 288,
+            "column_max": 379,
+            "row_max": 311,
+            "width": 295,
+            "height": 23
+        },
+        {
+            "id": 6,
+            "content": "Coronavirus may affect your plans ,",
+            "column_min": 85,
+            "row_min": 315,
+            "column_max": 403,
+            "row_max": 343,
+            "width": 318,
+            "height": 28
+        },
+        {
+            "id": 7,
+            "content": "here's what you need to know about",
+            "column_min": 84,
+            "row_min": 346,
+            "column_max": 415,
+            "row_max": 372,
+            "width": 331,
+            "height": 26
+        },
+        {
+            "id": 8,
+            "content": "booking with us at this time .",
+            "column_min": 84,
+            "row_min": 377,
+            "column_max": 344,
+            "row_max": 399,
+            "width": 260,
+            "height": 22
+        },
+        {
+            "id": 9,
+            "content": "Read more",
+            "column_min": 86,
+            "row_min": 430,
+            "column_max": 183,
+            "row_max": 454,
+            "width": 97,
+            "height": 24
+        },
+        {
+            "id": 10,
+            "content": "Return to same location",
+            "column_min": 26,
+            "row_min": 527,
+            "column_max": 243,
+            "row_max": 552,
+            "width": 217,
+            "height": 25
+        },
+        {
+            "id": 11,
+            "content": "Yes",
+            "column_min": 331,
+            "row_min": 528,
+            "column_max": 363,
+            "row_max": 547,
+            "width": 32,
+            "height": 19
+        },
+        {
+            "id": 12,
+            "content": "Pickup location",
+            "column_min": 82,
+            "row_min": 628,
+            "column_max": 222,
+            "row_max": 650,
+            "width": 140,
+            "height": 22
+        },
+        {
+            "id": 13,
+            "content": "Fri , May 06",
+            "column_min": 93,
+            "row_min": 710,
+            "column_max": 191,
+            "row_max": 735,
+            "width": 98,
+            "height": 25
+        },
+        {
+            "id": 14,
+            "content": "10:00 AM",
+            "column_min": 314,
+            "row_min": 707,
+            "column_max": 400,
+            "row_max": 737,
+            "width": 86,
+            "height": 30
+        },
+        {
+            "id": 15,
+            "content": "th",
+            "column_min": 48,
+            "row_min": 791,
+            "column_max": 71,
+            "row_max": 800,
+            "width": 23,
+            "height": 9
+        }
+    ]
+}

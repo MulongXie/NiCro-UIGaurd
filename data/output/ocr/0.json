@@ -1,0 +1,169 @@
+{
+    "img_shape": [
+        1920,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "7:05",
+            "column_min": 22,
+            "row_min": 19,
+            "column_max": 91,
+            "row_max": 46,
+            "width": 69,
+            "height": 27
+        },
+        {
+            "id": 1,
+            "content": "Booking.com",
+            "column_min": 204,
+            "row_min": 112,
+            "column_max": 512,
+            "row_max": 163,
+            "width": 308,
+            "height": 51
+        },
+        {
+            "id": 2,
+            "content": "Get the latest COVID 19 travel advice",
+            "column_min": 43,
+            "row_min": 269,
+            "column_max": 742,
+            "row_max": 300,
+            "width": 699,
+            "height": 31
+        },
+        {
+            "id": 3,
+            "content": "Stays",
+            "column_min": 252,
+            "row_min": 536,
+            "column_max": 331,
+            "row_max": 565,
+            "width": 79,
+            "height": 29
+        },
+        {
+            "id": 4,
+            "content": "Search",
+            "column_min": 43,
+            "row_min": 661,
+            "column_max": 205,
+            "row_max": 701,
+            "width": 162,
+            "height": 40
+        },
+        {
+            "id": 5,
+            "content": "Hotels , motels , apartments and more ...",
+            "column_min": 44,
+            "row_min": 737,
+            "column_max": 757,
+            "row_max": 775,
+            "width": 713,
+            "height": 38
+        },
+        {
+            "id": 6,
+            "content": "Sydney",
+            "column_min": 168,
+            "row_min": 879,
+            "column_max": 289,
+            "row_max": 921,
+            "width": 121,
+            "height": 42
+        },
+        {
+            "id": 7,
+            "content": "Thu , Apr 28",
+            "column_min": 171,
+            "row_min": 1032,
+            "column_max": 358,
+            "row_max": 1066,
+            "width": 187,
+            "height": 34
+        },
+        {
+            "id": 8,
+            "content": "Fri , Apr 29",
+            "column_min": 390,
+            "row_min": 1032,
+            "column_max": 555,
+            "row_max": 1066,
+            "width": 165,
+            "height": 34
+        },
+        {
+            "id": 9,
+            "content": "room",
+            "column_min": 197,
+            "row_min": 1175,
+            "column_max": 283,
+            "row_max": 1207,
+            "width": 86,
+            "height": 32
+        },
+        {
+            "id": 10,
+            "content": "adults",
+            "column_min": 342,
+            "row_min": 1174,
+            "column_max": 442,
+            "row_max": 1207,
+            "width": 100,
+            "height": 33
+        },
+        {
+            "id": 11,
+            "content": "children",
+            "column_min": 503,
+            "row_min": 1173,
+            "column_max": 632,
+            "row_max": 1206,
+            "width": 129,
+            "height": 33
+        },
+        {
+            "id": 12,
+            "content": "Search",
+            "column_min": 475,
+            "row_min": 1325,
+            "column_max": 603,
+            "row_max": 1357,
+            "width": 128,
+            "height": 32
+        },
+        {
+            "id": 13,
+            "content": "I'm traveling for work",
+            "column_min": 42,
+            "row_min": 1495,
+            "column_max": 387,
+            "row_max": 1532,
+            "width": 345,
+            "height": 37
+        },
+        {
+            "id": 14,
+            "content": "More for you",
+            "column_min": 43,
+            "row_min": 1691,
+            "column_max": 277,
+            "row_max": 1731,
+            "width": 234,
+            "height": 40
+        },
+        {
+            "id": 15,
+            "content": "Car rental",
+            "column_min": 721,
+            "row_min": 535,
+            "column_max": 859,
+            "row_max": 558,
+            "width": 138,
+            "height": 23
+        }
+    ]
+}

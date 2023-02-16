@@ -1,0 +1,89 @@
+{
+    "img_shape": [
+        800,
+        526,
+        3
+    ],
+    "compos": [
+        {
+            "id": 1,
+            "class": "Compo",
+            "column_min": 261,
+            "row_min": 136,
+            "column_max": 519,
+            "row_max": 415,
+            "width": 258,
+            "height": 279
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "column_min": 465,
+            "row_min": 590,
+            "column_max": 525,
+            "row_max": 638,
+            "width": 60,
+            "height": 48
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "column_min": 263,
+            "row_min": 622,
+            "column_max": 285,
+            "row_max": 654,
+            "width": 22,
+            "height": 32
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "column_min": 291,
+            "row_min": 646,
+            "column_max": 433,
+            "row_max": 659,
+            "width": 142,
+            "height": 13
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "column_min": 459,
+            "row_min": 694,
+            "column_max": 465,
+            "row_max": 715,
+            "width": 6,
+            "height": 21
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "column_min": 429,
+            "row_min": 696,
+            "column_max": 458,
+            "row_max": 732,
+            "width": 29,
+            "height": 36
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "column_min": 330,
+            "row_min": 784,
+            "column_max": 432,
+            "row_max": 793,
+            "width": 102,
+            "height": 9
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "column_min": 432,
+            "row_min": 783,
+            "column_max": 441,
+            "row_max": 791,
+            "width": 9,
+            "height": 8
+        }
+    ]
+}

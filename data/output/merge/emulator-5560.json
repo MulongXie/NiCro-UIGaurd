@@ -1,0 +1,422 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 16,
+            "width": 24,
+            "position": {
+                "column_min": 29,
+                "row_min": 74,
+                "column_max": 53,
+                "row_max": 90
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 36,
+            "width": 36,
+            "position": {
+                "column_min": 81,
+                "row_min": 149,
+                "column_max": 117,
+                "row_max": 185
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 27,
+            "width": 36,
+            "position": {
+                "column_min": 278,
+                "row_min": 153,
+                "column_max": 314,
+                "row_max": 180
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 36,
+            "width": 36,
+            "position": {
+                "column_min": 23,
+                "row_min": 239,
+                "column_max": 59,
+                "row_max": 275
+            },
+            "children": [
+                4
+            ]
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 17,
+            "width": 9,
+            "position": {
+                "column_min": 37,
+                "row_min": 248,
+                "column_max": 46,
+                "row_max": 265
+            },
+            "parent": 3
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 36,
+            "width": 53,
+            "position": {
+                "column_min": 399,
+                "row_min": 521,
+                "column_max": 452,
+                "row_max": 557
+            }
+        },
+        {
+            "id": 6,
+            "class": "Block",
+            "height": 205,
+            "width": 432,
+            "position": {
+                "column_min": 23,
+                "row_min": 594,
+                "column_max": 455,
+                "row_max": 799
+            },
+            "children": [
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                26,
+                27,
+                28
+            ]
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 77,
+            "width": 420,
+            "position": {
+                "column_min": 29,
+                "row_min": 600,
+                "column_max": 449,
+                "row_max": 677
+            },
+            "children": [
+                8,
+                26
+            ],
+            "parent": 12
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 17,
+            "width": 21,
+            "position": {
+                "column_min": 47,
+                "row_min": 630,
+                "column_max": 68,
+                "row_max": 647
+            },
+            "parent": 12
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 77,
+            "width": 420,
+            "position": {
+                "column_min": 29,
+                "row_min": 683,
+                "column_max": 449,
+                "row_max": 760
+            },
+            "children": [
+                10,
+                27,
+                28
+            ],
+            "parent": 13
+        },
+        {
+            "id": 10,
+            "class": "Compo",
+            "height": 25,
+            "width": 24,
+            "position": {
+                "column_min": 47,
+                "row_min": 709,
+                "column_max": 71,
+                "row_max": 734
+            },
+            "parent": 13
+        },
+        {
+            "id": 11,
+            "class": "Compo",
+            "height": 33,
+            "width": 420,
+            "position": {
+                "column_min": 29,
+                "row_min": 766,
+                "column_max": 449,
+                "row_max": 799
+            },
+            "parent": 14
+        },
+        {
+            "id": 12,
+            "class": "Compo",
+            "height": 76,
+            "width": 419,
+            "position": {
+                "column_min": 30,
+                "row_min": 600,
+                "column_max": 449,
+                "row_max": 676
+            },
+            "children": [
+                7,
+                8,
+                26
+            ],
+            "parent": 6
+        },
+        {
+            "id": 13,
+            "class": "Compo",
+            "height": 76,
+            "width": 419,
+            "position": {
+                "column_min": 30,
+                "row_min": 683,
+                "column_max": 449,
+                "row_max": 759
+            },
+            "children": [
+                9,
+                10,
+                27,
+                28
+            ],
+            "parent": 6
+        },
+        {
+            "id": 14,
+            "class": "Compo",
+            "height": 32,
+            "width": 419,
+            "position": {
+                "column_min": 30,
+                "row_min": 766,
+                "column_max": 449,
+                "row_max": 798
+            },
+            "children": [
+                11
+            ],
+            "parent": 6
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 37,
+            "width": 165,
+            "position": {
+                "column_min": 118,
+                "row_min": 61,
+                "column_max": 283,
+                "row_max": 98
+            },
+            "text_content": "Booking.com"
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 23,
+            "width": 49,
+            "position": {
+                "column_min": 130,
+                "row_min": 158,
+                "column_max": 179,
+                "row_max": 181
+            },
+            "text_content": "Stays"
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 31,
+            "width": 89,
+            "position": {
+                "column_min": 330,
+                "row_min": 151,
+                "column_max": 419,
+                "row_max": 182
+            },
+            "text_content": "Car rental"
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 32,
+            "width": 339,
+            "position": {
+                "column_min": 85,
+                "row_min": 240,
+                "column_max": 424,
+                "row_max": 272
+            },
+            "text_content": "Coronavirus COVID 19 update"
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 23,
+            "width": 295,
+            "position": {
+                "column_min": 84,
+                "row_min": 288,
+                "column_max": 379,
+                "row_max": 311
+            },
+            "text_content": "Your safety matters . If you think"
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 28,
+            "width": 318,
+            "position": {
+                "column_min": 85,
+                "row_min": 315,
+                "column_max": 403,
+                "row_max": 343
+            },
+            "text_content": "Coronavirus may affect your plans ,"
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 26,
+            "width": 331,
+            "position": {
+                "column_min": 84,
+                "row_min": 346,
+                "column_max": 415,
+                "row_max": 372
+            },
+            "text_content": "here's what you need to know about"
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 22,
+            "width": 260,
+            "position": {
+                "column_min": 84,
+                "row_min": 377,
+                "column_max": 344,
+                "row_max": 399
+            },
+            "text_content": "booking with us at this time ."
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 24,
+            "width": 97,
+            "position": {
+                "column_min": 86,
+                "row_min": 430,
+                "column_max": 183,
+                "row_max": 454
+            },
+            "text_content": "Read more"
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 25,
+            "width": 217,
+            "position": {
+                "column_min": 26,
+                "row_min": 527,
+                "column_max": 243,
+                "row_max": 552
+            },
+            "text_content": "Return to same location"
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 19,
+            "width": 32,
+            "position": {
+                "column_min": 331,
+                "row_min": 528,
+                "column_max": 363,
+                "row_max": 547
+            },
+            "text_content": "Yes"
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 22,
+            "width": 140,
+            "position": {
+                "column_min": 82,
+                "row_min": 628,
+                "column_max": 222,
+                "row_max": 650
+            },
+            "text_content": "Pickup location",
+            "parent": 12
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 25,
+            "width": 98,
+            "position": {
+                "column_min": 93,
+                "row_min": 710,
+                "column_max": 191,
+                "row_max": 735
+            },
+            "text_content": "Fri , May 06",
+            "parent": 13
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 30,
+            "width": 86,
+            "position": {
+                "column_min": 314,
+                "row_min": 707,
+                "column_max": 400,
+                "row_max": 737
+            },
+            "text_content": "10:00 AM",
+            "parent": 13
+        }
+    ],
+    "img_shape": [
+        800,
+        480,
+        3
+    ]
+}

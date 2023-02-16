@@ -1,0 +1,152 @@
+{
+    "img_shape": [
+        800,
+        480,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "1:49",
+            "keyboard": false,
+            "column_min": 12,
+            "row_min": 8,
+            "column_max": 52,
+            "row_max": 25,
+            "width": 40,
+            "height": 17
+        },
+        {
+            "id": 1,
+            "content": "For",
+            "keyboard": false,
+            "column_min": 76,
+            "row_min": 143,
+            "column_max": 112,
+            "row_max": 166,
+            "width": 36,
+            "height": 23
+        },
+        {
+            "id": 6,
+            "content": "Following",
+            "keyboard": false,
+            "column_min": 308,
+            "row_min": 146,
+            "column_max": 405,
+            "row_max": 168,
+            "width": 97,
+            "height": 22
+        },
+        {
+            "id": 2,
+            "content": "you",
+            "keyboard": false,
+            "column_min": 116,
+            "row_min": 148,
+            "column_max": 154,
+            "row_max": 170,
+            "width": 38,
+            "height": 22
+        },
+        {
+            "id": 3,
+            "content": "Elon Musk",
+            "keyboard": false,
+            "column_min": 115,
+            "row_min": 212,
+            "column_max": 220,
+            "row_max": 230,
+            "width": 105,
+            "height": 18
+        },
+        {
+            "id": 7,
+            "content": "@elonmusk",
+            "keyboard": false,
+            "column_min": 253,
+            "row_min": 212,
+            "column_max": 363,
+            "row_max": 230,
+            "width": 110,
+            "height": 18
+        },
+        {
+            "id": 8,
+            "content": "23h",
+            "keyboard": false,
+            "column_min": 385,
+            "row_min": 212,
+            "column_max": 424,
+            "row_max": 230,
+            "width": 39,
+            "height": 18
+        },
+        {
+            "id": 9,
+            "content": ":",
+            "keyboard": false,
+            "column_min": 441,
+            "row_min": 212,
+            "column_max": 455,
+            "row_max": 230,
+            "width": 14,
+            "height": 18
+        },
+        {
+            "id": 4,
+            "content": "And has",
+            "keyboard": false,
+            "column_min": 113,
+            "row_min": 241,
+            "column_max": 193,
+            "row_max": 257,
+            "width": 80,
+            "height": 16
+        },
+        {
+            "id": 10,
+            "content": "style",
+            "keyboard": false,
+            "column_min": 261,
+            "row_min": 243,
+            "column_max": 310,
+            "row_max": 262,
+            "width": 49,
+            "height": 19
+        },
+        {
+            "id": 12,
+            "content": "+",
+            "keyboard": false,
+            "column_min": 401,
+            "row_min": 635,
+            "column_max": 425,
+            "row_max": 666,
+            "width": 24,
+            "height": 31
+        },
+        {
+            "id": 5,
+            "content": "Q",
+            "keyboard": false,
+            "column_min": 125,
+            "row_min": 742,
+            "column_max": 161,
+            "row_max": 771,
+            "width": 36,
+            "height": 29
+        },
+        {
+            "id": 11,
+            "content": "Q",
+            "keyboard": false,
+            "column_min": 318,
+            "row_min": 743,
+            "column_max": 350,
+            "row_max": 772,
+            "width": 32,
+            "height": 29
+        }
+    ]
+}

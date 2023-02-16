@@ -1,0 +1,19 @@
+{
+    "img_shape": [
+        132,
+        563,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Update settings",
+            "column_min": 48,
+            "row_min": 53,
+            "column_max": 347,
+            "row_max": 91,
+            "width": 299,
+            "height": 38
+        }
+    ]
+}
