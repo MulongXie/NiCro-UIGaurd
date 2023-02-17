@@ -85,22 +85,13 @@ class UIGuard:
 		# bbox is 800 h
 		# ------
 		# get colors, checkbox, icon semantic results
-		start_time = time.time()
 		gather_info = get_color_status_icon(merged_dets_nms, image_path, self.transform_test, self.device,
 											self.model_icon, self.class_name_icon, self.model_status, self.class_name_status)
-		print("Getting color and status Using {:.02f}s".format(time.time() - start_time))
-
 		# get ad icons
-		start_time = time.time()
 		ad_icons_close, ad_icons_info = get_ad_icons(img_cv, self.template_matcher, vis=vis)
-		print("Getting ad icons TM Using {:.02f}s".format(time.time() - start_time))
-
 		# add ad icons to gather info
 		# merge checkbox with its text and make them a check_group
-		start_time = time.time()
 		all_properties = merge_tm_results_checkgroup(gather_info, ad_icons_close, ad_icons_info)
-		print("Merging checkbox group Using {:.02f}s".format(time.time() - start_time))
-
 		return all_properties
 
 	def darkpatternChecker(self, all_properties, img_cv):
@@ -115,14 +106,10 @@ class UIGuard:
 		return final_results
 
 	def UIGuard(self, image_path, elements_info, vis=False):
+		start_time = time.time()
 		img_cv = cv2.imread(image_path)
 		all_properties = self.extract_property(image_path, img_cv, elements_info, vis)
-
-		start_time = time.time()
 		final_results = self.darkpatternChecker(all_properties, img_cv)
-		print("Rule Checking Using {:.02f}s".format(time.time() - start_time))
-
-		start_time = time.time()
 		android_output = self.organise_output_for_android(final_results)
 		print("Reorganise results Using {:.02f}s".format(time.time() - start_time))
 		print("++ android_output", android_output)

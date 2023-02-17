@@ -109,7 +109,6 @@ def get_text_button(meta):
     for item_idx, item in enumerate(meta):
         item_bbox = item["bbox"]
         item_class = item["category"]
-        print(item_class)
         if item_class not in ["TextView", "pText", "Button"]:
             continue
 

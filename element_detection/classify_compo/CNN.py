@@ -85,7 +85,7 @@ class CNN:
         :param show: Boolean
         '''
         images_proc = [self.preprocess_img(img) for img in images]
-        predictions = self.model.predict(np.array(images_proc))
+        predictions = self.model.predict(np.array(images_proc), verbose=0)
         labels = [self.class_map[np.argmax(pred)] for pred in predictions]
         if show:
             for i in range(len(images)):
