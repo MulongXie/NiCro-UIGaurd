@@ -221,13 +221,6 @@ def get_grouping(meta, h, w):
 
     return final_gid2idxes
 
-import cv2
-from matplotlib import pyplot as plt
-import numpy as np
-cmap = plt.get_cmap("tab10")
-
-
-cv2.namedWindow("main", cv2.WINDOW_NORMAL)
 def draw_results(img_path, output_results, meta):
     img = cv2.imread(img_path)
 

@@ -4,8 +4,8 @@ from tqdm import tqdm
 from glob import glob
 import time
 
-from utils import merge_bbox, is_horizontal_overlap
-from DBSCAN.grouping import get_grouping
+from darkpattern.utils import merge_bbox, is_horizontal_overlap
+from darkpattern.DBSCAN.grouping import get_grouping
 import cv2
 from matplotlib import pyplot as plt
 import numpy as np
@@ -837,7 +837,7 @@ def check_AM_FH(final_results, item_list, img_h, img_w):
     return final_results
 
 
-def predict_type(all_properties, img_h, img_w, vis_save_root, img_path, vis=False):
+def predict_type(all_properties, img_h, img_w):
     # meta: gather info of an image
     item_list = all_properties
 
@@ -874,9 +874,6 @@ def predict_type(all_properties, img_h, img_w, vis_save_root, img_path, vis=Fals
         # print("checking grouping")
         final_results = check_AM_FH(final_results, item_list, img_h, img_w)
 
-
-    if vis:
-        draw_results(img_path, final_results, item_list, vis_save_root)
     return final_results
 
 
@@ -900,8 +897,6 @@ def draw_circle(number):
     return img
 
 
-
-cv2.namedWindow("main", cv2.WINDOW_NORMAL)
 def draw_results(img_path, output_results, item_list, vis_save_root):
     img = cv2.imread(img_path)
     h, w, _ = img.shape
@@ -1001,9 +996,3 @@ def draw_results(img_path, output_results, item_list, vis_save_root):
     # if count != 1:
     # cv2.imshow("main", combined_img)
     # cv2.waitKey(0)
-
-
-
-
-                   
-

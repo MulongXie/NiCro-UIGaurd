@@ -260,9 +260,7 @@ def remove_duplicates(item_list):
         del item_list[idx]
     # print(len(item_list))
 
-
-
-def merge_tm_results_checkgroup(gather_info, closeIcons, infoIcons, output_path):
+def merge_tm_results_checkgroup(gather_info, closeIcons, infoIcons):
 
     meta = gather_info
     # print("meta:", meta)
@@ -275,9 +273,6 @@ def merge_tm_results_checkgroup(gather_info, closeIcons, infoIcons, output_path)
     remove_duplicates(meta)
     # print(len(meta))
     meta = merge_checkbox_w_text(meta)
-
-    with open(output_path, "w") as f:
-        json.dump(meta, f)
     return meta
 
 

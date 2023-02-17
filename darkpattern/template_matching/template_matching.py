@@ -177,8 +177,6 @@ class TemplateMatching:
             cv2.imshow("result", img3)
             cv2.waitKey()
 
-
-
 def get_gt_info():
     json_path = "/Users/che444/Desktop/DPCode/processed_data/Rico_testset/rico_test_annotations.json"
     annos = json.load(open(json_path, "r"))
@@ -264,13 +262,11 @@ def save(img_id, img):
     cv2.imwrite(img_path, img)
 
 
-tm = TemplateMatching()
-
-def get_ad_icons(img_cv, output_path, vis=False):
+def get_ad_icons(img_cv, template_matching, vis=False):
     img = img_cv.copy()
 
-    exiting_bbox, pred_bboxes = tm.find_adClose(img)
-    exiting_bbox_info, pred_bboxes_info = tm.find_adInfo(img)
+    exiting_bbox, pred_bboxes = template_matching.find_adClose(img)
+    exiting_bbox_info, pred_bboxes_info = template_matching.find_adInfo(img)
 
     # print(pred_bboxes, pred_bboxes_info)
 
@@ -281,9 +277,4 @@ def get_ad_icons(img_cv, output_path, vis=False):
         img = draw_bbox(img, pred_bboxes_info)
         # cv2.imshow("template matching", img)
         # cv2.waitKey()
-        cv2.imwrite(output_path.replace(".json", ".jpg"), img)
-
-
-    with open(output_path, "w") as f:
-        json.dump([pred_bboxes, pred_bboxes_info], f)
     return pred_bboxes, pred_bboxes_info

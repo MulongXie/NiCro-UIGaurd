@@ -36,6 +36,8 @@ class GUI:
         self.screen = None      # Element object
         self.screen_img = None
 
+        self.model_compo_classifier = None
+
     '''
     *******************************
     *** Detect or Load Elements ***
@@ -77,14 +79,19 @@ class GUI:
         # convert elements as Element objects
         self.cvt_elements()
 
-    def classify_compos(self, classifier):
+    def load_model(self):
+        print('*** Load model for compo classifier ***')
+        self.model_compo_classifier = CNN()
+        self.model_compo_classifier.load()
+
+    def classify_compos(self):
         '''
         Classify compos: ['Text Button', 'Input', 'Switch', 'Image', 'Icon', 'Checkbox']
         '''
         os.makedirs(pjoin(self.output_dir, 'cls'), exist_ok=True)
         save_file = pjoin(self.output_dir, 'cls', str(self.ui_name) + '.json')
 
-        labels = classifier.predict_images([compo.clip for compo in self.ele_compos])
+        labels = self.model_compo_classifier.predict_images([compo.clip for compo in self.ele_compos])
         result = {'compos': [], 'img_shape': self.img.shape}
         for i, compo in enumerate(self.ele_compos):
             compo.compo_class = labels[i]
@@ -325,7 +332,5 @@ if __name__ == '__main__':
     gui.detect_element(True, True, True, ocr_opt='google')
     gui.show_detection_result()
 
-    cnn = CNN()
-    cnn.load()
-    gui.classify_compos(cnn)
+    gui.classify_compos()
     gui.show_compo_cls_result()

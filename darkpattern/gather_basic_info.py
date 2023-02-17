@@ -9,11 +9,10 @@ import random, time
 
 # sys.path.insert(0, "iconModel")
 # sys.path.insert(0, "statusModel")
-from iconModel.get_iconLabel import predict_label
-from statusModel.get_status import predict_status
-from ColorExtraction.get_color import extract_color
+from darkpattern.iconModel.get_iconLabel import predict_label
+from darkpattern.statusModel.get_status import predict_status
+from darkpattern.ColorExtraction.get_color import extract_color
 
-print("Load")
 
 # fg_color, fg_lum, bg_color, bg_lum, con = extract_color(PIL_img)
 
@@ -38,7 +37,8 @@ print("Load")
 # 	    }
 # 	]
 
-def get_color_status_icon(dets, img_path, output_path):
+def get_color_status_icon(dets, img_path, transform_test, device,
+							model_icon, class_names_icon, model_status, class_names_status):
 	# Input: merged detection results
 	## Step 1 read image
 	PIL_img = Image.open(img_path).convert('RGB')
@@ -94,7 +94,7 @@ def get_color_status_icon(dets, img_path, output_path):
 	# batch status
 	if len(checkbox_needtoLabel) > 0:
 		status_imgs = [item[1] for item in checkbox_needtoLabel]
-		status = predict_status(status_imgs)
+		status = predict_status(status_imgs, model_status, class_names_status, transform_test, device)
 		for idx, ss in enumerate(status):
 			# checkbox_needtoLabel[idx][1].show()
 			dets[checkbox_needtoLabel[idx][0]]["status"] = ss
@@ -106,7 +106,7 @@ def get_color_status_icon(dets, img_path, output_path):
 	# batch icons
 	if len(icon_needtoLabel) > 0:
 		icon_imgs = [item[1] for item in icon_needtoLabel]
-		labels = predict_label(icon_imgs)
+		labels = predict_label(icon_imgs, model_icon, class_names_icon, transform_test, device)
 		for idx, ll in enumerate(labels):
 			# icon_needtoLabel[idx][1].show()
 			dets[icon_needtoLabel[idx][0]]["iconLabel"] = ll
@@ -114,6 +114,5 @@ def get_color_status_icon(dets, img_path, output_path):
 	# print("Icon using", time.time() - start_11)
 	# start_11 = time.time()
 
-	json.dump(dets, open(output_path, "w"))
 	return dets
 
