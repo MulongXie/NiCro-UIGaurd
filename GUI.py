@@ -4,9 +4,12 @@ import os
 import numpy as np
 from os.path import join as pjoin
 from difflib import SequenceMatcher
+import time
+time.clock = time.time
 
 from element_detection.Element import Element
 from sklearn.metrics.pairwise import cosine_similarity
+from element_detection.classify_compo.CNN import CNN
 
 
 class GUI:
@@ -73,6 +76,22 @@ class GUI:
         self.det_result_data = json.load(open(data_path))
         # convert elements as Element objects
         self.cvt_elements()
+
+    def classify_compos(self, classifier):
+        '''
+        Classify compos: ['Text Button', 'Input', 'Switch', 'Image', 'Icon', 'Checkbox']
+        '''
+        os.makedirs(pjoin(self.output_dir, 'cls'), exist_ok=True)
+        save_file = pjoin(self.output_dir, 'cls', str(self.ui_name) + '.json')
+
+        labels = classifier.predict_images([compo.clip for compo in self.ele_compos])
+        result = {'compos': [], 'img_shape': self.img.shape}
+        for i, compo in enumerate(self.ele_compos):
+            compo.compo_class = labels[i]
+            result['compos'].append(compo.wrap_info())
+        for text in self.ele_texts:
+            result['compos'].append(text.wrap_info())
+        json.dump(result, open(save_file, 'w'), indent=4)
 
     '''
     **************************************
@@ -234,6 +253,15 @@ class GUI:
         cv2.waitKey()
         cv2.destroyWindow('GUI detection result (Press any key to exit)')
 
+    def show_compo_cls_result(self):
+        color_map = {'Text Button':(0,0,255), 'Input':(166,0,0), 'Switch':(166,166,0), 'Image':(0,166,166), 'Icon':(255,255,0), 'Checkbox':(255,0,166)}
+        board = self.img.copy()
+        for compo in self.ele_compos:
+            compo.draw_element(board, color_map[compo.compo_class], put_text=compo.compo_class)
+        cv2.imshow('Compo Classification Result', board)
+        cv2.waitKey()
+        cv2.destroyWindow('Compo Classification Result')
+
     def draw_detection_result(self):
         '''
         Draw detected elements based on det_result_data
@@ -284,3 +312,14 @@ class GUI:
             cv2.waitKey()
             cv2.destroyAllWindows()
         return board
+
+
+if __name__ == '__main__':
+    gui = GUI('data/input/2.png')
+    gui.detect_element(True, True, True, ocr_opt='google')
+    gui.show_detection_result()
+
+    cnn = CNN()
+    cnn.load()
+    gui.classify_compos(cnn)
+    gui.show_compo_cls_result()

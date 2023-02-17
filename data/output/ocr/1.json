@@ -1,0 +1,185 @@
+{
+    "img_shape": [
+        800,
+        710,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "12:23",
+            "keyboard": false,
+            "column_min": 6,
+            "row_min": 4,
+            "column_max": 37,
+            "row_max": 17,
+            "width": 31,
+            "height": 13
+        },
+        {
+            "id": 1,
+            "content": "M",
+            "keyboard": false,
+            "column_min": 65,
+            "row_min": 4,
+            "column_max": 80,
+            "row_max": 15,
+            "width": 15,
+            "height": 11
+        },
+        {
+            "id": 2,
+            "content": "Search for ideas",
+            "keyboard": false,
+            "column_min": 48,
+            "row_min": 42,
+            "column_max": 147,
+            "row_max": 55,
+            "width": 99,
+            "height": 13
+        },
+        {
+            "id": 6,
+            "content": "Shopping spotlight",
+            "keyboard": false,
+            "column_min": 283,
+            "row_min": 79,
+            "column_max": 423,
+            "row_max": 96,
+            "width": 140,
+            "height": 17
+        },
+        {
+            "id": 7,
+            "content": "Transeasonal wardrobe staples",
+            "keyboard": false,
+            "column_min": 189,
+            "row_min": 277,
+            "column_max": 518,
+            "row_max": 302,
+            "width": 329,
+            "height": 25
+        },
+        {
+            "id": 8,
+            "content": "Ideas for you",
+            "keyboard": false,
+            "column_min": 305,
+            "row_min": 350,
+            "column_max": 402,
+            "row_max": 366,
+            "width": 97,
+            "height": 16
+        },
+        {
+            "id": 12,
+            "content": "temi",
+            "keyboard": false,
+            "column_min": 514,
+            "row_min": 427,
+            "column_max": 542,
+            "row_max": 433,
+            "width": 28,
+            "height": 6
+        },
+        {
+            "id": 3,
+            "content": "Amazing spiderman",
+            "keyboard": false,
+            "column_min": 117,
+            "row_min": 458,
+            "column_max": 238,
+            "row_max": 470,
+            "width": 121,
+            "height": 12
+        },
+        {
+            "id": 13,
+            "content": "Website template",
+            "keyboard": false,
+            "column_min": 474,
+            "row_min": 458,
+            "column_max": 581,
+            "row_max": 470,
+            "width": 107,
+            "height": 12
+        },
+        {
+            "id": 9,
+            "content": "Popular on Pinterest",
+            "keyboard": false,
+            "column_min": 277,
+            "row_min": 573,
+            "column_max": 430,
+            "row_max": 588,
+            "width": 153,
+            "height": 15
+        },
+        {
+            "id": 14,
+            "content": "w",
+            "keyboard": false,
+            "column_min": 488,
+            "row_min": 600,
+            "column_max": 535,
+            "row_max": 637,
+            "width": 47,
+            "height": 37
+        },
+        {
+            "id": 10,
+            "content": "Naruto wallpaper",
+            "keyboard": false,
+            "column_min": 301,
+            "row_min": 651,
+            "column_max": 405,
+            "row_max": 664,
+            "width": 104,
+            "height": 13
+        },
+        {
+            "id": 15,
+            "content": "Matching icons",
+            "keyboard": false,
+            "column_min": 540,
+            "row_min": 651,
+            "column_max": 633,
+            "row_max": 665,
+            "width": 93,
+            "height": 14
+        },
+        {
+            "id": 4,
+            "content": "Kobe bryant",
+            "keyboard": false,
+            "column_min": 82,
+            "row_min": 652,
+            "column_max": 160,
+            "row_max": 666,
+            "width": 78,
+            "height": 14
+        },
+        {
+            "id": 5,
+            "content": "74",
+            "keyboard": false,
+            "column_min": 75,
+            "row_min": 681,
+            "column_max": 131,
+            "row_max": 711,
+            "width": 56,
+            "height": 30
+        },
+        {
+            "id": 11,
+            "content": "B",
+            "keyboard": false,
+            "column_min": 413,
+            "row_min": 693,
+            "column_max": 468,
+            "row_max": 739,
+            "width": 55,
+            "height": 46
+        }
+    ]
+}

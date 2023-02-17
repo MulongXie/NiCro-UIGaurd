@@ -15,17 +15,17 @@ from element_detection.classify_compo.Data import Data
 
 
 class CNN:
-    def __init__(self, data):
-        self.data = data    # Data object
+    def __init__(self):
+        self.data = Data(cls='compo')    # Data object
         self.model = None
         self.training_history = History()
 
-        self.image_shape = data.image_shape
-        self.class_map = data.class_map
-        self.class_number = data.class_number
+        self.image_shape = self.data.image_shape
+        self.class_map = self.data.class_map
+        self.class_number = self.data.class_number
 
-        self.model_path = r'model\resnet50_unfrozen_compo.h5'
-        self.history_path = r'model\resnet50_unfrozen_compo_history.json'
+        self.model_path = r'C:\Mulong\Code\Demo\NiCro-UIGaurd\element_detection\classify_compo\model\resnet50_unfrozen_compo.h5'
+        self.history_path = r'C:\Mulong\Code\Demo\NiCro-UIGaurd\element_detection\classify_compo\model\resnet50_unfrozen_compo_history.json'
 
     def build_model(self, frozen=False):
         base_model = ResNet50(include_top=False, weights='imagenet', input_shape=self.image_shape,
@@ -138,7 +138,7 @@ class CNN:
 
 
 if __name__ == '__main__':
-    cls = CNN(Data(cls='compo'))
+    cls = CNN()
     cls.load()
     cls.predict_img_files(['data/a1.jpg', 'data/a2.jpg'], show=True)
 

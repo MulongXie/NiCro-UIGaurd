@@ -5,6 +5,7 @@ class Element:
     def __init__(self, element_id, category, position, text_content=None):
         self.id = element_id
         self.category = category        # Compo / Text
+        self.compo_class = None         # ['Text Button', 'Input', 'Switch', 'Image', 'Icon', 'Checkbox']
         self.text_content = text_content
         self.keyboard = False    # if the text is keyboard letter
 
@@ -47,13 +48,26 @@ class Element:
     def get_bound(self):
         return self.col_min, self.row_min, self.col_max, self.row_max
 
+    def wrap_info(self):
+        info = {'id': self.id, 'class': self.category, 'compo_class': self.compo_class,
+                'height': self.height, 'width': self.width,
+                'position': {'column_min': self.col_min, 'row_min': self.row_min, 'column_max': self.col_max, 'row_max': self.row_max}}
+        if self.text_content is not None:
+            info['text_content'] = self.text_content
+            info['keyboard'] = self.keyboard
+        if self.children is not None:
+            info['children'] = self.children
+        if self.parent is not None:
+            info['parent'] = self.parent
+        return info
+
     def draw_element(self, board, color=None, line=2, put_text=None, show=False):
         if color is None:
             color = (0, 255, 0) if self.category == 'Compo' else (0, 0, 255)
         bound = self.get_bound()
         cv2.rectangle(board, (bound[0], bound[1]), (bound[2], bound[3]), color, line)
         if put_text is not None:
-            cv2.putText(board, str(put_text), (bound[0] + 3, bound[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 2)
+            cv2.putText(board, str(put_text), (bound[0] + 3, bound[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.25, (0,0,255), 1)
         if show:
             cv2.imshow('Element' + str(self.id), cv2.resize(board, (int(board.shape[1] * (800 / board.shape[0])), 800)))
             cv2.waitKey()
