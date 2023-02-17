@@ -13,7 +13,7 @@ from element_detection.classify_compo.CNN import CNN
 
 
 class GUI:
-    def __init__(self, img_path='data/input', output_dir='data/output', detection_resize_height=800):
+    def __init__(self, img_path='data/input', output_dir='data/output', detection_resize_height=800, model_loader=None):
         self.img_path = img_path
         self.ui_name = img_path.replace('\\', '/').split('/')[-1].split('.')[0]
         self.output_dir = output_dir
@@ -36,7 +36,7 @@ class GUI:
         self.screen = None      # Element object
         self.screen_img = None
 
-        self.model_compo_classifier = None
+        self.model_compo_classifier = model_loader.model_compo_classifier
 
     '''
     *******************************
@@ -78,11 +78,6 @@ class GUI:
         self.det_result_data = json.load(open(data_path))
         # convert elements as Element objects
         self.cvt_elements()
-
-    def load_model(self):
-        print('*** Load model for compo classifier ***')
-        self.model_compo_classifier = CNN()
-        self.model_compo_classifier.load()
 
     def classify_compos(self):
         '''

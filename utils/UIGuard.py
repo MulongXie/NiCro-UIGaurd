@@ -20,7 +20,7 @@ PIL.Image.MAX_IMAGE_PIXELS = 31695120968
 
 
 class UIGuard:
-	def __init__(self):
+	def __init__(self, model_loader):
 		self.dpCode2dpRealName = {"II-AM-G-SMALL": "Interface Inference",
 								"FA-G-WATCHAD": "Forced Action",
 								"SN-FC": "Forced Continuity",
@@ -41,33 +41,8 @@ class UIGuard:
 								"FA-Privacy": "Forced Action",
 								}
 
-		self.template_matcher = TemplateMatching()
-
-		# Pytorch models
-		self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-		self.transform_test = transforms.Compose([
-			transforms.Resize((224, 224)),
-			transforms.ToTensor(),
-			transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
-		])
-		# icon
-		self.model_icon_path = r"darkpattern/iconModel/model_icon_clean_noisy81/best-0.93.pt"
-		self.model_icon = None
-		self.class_name_icon = json.load(open(r"darkpattern/iconModel/model_icon_clean_noisy81/iconModel_labels.json", "r"))
-		# status
-		self.model_status_path = r"darkpattern/statusModel/model_status_random3/99-train-0.99.pt"
-		self.model_status = None
-		self.class_name_status = ["checked", "unchecked", "other"]
-
-	def load_models(self):
-		print('*** Load model for icon classifier ***')
-		self.model_icon = torch.load(self.model_icon_path, map_location=self.device).to(self.device)
-		self.model_icon.eval()
-		self.model_icon.share_memory()
-		print('*** Load model for status classifier ***')
-		self.model_status = torch.load(self.model_status_path, map_location=self.device).to(self.device)
-		self.model_status.eval()
-		self.model_status.share_memory()
+		self.model_loader = model_loader
+		self.template_matcher = model_loader.template_matcher
 
 	def resize_bbox(self, dets, img_w, img_h):
 		for det in dets:
@@ -85,8 +60,9 @@ class UIGuard:
 		# bbox is 800 h
 		# ------
 		# get colors, checkbox, icon semantic results
-		gather_info = get_color_status_icon(merged_dets_nms, image_path, self.transform_test, self.device,
-											self.model_icon, self.class_name_icon, self.model_status, self.class_name_status)
+		model_loader = self.model_loader
+		gather_info = get_color_status_icon(merged_dets_nms, image_path, model_loader.transform_test, model_loader.device,
+											model_loader.model_icon, model_loader.class_name_icon, model_loader.model_status, model_loader.class_name_status)
 		# get ad icons
 		ad_icons_close, ad_icons_info = get_ad_icons(img_cv, self.template_matcher, vis=vis)
 		# add ad icons to gather info
@@ -105,7 +81,7 @@ class UIGuard:
 		final_results = predict_type(all_properties, img_h, img_w)
 		return final_results
 
-	def UIGuard(self, image_path, elements_info, vis=False):
+	def detect_dark_pattern(self, image_path, elements_info, vis=False):
 		start_time = time.time()
 		img_cv = cv2.imread(image_path)
 		all_properties = self.extract_property(image_path, img_cv, elements_info, vis)

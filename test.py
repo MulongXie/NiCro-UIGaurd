@@ -1,12 +1,13 @@
 from utils.GUI import GUI
-from element_detection.classify_compo.CNN import CNN
-from utils.DarkPattern import DarkPattern
+from utils.UIGuard import UIGuard
+from utils.ModelLoader import modelLoader
 
-gui = GUI('data/input/0.jpg')
+ml= modelLoader()
+ml.load_models()
+
+gui = GUI('data/input/0.jpg', model_loader=ml)
 gui.detect_element(True, True, True, ocr_opt='google')
-gui.load_model()
 gui.classify_compos()
 
-dp = DarkPattern(gui)
-dp.load_models()
-dp.detect_dark_pattern()
+dp = UIGuard(model_loader=ml)
+dp.detect_dark_pattern(image_path=gui.img_path, elements_info=gui.get_elements_info_ui_guard(), vis=False)
