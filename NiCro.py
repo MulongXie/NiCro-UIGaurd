@@ -21,7 +21,7 @@ resnet_model = ResNet50(include_top=False, input_shape=(32, 32, 3))
 
 
 class NiCro:
-    def __init__(self, ocr_opt='google'):
+    def __init__(self, ocr_opt='google', dp_model_loader=None):
         # Device objects, including their screenshots and GUIs
         self.devices = []            # list of Device
         self.source_device = None    # the selected source Device
@@ -42,18 +42,20 @@ class NiCro:
         self.widget_matching_acc = {'sift':[], 'resnet':[], 'template-match':[], 'text':[], 'nicro':[]}
         self.test_round = 0
 
+        self.dp_model_loader = dp_model_loader
+
     '''
     *********************************
     *** Device & Robot Connection ***
     *********************************
     '''
     def load_devices(self):
-        self.devices = [Device(i, dev) for i, dev in enumerate(sorted(client.devices(), key=lambda x: x.get_serial_no()))]
+        self.devices = [Device(i, dev, dp_model_loader=self.dp_model_loader) for i, dev in enumerate(sorted(client.devices(), key=lambda x: x.get_serial_no()))]
         self.source_device = self.devices[0]
         print('Load %d Device Emulators' % len(self.devices), 'Set Device 0 as the Source Device')
 
     def load_robot(self):
-        self.robot = Robot()
+        self.robot = Robot(dp_model_loader=self.dp_model_loader)
         print('Robot Arm System Ready')
 
     def get_devices_info(self):
@@ -71,27 +73,19 @@ class NiCro:
         self.source_device = self.devices[device_id]
         self.get_devices_info()
 
-    def detect_gui_info_for_all_devices(self, load_detection_result=False, show=True, verbose=True, dark_pattern=False, model_loader=None):
+    def detect_gui_info_for_all_devices(self, load_detection_result=False, show=True, verbose=True):
         '''
         Detect GUI elements from the GUI images of all devices
         :param load_detection_result: True to load previous detection result if any
         :param show: True to visualize the detection results
         :param verbose: True to print out the detailed log of detection
-        :param dark_pattern: True to detect dark pattern
-        :param model_loader: ModelLoader for dark pattern detection
         '''
         for i, device in enumerate(self.devices):
             print('\n****** GUI Component Detection Device [%d / %d] ******' % (i + 1, len(self.devices)))
             device.update_screenshot_and_gui(self.paddle_ocr, load_detection_result, show, ocr_opt=self.ocr_opt, verbose=verbose)
-            if dark_pattern:
-                print('*** Dark Pattern Detection ***')
-                device.detect_dark_pattern(model_loader)
         if self.robot is not None:
             print('\n****** GUI Component Detection Robot Arm [1 / 1] ******')
             self.robot.detect_gui_element(self.paddle_ocr, load_detection_result, show=show, ocr_opt=self.ocr_opt, verbose=verbose)
-            if dark_pattern:
-                print('*** Dark Pattern Detection ***')
-                self.robot.detect_dark_pattern(model_loader)
 
     def show_all_device_detection_results(self):
         for device in self.devices:
@@ -180,6 +174,8 @@ class NiCro:
                 params[0] = s_dev.GUI.det_result_imgs['merge'].copy()
                 cv2.imshow(win_name, params[0])
                 params[1] += 1
+
+        self.detect_gui_info_for_all_devices(verbose=True, show=False)
 
         # initiate the data directory to store actions
         testcase_dir = pjoin(output_root, app_name, testcase_id)

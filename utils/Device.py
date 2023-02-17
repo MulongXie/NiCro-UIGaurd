@@ -5,7 +5,7 @@ from utils.UIGuard import UIGuard
 
 
 class Device:
-    def __init__(self, dev_id, device):
+    def __init__(self, dev_id, device, dp_model_loader=None):
         self.id = dev_id
         self.name = device.get_serial_no()
         self.screenshot_path = 'data/screen/' + str(self.name) + '.png'
@@ -14,6 +14,7 @@ class Device:
         self.screenshot = self.cap_screenshot()     # cv2.image
         self.GUI = GUI(self.screenshot_path)        # GUI object
         self.detect_resize_ratio = self.GUI.detection_resize_height / self.screenshot.shape[0]
+        self.dp_model_loader = dp_model_loader      # model loader for dark pattern detection
 
         # the action on the GUI
         # 'type': click, swipe
@@ -45,13 +46,17 @@ class Device:
         '''
         Detect if the gui has dark pattern according to the GUI information
         '''
+        print('*** Dark Pattern Detection ***')
         self.GUI.classify_compos(model_loader=model_loader)
         dark_pattern = UIGuard(model_loader=model_loader)
         dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
 
     def update_screenshot_and_gui(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', verbose=True):
         self.cap_screenshot()
-        self.detect_gui_info(paddle_ocr, is_load=is_load, show=show, ocr_opt=ocr_opt, verbose=verbose)
+        self.detect_gui_info(paddle_ocr, is_load=is_load, ocr_opt=ocr_opt, verbose=verbose)
+        self.detect_dark_pattern(self.dp_model_loader)
+        if show:
+            self.GUI.show_detection_result()
 
     def find_element_by_coordinate(self, x, y, show=False):
         '''

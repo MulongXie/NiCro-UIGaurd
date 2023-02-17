@@ -5,7 +5,7 @@ from utils.UIGuard import UIGuard
 
 
 class Robot(RobotController):
-    def __init__(self, speed=100000, press_depth=20):
+    def __init__(self, speed=100000, press_depth=20, dp_model_loader=None):
         super().__init__(speed=speed)
         self.press_depth = press_depth
         self.name = 'robot'
@@ -22,6 +22,7 @@ class Robot(RobotController):
         self.photo_save_path = '../data/screen/robot_photo.png'
         self.photo_screen_area = None    # image of screen area
         self.detect_resize_ratio = None  # self.GUI.detection_resize_height / self.photo.shape[0]
+        self.dp_model_loader = dp_model_loader      # model loader for dark pattern detection
         # self.cap_frame()
 
     def cap_frame(self):
@@ -115,6 +116,7 @@ class Robot(RobotController):
             self.GUI.load_detection_result()
         else:
             self.GUI.detect_element(True, True, True, paddle_ocr=paddle_ocr, ocr_opt=ocr_opt, verbose=verbose)
+            self.detect_dark_pattern(self.dp_model_loader)
         if adjust_by_screen_area:
             self.adjust_elements_by_screen_area(show)
         elif show:

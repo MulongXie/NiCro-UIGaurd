@@ -4,446 +4,69 @@
             "id": 0,
             "class": "Compo",
             "compo_class": "Icon",
-            "height": 24,
-            "width": 24,
+            "height": 13,
+            "width": 15,
             "position": {
-                "column_min": 19,
-                "row_min": 32,
-                "column_max": 43,
-                "row_max": 56
+                "column_min": 16,
+                "row_min": 38,
+                "column_max": 31,
+                "row_max": 51
             }
         },
         {
             "id": 1,
             "class": "Compo",
-            "compo_class": "Image",
-            "height": 16,
-            "width": 19,
+            "compo_class": "Input",
+            "height": 18,
+            "width": 30,
             "position": {
-                "column_min": 345,
-                "row_min": 36,
-                "column_max": 364,
-                "row_max": 52
+                "column_min": 664,
+                "row_min": 141,
+                "column_max": 694,
+                "row_max": 159
             }
         },
         {
             "id": 2,
             "class": "Compo",
-            "compo_class": "Image",
-            "height": 216,
-            "width": 615,
+            "compo_class": "Icon",
+            "height": 15,
+            "width": 9,
             "position": {
-                "column_min": 73,
-                "row_min": 110,
-                "column_max": 688,
-                "row_max": 326
-            },
-            "children": [
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15,
-                33,
-                36,
-                37
-            ]
+                "column_min": 680,
+                "row_min": 201,
+                "column_max": 689,
+                "row_max": 216
+            }
         },
         {
             "id": 3,
             "class": "Compo",
-            "compo_class": "Image",
-            "height": 7,
-            "width": 15,
+            "compo_class": "Icon",
+            "height": 14,
+            "width": 8,
             "position": {
-                "column_min": 296,
-                "row_min": 121,
-                "column_max": 311,
-                "row_max": 128
-            },
-            "parent": 2
+                "column_min": 681,
+                "row_min": 250,
+                "column_max": 689,
+                "row_max": 264
+            }
         },
         {
             "id": 4,
             "class": "Compo",
-            "compo_class": "Image",
-            "height": 48,
-            "width": 101,
+            "compo_class": "Icon",
+            "height": 14,
+            "width": 8,
             "position": {
-                "column_min": 311,
-                "row_min": 166,
-                "column_max": 412,
-                "row_max": 214
-            },
-            "children": [
-                10,
-                36
-            ],
-            "parent": 2
+                "column_min": 681,
+                "row_min": 309,
+                "column_max": 689,
+                "row_max": 323
+            }
         },
         {
             "id": 5,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 4,
-            "width": 25,
-            "position": {
-                "column_min": 473,
-                "row_min": 167,
-                "column_max": 498,
-                "row_max": 171
-            },
-            "parent": 2
-        },
-        {
-            "id": 6,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 16,
-            "width": 16,
-            "position": {
-                "column_min": 263,
-                "row_min": 180,
-                "column_max": 279,
-                "row_max": 196
-            },
-            "parent": 2
-        },
-        {
-            "id": 7,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 32,
-            "width": 3,
-            "position": {
-                "column_min": 196,
-                "row_min": 186,
-                "column_max": 199,
-                "row_max": 218
-            },
-            "parent": 2
-        },
-        {
-            "id": 8,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 15,
-            "width": 10,
-            "position": {
-                "column_min": 251,
-                "row_min": 192,
-                "column_max": 261,
-                "row_max": 207
-            },
-            "parent": 2
-        },
-        {
-            "id": 9,
-            "class": "Compo",
-            "compo_class": "Text Button",
-            "height": 18,
-            "width": 47,
-            "position": {
-                "column_min": 261,
-                "row_min": 195,
-                "column_max": 308,
-                "row_max": 213
-            },
-            "parent": 2
-        },
-        {
-            "id": 10,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 21,
-            "width": 13,
-            "position": {
-                "column_min": 367,
-                "row_min": 193,
-                "column_max": 380,
-                "row_max": 214
-            },
-            "parent": 4
-        },
-        {
-            "id": 11,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 27,
-            "width": 10,
-            "position": {
-                "column_min": 330,
-                "row_min": 213,
-                "column_max": 340,
-                "row_max": 240
-            },
-            "parent": 2
-        },
-        {
-            "id": 12,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 31,
-            "width": 13,
-            "position": {
-                "column_min": 353,
-                "row_min": 238,
-                "column_max": 366,
-                "row_max": 269
-            },
-            "parent": 2
-        },
-        {
-            "id": 13,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 21,
-            "width": 10,
-            "position": {
-                "column_min": 245,
-                "row_min": 239,
-                "column_max": 255,
-                "row_max": 260
-            },
-            "parent": 2
-        },
-        {
-            "id": 14,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 28,
-            "width": 12,
-            "position": {
-                "column_min": 289,
-                "row_min": 242,
-                "column_max": 301,
-                "row_max": 270
-            },
-            "parent": 2
-        },
-        {
-            "id": 15,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 9,
-            "width": 12,
-            "position": {
-                "column_min": 568,
-                "row_min": 309,
-                "column_max": 580,
-                "row_max": 318
-            },
-            "parent": 2
-        },
-        {
-            "id": 16,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 13,
-            "width": 14,
-            "position": {
-                "column_min": 76,
-                "row_min": 362,
-                "column_max": 90,
-                "row_max": 375
-            }
-        },
-        {
-            "id": 17,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 11,
-            "width": 15,
-            "position": {
-                "column_min": 222,
-                "row_min": 363,
-                "column_max": 237,
-                "row_max": 374
-            }
-        },
-        {
-            "id": 18,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 11,
-            "width": 13,
-            "position": {
-                "column_min": 370,
-                "row_min": 363,
-                "column_max": 383,
-                "row_max": 374
-            }
-        },
-        {
-            "id": 19,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 13,
-            "width": 12,
-            "position": {
-                "column_min": 663,
-                "row_min": 362,
-                "column_max": 675,
-                "row_max": 375
-            }
-        },
-        {
-            "id": 20,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 46,
-            "width": 46,
-            "position": {
-                "column_min": 19,
-                "row_min": 398,
-                "column_max": 65,
-                "row_max": 444
-            },
-            "children": [
-                22
-            ]
-        },
-        {
-            "id": 21,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 15,
-            "width": 15,
-            "position": {
-                "column_min": 210,
-                "row_min": 399,
-                "column_max": 225,
-                "row_max": 414
-            }
-        },
-        {
-            "id": 22,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 39,
-            "width": 21,
-            "position": {
-                "column_min": 32,
-                "row_min": 402,
-                "column_max": 53,
-                "row_max": 441
-            },
-            "parent": 20
-        },
-        {
-            "id": 23,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 250,
-            "width": 624,
-            "position": {
-                "column_min": 73,
-                "row_min": 462,
-                "column_max": 697,
-                "row_max": 712
-            },
-            "children": [
-                24,
-                25,
-                48,
-                49,
-                50,
-                51,
-                52,
-                53,
-                54
-            ]
-        },
-        {
-            "id": 24,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 32,
-            "width": 5,
-            "position": {
-                "column_min": 549,
-                "row_min": 652,
-                "column_max": 554,
-                "row_max": 684
-            },
-            "parent": 23
-        },
-        {
-            "id": 25,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 14,
-            "width": 14,
-            "position": {
-                "column_min": 664,
-                "row_min": 668,
-                "column_max": 678,
-                "row_max": 682
-            },
-            "parent": 23
-        },
-        {
-            "id": 26,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 12,
-            "width": 15,
-            "position": {
-                "column_min": 82,
-                "row_min": 722,
-                "column_max": 97,
-                "row_max": 734
-            }
-        },
-        {
-            "id": 27,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 22,
-            "width": 24,
-            "position": {
-                "column_min": 434,
-                "row_min": 722,
-                "column_max": 458,
-                "row_max": 744
-            }
-        },
-        {
-            "id": 28,
-            "class": "Compo",
-            "compo_class": "Icon",
-            "height": 17,
-            "width": 17,
-            "position": {
-                "column_min": 256,
-                "row_min": 727,
-                "column_max": 273,
-                "row_max": 744
-            }
-        },
-        {
-            "id": 29,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 16,
-            "width": 17,
-            "position": {
-                "column_min": 611,
-                "row_min": 728,
-                "column_max": 628,
-                "row_max": 744
-            }
-        },
-        {
-            "id": 30,
             "class": "Compo",
             "compo_class": "Icon",
             "height": 14,
@@ -456,7 +79,7 @@
             }
         },
         {
-            "id": 31,
+            "id": 6,
             "class": "Compo",
             "compo_class": "Image",
             "height": 13,
@@ -469,7 +92,7 @@
             }
         },
         {
-            "id": 32,
+            "id": 7,
             "class": "Compo",
             "compo_class": "Image",
             "height": 13,
@@ -482,342 +105,154 @@
             }
         },
         {
-            "id": 33,
-            "class": "Compo",
-            "compo_class": "Image",
-            "height": 29,
-            "width": 41,
-            "position": {
-                "column_min": 75,
-                "row_min": 293,
-                "column_max": 116,
-                "row_max": 322
-            },
-            "parent": 2
-        },
-        {
-            "id": 34,
+            "id": 8,
             "class": "Text",
             "compo_class": null,
             "height": 17,
-            "width": 52,
+            "width": 101,
             "position": {
-                "column_min": 260,
-                "row_min": 80,
-                "column_max": 312,
-                "row_max": 97
+                "column_min": 60,
+                "row_min": 26,
+                "column_max": 161,
+                "row_max": 43
             },
-            "text_content": "For you",
+            "text_content": "Preferences",
             "keyboard": false
         },
         {
-            "id": 35,
+            "id": 9,
             "class": "Text",
             "compo_class": null,
-            "height": 15,
-            "width": 68,
+            "height": 13,
+            "width": 56,
             "position": {
-                "column_min": 387,
-                "row_min": 81,
-                "column_max": 455,
-                "row_max": 96
+                "column_min": 61,
+                "row_min": 51,
+                "column_max": 117,
+                "row_max": 64
             },
-            "text_content": "Following",
+            "text_content": "MulongX",
             "keyboard": false
         },
         {
-            "id": 36,
-            "class": "Text",
-            "compo_class": null,
-            "height": 25,
-            "width": 60,
-            "position": {
-                "column_min": 312,
-                "row_min": 176,
-                "column_max": 372,
-                "row_max": 201
-            },
-            "text_content": "BOX",
-            "keyboard": false,
-            "parent": 4
-        },
-        {
-            "id": 37,
-            "class": "Text",
-            "compo_class": null,
-            "height": 7,
-            "width": 14,
-            "position": {
-                "column_min": 660,
-                "row_min": 304,
-                "column_max": 674,
-                "row_max": 311
-            },
-            "text_content": "4x",
-            "keyboard": false,
-            "parent": 2
-        },
-        {
-            "id": 38,
-            "class": "Text",
-            "compo_class": null,
-            "height": 11,
-            "width": 68,
-            "position": {
-                "column_min": 74,
-                "row_min": 336,
-                "column_max": 142,
-                "row_max": 347
-            },
-            "text_content": "144K views",
-            "keyboard": false
-        },
-        {
-            "id": 39,
-            "class": "Text",
-            "compo_class": null,
-            "height": 9,
-            "width": 25,
-            "position": {
-                "column_min": 243,
-                "row_min": 362,
-                "column_max": 268,
-                "row_max": 371
-            },
-            "text_content": "123",
-            "keyboard": false
-        },
-        {
-            "id": 40,
-            "class": "Text",
-            "compo_class": null,
-            "height": 11,
-            "width": 34,
-            "position": {
-                "column_min": 391,
-                "row_min": 362,
-                "column_max": 425,
-                "row_max": 373
-            },
-            "text_content": "1,138",
-            "keyboard": false
-        },
-        {
-            "id": 41,
-            "class": "Text",
-            "compo_class": null,
-            "height": 11,
-            "width": 32,
-            "position": {
-                "column_min": 537,
-                "row_min": 362,
-                "column_max": 569,
-                "row_max": 373
-            },
-            "text_content": "442K",
-            "keyboard": false
-        },
-        {
-            "id": 42,
-            "class": "Text",
-            "compo_class": null,
-            "height": 9,
-            "width": 24,
-            "position": {
-                "column_min": 98,
-                "row_min": 363,
-                "column_max": 122,
-                "row_max": 372
-            },
-            "text_content": "134",
-            "keyboard": false
-        },
-        {
-            "id": 43,
-            "class": "Text",
-            "compo_class": null,
-            "height": 11,
-            "width": 11,
-            "position": {
-                "column_min": 516,
-                "row_min": 363,
-                "column_max": 527,
-                "row_max": 374
-            },
-            "text_content": "\u0131l\u0131",
-            "keyboard": false
-        },
-        {
-            "id": 44,
+            "id": 10,
             "class": "Text",
             "compo_class": null,
             "height": 14,
-            "width": 134,
+            "width": 349,
             "position": {
-                "column_min": 74,
-                "row_min": 399,
-                "column_max": 208,
-                "row_max": 413
+                "column_min": 13,
+                "row_min": 85,
+                "column_max": 362,
+                "row_max": 99
             },
-            "text_content": "Interactive Brokers",
+            "text_content": "Select your preferences by notification type . Learn more",
             "keyboard": false
         },
         {
-            "id": 45,
+            "id": 11,
+            "class": "Text",
+            "compo_class": null,
+            "height": 16,
+            "width": 226,
+            "position": {
+                "column_min": 13,
+                "row_min": 132,
+                "column_max": 239,
+                "row_max": 148
+            },
+            "text_content": "Unread notification count badge",
+            "keyboard": false
+        },
+        {
+            "id": 12,
             "class": "Text",
             "compo_class": null,
             "height": 14,
-            "width": 45,
+            "width": 433,
             "position": {
-                "column_min": 231,
-                "row_min": 399,
-                "column_max": 276,
-                "row_max": 413
+                "column_min": 13,
+                "row_min": 154,
+                "column_max": 446,
+                "row_max": 168
             },
-            "text_content": "@IBKR",
+            "text_content": "Displays a badge with the number of notifications waiting for you",
             "keyboard": false
         },
         {
-            "id": 46,
-            "class": "Text",
-            "compo_class": null,
-            "height": 15,
-            "width": 611,
-            "position": {
-                "column_min": 74,
-                "row_min": 419,
-                "column_max": 685,
-                "row_max": 434
-            },
-            "text_content": "Diversify your investment , mitigate your risk , find the right size to fit your options trading",
-            "keyboard": false
-        },
-        {
-            "id": 47,
+            "id": 13,
             "class": "Text",
             "compo_class": null,
             "height": 14,
-            "width": 74,
+            "width": 147,
             "position": {
-                "column_min": 74,
-                "row_min": 441,
-                "column_max": 148,
-                "row_max": 455
+                "column_min": 453,
+                "row_min": 154,
+                "column_max": 600,
+                "row_max": 168
             },
-            "text_content": "strategies .",
+            "text_content": "inside the Twitter app .",
             "keyboard": false
         },
         {
-            "id": 48,
+            "id": 14,
             "class": "Text",
             "compo_class": null,
-            "height": 25,
-            "width": 81,
+            "height": 13,
+            "width": 126,
             "position": {
-                "column_min": 587,
-                "row_min": 479,
-                "column_max": 668,
-                "row_max": 504
+                "column_min": 14,
+                "row_min": 201,
+                "column_max": 140,
+                "row_max": 214
             },
-            "text_content": "C'boe",
-            "keyboard": false,
-            "parent": 23
+            "text_content": "Push notifications",
+            "keyboard": false
         },
         {
-            "id": 49,
+            "id": 15,
             "class": "Text",
             "compo_class": null,
-            "height": 36,
-            "width": 334,
+            "height": 13,
+            "width": 127,
             "position": {
-                "column_min": 99,
-                "row_min": 494,
-                "column_max": 433,
-                "row_max": 530
+                "column_min": 13,
+                "row_min": 251,
+                "column_max": 140,
+                "row_max": 264
             },
-            "text_content": "Targeted exposure",
-            "keyboard": false,
-            "parent": 23
+            "text_content": "SMS notifications",
+            "keyboard": false
         },
         {
-            "id": 50,
+            "id": 16,
             "class": "Text",
             "compo_class": null,
-            "height": 12,
-            "width": 119,
+            "height": 13,
+            "width": 133,
             "position": {
-                "column_min": 550,
-                "row_min": 529,
-                "column_max": 669,
-                "row_max": 541
+                "column_min": 14,
+                "row_min": 299,
+                "column_max": 147,
+                "row_max": 312
             },
-            "text_content": "InteractiveBrokers",
-            "keyboard": false,
-            "parent": 23
+            "text_content": "Email notifications",
+            "keyboard": false
         },
         {
-            "id": 51,
+            "id": 17,
             "class": "Text",
             "compo_class": null,
-            "height": 27,
-            "width": 233,
+            "height": 16,
+            "width": 381,
             "position": {
-                "column_min": 99,
-                "row_min": 537,
-                "column_max": 332,
-                "row_max": 564
+                "column_min": 14,
+                "row_min": 319,
+                "column_max": 395,
+                "row_max": 335
             },
-            "text_content": "Daily expirations",
-            "keyboard": false,
-            "parent": 23
-        },
-        {
-            "id": 52,
-            "class": "Text",
-            "compo_class": null,
-            "height": 22,
-            "width": 251,
-            "position": {
-                "column_min": 99,
-                "row_min": 566,
-                "column_max": 350,
-                "row_max": 588
-            },
-            "text_content": "that settle in cash .",
-            "keyboard": false,
-            "parent": 23
-        },
-        {
-            "id": 53,
-            "class": "Text",
-            "compo_class": null,
-            "height": 23,
-            "width": 242,
-            "position": {
-                "column_min": 98,
-                "row_min": 610,
-                "column_max": 340,
-                "row_max": 633
-            },
-            "text_content": "SPX and Mini - SPX (XSP )",
-            "keyboard": false,
-            "parent": 23
-        },
-        {
-            "id": 54,
-            "class": "Text",
-            "compo_class": null,
-            "height": 21,
-            "width": 193,
-            "position": {
-                "column_min": 96,
-                "row_min": 635,
-                "column_max": 289,
-                "row_max": 656
-            },
-            "text_content": "Weeklys SM Options",
-            "keyboard": false,
-            "parent": 23
+            "text_content": "Control when and how often Twitter sends emails to you .",
+            "keyboard": false
         }
     ],
     "img_shape": [
