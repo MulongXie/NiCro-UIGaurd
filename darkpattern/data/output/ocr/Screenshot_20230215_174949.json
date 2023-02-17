@@ -1,0 +1,209 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "1K / s",
+            "column_min": 50,
+            "row_min": 22,
+            "column_max": 121,
+            "row_max": 51,
+            "width": 71,
+            "height": 29
+        },
+        {
+            "id": 1,
+            "content": "hello",
+            "column_min": 97,
+            "row_min": 324,
+            "column_max": 219,
+            "row_max": 362,
+            "width": 122,
+            "height": 38
+        },
+        {
+            "id": 2,
+            "content": "hello86655233",
+            "column_min": 133,
+            "row_min": 388,
+            "column_max": 433,
+            "row_max": 421,
+            "width": 300,
+            "height": 33
+        },
+        {
+            "id": 3,
+            "content": "Following",
+            "column_min": 136,
+            "row_min": 480,
+            "column_max": 317,
+            "row_max": 519,
+            "width": 181,
+            "height": 39
+        },
+        {
+            "id": 4,
+            "content": "Followers",
+            "column_min": 388,
+            "row_min": 477,
+            "column_max": 571,
+            "row_max": 517,
+            "width": 183,
+            "height": 40
+        },
+        {
+            "id": 5,
+            "content": "Bookmarks",
+            "column_min": 242,
+            "row_min": 621,
+            "column_max": 583,
+            "row_max": 667,
+            "width": 341,
+            "height": 46
+        },
+        {
+            "id": 6,
+            "content": "II",
+            "column_min": 120,
+            "row_min": 793,
+            "column_max": 144,
+            "row_max": 816,
+            "width": 24,
+            "height": 23
+        },
+        {
+            "id": 7,
+            "content": "Do",
+            "column_min": 100,
+            "row_min": 937,
+            "column_max": 156,
+            "row_max": 1002,
+            "width": 56,
+            "height": 65
+        },
+        {
+            "id": 8,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 23,
+            "column_max": 610,
+            "row_max": 50,
+            "width": 146,
+            "height": 27
+        },
+        {
+            "id": 9,
+            "content": "Lists",
+            "column_min": 241,
+            "row_min": 781,
+            "column_max": 382,
+            "row_max": 830,
+            "width": 141,
+            "height": 49
+        },
+        {
+            "id": 10,
+            "content": "?",
+            "column_min": 112,
+            "row_min": 1730,
+            "column_max": 139,
+            "row_max": 1762,
+            "width": 27,
+            "height": 32
+        },
+        {
+            "id": 11,
+            "content": "Professional Tools",
+            "column_min": 98,
+            "row_min": 1277,
+            "column_max": 504,
+            "row_max": 1313,
+            "width": 406,
+            "height": 36
+        },
+        {
+            "id": 12,
+            "content": "Twitter Circle",
+            "column_min": 241,
+            "row_min": 943,
+            "column_max": 646,
+            "row_max": 993,
+            "width": 405,
+            "height": 50
+        },
+        {
+            "id": 13,
+            "content": "Settings & Support",
+            "column_min": 97,
+            "row_min": 1433,
+            "column_max": 525,
+            "row_max": 1476,
+            "width": 428,
+            "height": 43
+        },
+        {
+            "id": 14,
+            "content": "Settings and privacy",
+            "column_min": 229,
+            "row_min": 1584,
+            "column_max": 677,
+            "row_max": 1628,
+            "width": 448,
+            "height": 44
+        },
+        {
+            "id": 15,
+            "content": "Help Center",
+            "column_min": 230,
+            "row_min": 1723,
+            "column_max": 488,
+            "row_max": 1772,
+            "width": 258,
+            "height": 49
+        },
+        {
+            "id": 16,
+            "content": "53 %",
+            "column_min": 903,
+            "row_min": 20,
+            "column_max": 977,
+            "row_max": 50,
+            "width": 74,
+            "height": 30
+        },
+        {
+            "id": 17,
+            "content": "tra",
+            "column_min": 956,
+            "row_min": 747,
+            "column_max": 1017,
+            "row_max": 784,
+            "width": 61,
+            "height": 37
+        },
+        {
+            "id": 18,
+            "content": "eer",
+            "column_min": 959,
+            "row_min": 819,
+            "column_max": 1026,
+            "row_max": 846,
+            "width": 67,
+            "height": 27
+        },
+        {
+            "id": 19,
+            "content": "in",
+            "column_min": 982,
+            "row_min": 1068,
+            "column_max": 1017,
+            "row_max": 1099,
+            "width": 35,
+            "height": 31
+        }
+    ]
+}

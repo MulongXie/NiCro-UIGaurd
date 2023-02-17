@@ -1,0 +1,239 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "0.4K / s",
+            "column_min": 50,
+            "row_min": 22,
+            "column_max": 154,
+            "row_max": 50,
+            "width": 104,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "For you",
+            "column_min": 175,
+            "row_min": 125,
+            "column_max": 338,
+            "row_max": 172,
+            "width": 163,
+            "height": 47
+        },
+        {
+            "id": 2,
+            "content": "Get Started",
+            "column_min": 183,
+            "row_min": 200,
+            "column_max": 428,
+            "row_max": 240,
+            "width": 245,
+            "height": 40
+        },
+        {
+            "id": 3,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 23,
+            "column_max": 610,
+            "row_max": 51,
+            "width": 146,
+            "height": 28
+        },
+        {
+            "id": 4,
+            "content": "CSIRO follows",
+            "column_min": 230,
+            "row_min": 445,
+            "column_max": 505,
+            "row_max": 475,
+            "width": 275,
+            "height": 30
+        },
+        {
+            "id": 5,
+            "content": "Guardian Environment",
+            "column_min": 228,
+            "row_min": 517,
+            "column_max": 735,
+            "row_max": 552,
+            "width": 507,
+            "height": 35
+        },
+        {
+            "id": 6,
+            "content": ". 55m",
+            "column_min": 801,
+            "row_min": 517,
+            "column_max": 925,
+            "row_max": 552,
+            "width": 124,
+            "height": 35
+        },
+        {
+            "id": 7,
+            "content": ":",
+            "column_min": 1011,
+            "row_min": 517,
+            "column_max": 1026,
+            "row_max": 543,
+            "width": 15,
+            "height": 26
+        },
+        {
+            "id": 8,
+            "content": "More than 350 birds found dead at",
+            "column_min": 229,
+            "row_min": 580,
+            "column_max": 974,
+            "row_max": 616,
+            "width": 745,
+            "height": 36
+        },
+        {
+            "id": 9,
+            "content": "Victorian nature reserve as authorities",
+            "column_min": 227,
+            "row_min": 645,
+            "column_max": 1043,
+            "row_max": 681,
+            "width": 816,
+            "height": 36
+        },
+        {
+            "id": 10,
+            "content": "investigate cause",
+            "column_min": 229,
+            "row_min": 709,
+            "column_max": 601,
+            "row_max": 751,
+            "width": 372,
+            "height": 42
+        },
+        {
+            "id": 11,
+            "content": "Q1",
+            "column_min": 232,
+            "row_min": 1467,
+            "column_max": 310,
+            "row_max": 1511,
+            "width": 78,
+            "height": 44
+        },
+        {
+            "id": 12,
+            "content": "123",
+            "column_min": 410,
+            "row_min": 1473,
+            "column_max": 495,
+            "row_max": 1508,
+            "width": 85,
+            "height": 35
+        },
+        {
+            "id": 13,
+            "content": "Who to follow",
+            "column_min": 36,
+            "row_min": 1618,
+            "column_max": 403,
+            "row_max": 1659,
+            "width": 367,
+            "height": 41
+        },
+        {
+            "id": 14,
+            "content": "Following",
+            "column_min": 697,
+            "row_min": 126,
+            "column_max": 902,
+            "row_max": 171,
+            "width": 205,
+            "height": 45
+        },
+        {
+            "id": 15,
+            "content": "theguardian.com",
+            "column_min": 251,
+            "row_min": 1238,
+            "column_max": 610,
+            "row_max": 1280,
+            "width": 359,
+            "height": 42
+        },
+        {
+            "id": 16,
+            "content": "More than 350 birds found dead",
+            "column_min": 253,
+            "row_min": 1294,
+            "column_max": 940,
+            "row_max": 1331,
+            "width": 687,
+            "height": 37
+        },
+        {
+            "id": 17,
+            "content": "at Victorian nature reserve as aut ...",
+            "column_min": 252,
+            "row_min": 1363,
+            "column_max": 995,
+            "row_max": 1397,
+            "width": 743,
+            "height": 34
+        },
+        {
+            "id": 18,
+            "content": "53 %",
+            "column_min": 904,
+            "row_min": 22,
+            "column_max": 976,
+            "row_max": 49,
+            "width": 72,
+            "height": 27
+        },
+        {
+            "id": 19,
+            "content": "The Guardian",
+            "column_min": 764,
+            "row_min": 1103,
+            "column_max": 997,
+            "row_max": 1176,
+            "width": 233,
+            "height": 73
+        },
+        {
+            "id": 20,
+            "content": "\u20811,035",
+            "column_min": 793,
+            "row_min": 1475,
+            "column_max": 935,
+            "row_max": 1510,
+            "width": 142,
+            "height": 35
+        },
+        {
+            "id": 21,
+            "content": "+",
+            "column_min": 836,
+            "row_min": 1767,
+            "column_max": 899,
+            "row_max": 1822,
+            "width": 63,
+            "height": 55
+        },
+        {
+            "id": 22,
+            "content": "+",
+            "column_min": 921,
+            "row_min": 1709,
+            "column_max": 973,
+            "row_max": 1754,
+            "width": 52,
+            "height": 45
+        }
+    ]
+}

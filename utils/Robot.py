@@ -1,6 +1,6 @@
 import cv2
 from robot.robot_control import RobotController
-from GUI import GUI
+from utils.GUI import GUI
 
 
 class Robot(RobotController):
@@ -18,7 +18,7 @@ class Robot(RobotController):
 
         self.GUI = None
         self.photo = None   # image
-        self.photo_save_path = 'data/screen/robot_photo.png'
+        self.photo_save_path = '../data/screen/robot_photo.png'
         self.photo_screen_area = None    # image of screen area
         self.detect_resize_ratio = None  # self.GUI.detection_resize_height / self.photo.shape[0]
         # self.cap_frame()

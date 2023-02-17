@@ -1,0 +1,249 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "column_min": 21,
+                "row_min": 49,
+                "column_max": 39,
+                "row_max": 67
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 15,
+            "width": 23,
+            "position": {
+                "column_min": 80,
+                "row_min": 64,
+                "column_max": 103,
+                "row_max": 79
+            },
+            "parent": 11
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 43,
+            "width": 363,
+            "position": {
+                "column_min": 17,
+                "row_min": 98,
+                "column_max": 380,
+                "row_max": 141
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 20,
+            "width": 25,
+            "position": {
+                "column_min": 18,
+                "row_min": 159,
+                "column_max": 43,
+                "row_max": 179
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 22,
+            "width": 20,
+            "position": {
+                "column_min": 20,
+                "row_min": 269,
+                "column_max": 40,
+                "row_max": 291
+            }
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 23,
+            "width": 21,
+            "position": {
+                "column_min": 20,
+                "row_min": 379,
+                "column_max": 41,
+                "row_max": 402
+            }
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "height": 23,
+            "width": 24,
+            "position": {
+                "column_min": 18,
+                "row_min": 500,
+                "column_max": 42,
+                "row_max": 523
+            }
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 23,
+            "width": 24,
+            "position": {
+                "column_min": 18,
+                "row_min": 622,
+                "column_max": 42,
+                "row_max": 645
+            }
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 21,
+            "width": 25,
+            "position": {
+                "column_min": 18,
+                "row_min": 713,
+                "column_max": 43,
+                "row_max": 734
+            }
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 17,
+            "width": 26,
+            "position": {
+                "column_min": 186,
+                "row_min": 768,
+                "column_max": 212,
+                "row_max": 785
+            }
+        },
+        {
+            "id": 10,
+            "class": "Compo",
+            "height": 16,
+            "width": 19,
+            "position": {
+                "column_min": 311,
+                "row_min": 768,
+                "column_max": 330,
+                "row_max": 784
+            }
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 40,
+            "width": 138,
+            "position": {
+                "column_min": 80,
+                "row_min": 37,
+                "column_max": 218,
+                "row_max": 77
+            },
+            "text_content": "Settings\nhello86655233",
+            "children": [
+                1
+            ]
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 56,
+            "width": 296,
+            "position": {
+                "column_min": 79,
+                "row_min": 154,
+                "column_max": 375,
+                "row_max": 210
+            },
+            "text_content": "See how you can make money\nTwitter and manage your monetization\noptions .\non"
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 56,
+            "width": 295,
+            "position": {
+                "column_min": 80,
+                "row_min": 252,
+                "column_max": 375,
+                "row_max": 308
+            },
+            "text_content": "Privacy and safety\nManage what information you see and\nshare on Twitter ."
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 13,
+            "width": 109,
+            "position": {
+                "column_min": 80,
+                "row_min": 354,
+                "column_max": 189,
+                "row_max": 367
+            },
+            "text_content": "Notifications"
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 53,
+            "width": 294,
+            "position": {
+                "column_min": 80,
+                "row_min": 375,
+                "column_max": 374,
+                "row_max": 428
+            },
+            "text_content": "Select the kinds of notifications you\nget about your activities , interests , and\nrecommendations ."
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 80,
+            "width": 237,
+            "position": {
+                "column_min": 79,
+                "row_min": 474,
+                "column_max": 316,
+                "row_max": 554
+            },
+            "text_content": "Accessibility , display and\nlanguages\nManage how Twitter content is\ndisplayed to you ."
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 17,
+            "width": 49,
+            "position": {
+                "column_min": 80,
+                "row_min": 716,
+                "column_max": 129,
+                "row_max": 733
+            },
+            "text_content": "Proxy"
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 79,
+            "width": 302,
+            "position": {
+                "column_min": 79,
+                "row_min": 595,
+                "column_max": 381,
+                "row_max": 674
+            },
+            "text_content": "Additional resources\nCheck out other places for helpful\ninformation to learn more about Twitter\nproducts and services ."
+        }
+    ],
+    "img_shape": [
+        800,
+        400,
+        3
+    ]
+}

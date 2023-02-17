@@ -1,0 +1,89 @@
+{
+    "img_shape": [
+        2280,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "12:14",
+            "column_min": 23,
+            "row_min": 53,
+            "column_max": 118,
+            "row_max": 82,
+            "width": 95,
+            "height": 29
+        },
+        {
+            "id": 1,
+            "content": "UIGuard_v4",
+            "column_min": 200,
+            "row_min": 227,
+            "column_max": 486,
+            "row_max": 271,
+            "width": 286,
+            "height": 44
+        },
+        {
+            "id": 2,
+            "content": "Messages",
+            "column_min": 198,
+            "row_min": 405,
+            "column_max": 376,
+            "row_max": 438,
+            "width": 178,
+            "height": 33
+        },
+        {
+            "id": 3,
+            "content": "Description",
+            "column_min": 201,
+            "row_min": 526,
+            "column_max": 417,
+            "row_max": 563,
+            "width": 216,
+            "height": 37
+        },
+        {
+            "id": 4,
+            "content": "This app can help you highlight the existence of",
+            "column_min": 197,
+            "row_min": 577,
+            "column_max": 1018,
+            "row_max": 618,
+            "width": 821,
+            "height": 41
+        },
+        {
+            "id": 5,
+            "content": "dark patterns",
+            "column_min": 197,
+            "row_min": 624,
+            "column_max": 427,
+            "row_max": 668,
+            "width": 230,
+            "height": 44
+        },
+        {
+            "id": 6,
+            "content": "UIGuard Service",
+            "column_min": 199,
+            "row_min": 769,
+            "column_max": 511,
+            "row_max": 802,
+            "width": 312,
+            "height": 33
+        },
+        {
+            "id": 7,
+            "content": "On",
+            "column_min": 199,
+            "row_min": 828,
+            "column_max": 243,
+            "row_max": 857,
+            "width": 44,
+            "height": 29
+        }
+    ]
+}

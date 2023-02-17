@@ -1,0 +1,279 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "1K / s",
+            "column_min": 50,
+            "row_min": 21,
+            "column_max": 120,
+            "row_max": 50,
+            "width": 70,
+            "height": 29
+        },
+        {
+            "id": 1,
+            "content": "5:49 PM",
+            "column_min": 465,
+            "row_min": 23,
+            "column_max": 611,
+            "row_max": 50,
+            "width": 146,
+            "height": 27
+        },
+        {
+            "id": 2,
+            "content": "Settings",
+            "column_min": 216,
+            "row_min": 103,
+            "column_max": 447,
+            "row_max": 159,
+            "width": 231,
+            "height": 56
+        },
+        {
+            "id": 3,
+            "content": "hello86655233",
+            "column_min": 258,
+            "row_min": 174,
+            "column_max": 589,
+            "row_max": 208,
+            "width": 331,
+            "height": 34
+        },
+        {
+            "id": 4,
+            "content": "Search settings",
+            "column_min": 400,
+            "row_min": 296,
+            "column_max": 730,
+            "row_max": 354,
+            "width": 330,
+            "height": 58
+        },
+        {
+            "id": 5,
+            "content": "53 %",
+            "column_min": 906,
+            "row_min": 21,
+            "column_max": 976,
+            "row_max": 51,
+            "width": 70,
+            "height": 30
+        },
+        {
+            "id": 6,
+            "content": "Your account",
+            "column_min": 213,
+            "row_min": 470,
+            "column_max": 535,
+            "row_max": 514,
+            "width": 322,
+            "height": 44
+        },
+        {
+            "id": 7,
+            "content": "See information about your account ,",
+            "column_min": 216,
+            "row_min": 533,
+            "column_max": 974,
+            "row_max": 576,
+            "width": 758,
+            "height": 43
+        },
+        {
+            "id": 8,
+            "content": "download an archive of your data , or",
+            "column_min": 217,
+            "row_min": 582,
+            "column_max": 980,
+            "row_max": 630,
+            "width": 763,
+            "height": 48
+        },
+        {
+            "id": 9,
+            "content": "learn about your account deactivation",
+            "column_min": 217,
+            "row_min": 640,
+            "column_max": 998,
+            "row_max": 680,
+            "width": 781,
+            "height": 40
+        },
+        {
+            "id": 10,
+            "content": "options .",
+            "column_min": 216,
+            "row_min": 695,
+            "column_max": 380,
+            "row_max": 735,
+            "width": 164,
+            "height": 40
+        },
+        {
+            "id": 11,
+            "content": "Security and account access",
+            "column_min": 217,
+            "row_min": 850,
+            "column_max": 902,
+            "row_max": 896,
+            "width": 685,
+            "height": 46
+        },
+        {
+            "id": 12,
+            "content": "Manage your account",
+            "column_min": 218,
+            "row_min": 910,
+            "column_max": 672,
+            "row_max": 956,
+            "width": 454,
+            "height": 46
+        },
+        {
+            "id": 13,
+            "content": "security",
+            "column_min": 753,
+            "row_min": 909,
+            "column_max": 916,
+            "row_max": 954,
+            "width": 163,
+            "height": 45
+        },
+        {
+            "id": 14,
+            "content": "and keep track of your account's",
+            "column_min": 216,
+            "row_min": 966,
+            "column_max": 931,
+            "row_max": 1006,
+            "width": 715,
+            "height": 40
+        },
+        {
+            "id": 15,
+            "content": "usage including apps that you have",
+            "column_min": 216,
+            "row_min": 1014,
+            "column_max": 947,
+            "row_max": 1063,
+            "width": 731,
+            "height": 49
+        },
+        {
+            "id": 16,
+            "content": "connected to your account .",
+            "column_min": 217,
+            "row_min": 1071,
+            "column_max": 787,
+            "row_max": 1112,
+            "width": 570,
+            "height": 41
+        },
+        {
+            "id": 17,
+            "content": "Twitter Blue",
+            "column_min": 216,
+            "row_min": 1226,
+            "column_max": 490,
+            "row_max": 1266,
+            "width": 274,
+            "height": 40
+        },
+        {
+            "id": 18,
+            "content": "Manage your subscription's features",
+            "column_min": 218,
+            "row_min": 1286,
+            "column_max": 1006,
+            "row_max": 1334,
+            "width": 788,
+            "height": 48
+        },
+        {
+            "id": 19,
+            "content": "including Undo Tweet timing .",
+            "column_min": 217,
+            "row_min": 1343,
+            "column_max": 817,
+            "row_max": 1382,
+            "width": 600,
+            "height": 39
+        },
+        {
+            "id": 20,
+            "content": "Monetization",
+            "column_min": 218,
+            "row_min": 1500,
+            "column_max": 517,
+            "row_max": 1536,
+            "width": 299,
+            "height": 36
+        },
+        {
+            "id": 21,
+            "content": "See how you can make money on",
+            "column_min": 217,
+            "row_min": 1559,
+            "column_max": 919,
+            "row_max": 1606,
+            "width": 702,
+            "height": 47
+        },
+        {
+            "id": 22,
+            "content": "Twitter and manage your monetization",
+            "column_min": 215,
+            "row_min": 1617,
+            "column_max": 1013,
+            "row_max": 1657,
+            "width": 798,
+            "height": 40
+        },
+        {
+            "id": 23,
+            "content": "options .",
+            "column_min": 216,
+            "row_min": 1670,
+            "column_max": 380,
+            "row_max": 1709,
+            "width": 164,
+            "height": 39
+        },
+        {
+            "id": 24,
+            "content": "Privacy and safety",
+            "column_min": 217,
+            "row_min": 1824,
+            "column_max": 649,
+            "row_max": 1870,
+            "width": 432,
+            "height": 46
+        },
+        {
+            "id": 25,
+            "content": "Manage what information you see and",
+            "column_min": 218,
+            "row_min": 1887,
+            "column_max": 1015,
+            "row_max": 1929,
+            "width": 797,
+            "height": 42
+        },
+        {
+            "id": 26,
+            "content": "share on Twitter .",
+            "column_min": 216,
+            "row_min": 1941,
+            "column_max": 560,
+            "row_max": 1973,
+            "width": 344,
+            "height": 32
+        }
+    ]
+}

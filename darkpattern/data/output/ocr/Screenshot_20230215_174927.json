@@ -1,0 +1,359 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "3.9K / s",
+            "column_min": 49,
+            "row_min": 21,
+            "column_max": 155,
+            "row_max": 49,
+            "width": 106,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "For you",
+            "column_min": 174,
+            "row_min": 122,
+            "column_max": 338,
+            "row_max": 174,
+            "width": 164,
+            "height": 52
+        },
+        {
+            "id": 2,
+            "content": "94.2K views",
+            "column_min": 228,
+            "row_min": 288,
+            "column_max": 459,
+            "row_max": 316,
+            "width": 231,
+            "height": 28
+        },
+        {
+            "id": 3,
+            "content": "21",
+            "column_min": 288,
+            "row_min": 372,
+            "column_max": 328,
+            "row_max": 402,
+            "width": 40,
+            "height": 30
+        },
+        {
+            "id": 4,
+            "content": "18",
+            "column_min": 471,
+            "row_min": 371,
+            "column_max": 511,
+            "row_max": 401,
+            "width": 40,
+            "height": 30
+        },
+        {
+            "id": 5,
+            "content": "Promoted by Apple",
+            "column_min": 287,
+            "row_min": 453,
+            "column_max": 634,
+            "row_max": 496,
+            "width": 347,
+            "height": 43
+        },
+        {
+            "id": 6,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 23,
+            "column_max": 610,
+            "row_max": 50,
+            "width": 146,
+            "height": 27
+        },
+        {
+            "id": 7,
+            "content": "Following",
+            "column_min": 697,
+            "row_min": 124,
+            "column_max": 903,
+            "row_max": 169,
+            "width": 206,
+            "height": 45
+        },
+        {
+            "id": 8,
+            "content": "306",
+            "column_min": 653,
+            "row_min": 372,
+            "column_max": 724,
+            "row_max": 401,
+            "width": 71,
+            "height": 29
+        },
+        {
+            "id": 9,
+            "content": "CSIRO follows",
+            "column_min": 228,
+            "row_min": 571,
+            "column_max": 506,
+            "row_max": 600,
+            "width": 278,
+            "height": 29
+        },
+        {
+            "id": 10,
+            "content": "Guardian Environment",
+            "column_min": 229,
+            "row_min": 643,
+            "column_max": 734,
+            "row_max": 679,
+            "width": 505,
+            "height": 36
+        },
+        {
+            "id": 11,
+            "content": "World's oldest European hedgehog",
+            "column_min": 226,
+            "row_min": 700,
+            "column_max": 973,
+            "row_max": 752,
+            "width": 747,
+            "height": 52
+        },
+        {
+            "id": 12,
+            "content": "discovered in Denmark",
+            "column_min": 229,
+            "row_min": 771,
+            "column_max": 715,
+            "row_max": 806,
+            "width": 486,
+            "height": 35
+        },
+        {
+            "id": 13,
+            "content": "53 %",
+            "column_min": 904,
+            "row_min": 22,
+            "column_max": 974,
+            "row_max": 48,
+            "width": 70,
+            "height": 26
+        },
+        {
+            "id": 14,
+            "content": "1211",
+            "column_min": 411,
+            "row_min": 1534,
+            "column_max": 504,
+            "row_max": 1570,
+            "width": 93,
+            "height": 36
+        },
+        {
+            "id": 15,
+            "content": "24",
+            "column_min": 651,
+            "row_min": 1536,
+            "column_max": 696,
+            "row_max": 1569,
+            "width": 45,
+            "height": 33
+        },
+        {
+            "id": 16,
+            "content": "1.6M",
+            "column_min": 832,
+            "row_min": 371,
+            "column_max": 915,
+            "row_max": 400,
+            "width": 83,
+            "height": 29
+        },
+        {
+            "id": 17,
+            "content": "theguardian.com",
+            "column_min": 251,
+            "row_min": 1300,
+            "column_max": 608,
+            "row_max": 1343,
+            "width": 357,
+            "height": 43
+        },
+        {
+            "id": 18,
+            "content": "World's oldest European hedgehog",
+            "column_min": 250,
+            "row_min": 1352,
+            "column_max": 997,
+            "row_max": 1405,
+            "width": 747,
+            "height": 53
+        },
+        {
+            "id": 19,
+            "content": "discovered in Denmark",
+            "column_min": 252,
+            "row_min": 1423,
+            "column_max": 738,
+            "row_max": 1458,
+            "width": 486,
+            "height": 35
+        },
+        {
+            "id": 20,
+            "content": "110",
+            "column_min": 524,
+            "row_min": 1930,
+            "column_max": 557,
+            "row_max": 1953,
+            "width": 33,
+            "height": 23
+        },
+        {
+            "id": 21,
+            "content": "13h",
+            "column_min": 895,
+            "row_min": 644,
+            "column_max": 969,
+            "row_max": 678,
+            "width": 74,
+            "height": 34
+        },
+        {
+            "id": 22,
+            "content": ":",
+            "column_min": 1005,
+            "row_min": 641,
+            "column_max": 1028,
+            "row_max": 673,
+            "width": 23,
+            "height": 32
+        },
+        {
+            "id": 23,
+            "content": "The Guardian",
+            "column_min": 764,
+            "row_min": 1166,
+            "column_max": 997,
+            "row_max": 1239,
+            "width": 233,
+            "height": 73
+        },
+        {
+            "id": 24,
+            "content": "ACCC",
+            "column_min": 227,
+            "row_min": 1653,
+            "column_max": 365,
+            "row_max": 1698,
+            "width": 138,
+            "height": 45
+        },
+        {
+            "id": 25,
+            "content": "@acccgovau",
+            "column_min": 433,
+            "row_min": 1655,
+            "column_max": 697,
+            "row_max": 1700,
+            "width": 264,
+            "height": 45
+        },
+        {
+            "id": 26,
+            "content": "3h",
+            "column_min": 742,
+            "row_min": 1658,
+            "column_max": 793,
+            "row_max": 1701,
+            "width": 51,
+            "height": 43
+        },
+        {
+            "id": 27,
+            "content": "ACCC",
+            "column_min": 55,
+            "row_min": 1706,
+            "column_max": 180,
+            "row_max": 1754,
+            "width": 125,
+            "height": 48
+        },
+        {
+            "id": 28,
+            "content": "The Federal Government has",
+            "column_min": 227,
+            "row_min": 1707,
+            "column_max": 843,
+            "row_max": 1757,
+            "width": 616,
+            "height": 50
+        },
+        {
+            "id": 29,
+            "content": "+",
+            "column_min": 919,
+            "row_min": 1711,
+            "column_max": 972,
+            "row_max": 1757,
+            "width": 53,
+            "height": 46
+        },
+        {
+            "id": 30,
+            "content": "us to investigate how banks set",
+            "column_min": 230,
+            "row_min": 1784,
+            "column_max": 895,
+            "row_max": 1829,
+            "width": 665,
+            "height": 45
+        },
+        {
+            "id": 31,
+            "content": "intoroot vote",
+            "column_min": 228,
+            "row_min": 1851,
+            "column_max": 477,
+            "row_max": 1867,
+            "width": 249,
+            "height": 16
+        },
+        {
+            "id": 32,
+            "content": "for coUOKO",
+            "column_min": 523,
+            "row_min": 1850,
+            "column_max": 728,
+            "row_max": 1869,
+            "width": 205,
+            "height": 19
+        },
+        {
+            "id": 33,
+            "content": "including",
+            "column_min": 760,
+            "row_min": 1850,
+            "column_max": 949,
+            "row_max": 1866,
+            "width": 189,
+            "height": 16
+        },
+        {
+            "id": 34,
+            "content": "\u20813,909",
+            "column_min": 798,
+            "row_min": 1536,
+            "column_max": 940,
+            "row_max": 1572,
+            "width": 142,
+            "height": 36
+        }
+    ]
+}

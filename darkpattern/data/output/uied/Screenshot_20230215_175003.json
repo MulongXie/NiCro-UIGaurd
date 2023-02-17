@@ -1,0 +1,174 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 18,
+            "width": 18,
+            "position": {
+                "column_min": 21,
+                "row_min": 49,
+                "column_max": 39,
+                "row_max": 67
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 15,
+            "width": 23,
+            "position": {
+                "column_min": 80,
+                "row_min": 64,
+                "column_max": 103,
+                "row_max": 79
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 17,
+            "width": 26,
+            "position": {
+                "column_min": 186,
+                "row_min": 768,
+                "column_max": 212,
+                "row_max": 785
+            }
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 16,
+            "width": 19,
+            "position": {
+                "column_min": 311,
+                "row_min": 768,
+                "column_max": 330,
+                "row_max": 784
+            }
+        },
+        {
+            "id": 4,
+            "class": "Text",
+            "height": 22,
+            "width": 22,
+            "position": {
+                "column_min": 20,
+                "row_min": 224,
+                "column_max": 42,
+                "row_max": 246
+            },
+            "text_content": "tt +"
+        },
+        {
+            "id": 5,
+            "class": "Text",
+            "height": 53,
+            "width": 295,
+            "position": {
+                "column_min": 17,
+                "row_min": 109,
+                "column_max": 312,
+                "row_max": 162
+            },
+            "text_content": "Select the kinds of notifications you\nget about your activities , interests , and\nrecommendations ."
+        },
+        {
+            "id": 6,
+            "class": "Text",
+            "height": 20,
+            "width": 24,
+            "position": {
+                "column_min": 21,
+                "row_min": 326,
+                "column_max": 45,
+                "row_max": 346
+            },
+            "text_content": "0 ,"
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 16,
+            "width": 135,
+            "position": {
+                "column_min": 80,
+                "row_min": 38,
+                "column_max": 215,
+                "row_max": 54
+            },
+            "text_content": "Notifications"
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 15,
+            "width": 122,
+            "position": {
+                "column_min": 95,
+                "row_min": 63,
+                "column_max": 217,
+                "row_max": 78
+            },
+            "text_content": "hello86655233"
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 15,
+            "width": 50,
+            "position": {
+                "column_min": 81,
+                "row_min": 208,
+                "column_max": 131,
+                "row_max": 223
+            },
+            "text_content": "Filters"
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 37,
+            "width": 294,
+            "position": {
+                "column_min": 80,
+                "row_min": 230,
+                "column_max": 374,
+                "row_max": 267
+            },
+            "text_content": "Choose the notifications you'd like to\nsee\nand those you don't ."
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 14,
+            "width": 105,
+            "position": {
+                "column_min": 81,
+                "row_min": 309,
+                "column_max": 186,
+                "row_max": 323
+            },
+            "text_content": "Preferences"
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 37,
+            "width": 295,
+            "position": {
+                "column_min": 79,
+                "row_min": 330,
+                "column_max": 374,
+                "row_max": 367
+            },
+            "text_content": "Select your preferences by notification\ntype ."
+        }
+    ],
+    "img_shape": [
+        800,
+        400,
+        3
+    ]
+}

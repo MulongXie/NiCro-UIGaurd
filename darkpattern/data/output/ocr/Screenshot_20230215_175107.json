@@ -1,0 +1,189 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "0.7K",
+            "column_min": 50,
+            "row_min": 21,
+            "column_max": 124,
+            "row_max": 50,
+            "width": 74,
+            "height": 29
+        },
+        {
+            "id": 1,
+            "content": "Email notifications",
+            "column_min": 218,
+            "row_min": 130,
+            "column_max": 741,
+            "row_max": 177,
+            "width": 523,
+            "height": 47
+        },
+        {
+            "id": 2,
+            "content": "New notifications",
+            "column_min": 46,
+            "row_min": 460,
+            "column_max": 417,
+            "row_max": 495,
+            "width": 371,
+            "height": 35
+        },
+        {
+            "id": 3,
+            "content": "5:51 PM",
+            "column_min": 466,
+            "row_min": 24,
+            "column_max": 608,
+            "row_max": 50,
+            "width": 142,
+            "height": 26
+        },
+        {
+            "id": 4,
+            "content": "Related to you and your Tweets",
+            "column_min": 49,
+            "row_min": 291,
+            "column_max": 899,
+            "row_max": 343,
+            "width": 850,
+            "height": 52
+        },
+        {
+            "id": 5,
+            "content": "Direct Messages",
+            "column_min": 46,
+            "row_min": 649,
+            "column_max": 401,
+            "row_max": 696,
+            "width": 355,
+            "height": 47
+        },
+        {
+            "id": 6,
+            "content": "Tweets emailed to you",
+            "column_min": 44,
+            "row_min": 839,
+            "column_max": 517,
+            "row_max": 888,
+            "width": 473,
+            "height": 49
+        },
+        {
+            "id": 7,
+            "content": "From your network",
+            "column_min": 49,
+            "row_min": 1007,
+            "column_max": 562,
+            "row_max": 1058,
+            "width": 513,
+            "height": 51
+        },
+        {
+            "id": 8,
+            "content": "Top Tweets and Stories",
+            "column_min": 45,
+            "row_min": 1145,
+            "column_max": 538,
+            "row_max": 1189,
+            "width": 493,
+            "height": 44
+        },
+        {
+            "id": 9,
+            "content": "Periodically",
+            "column_min": 47,
+            "row_min": 1216,
+            "column_max": 274,
+            "row_max": 1253,
+            "width": 227,
+            "height": 37
+        },
+        {
+            "id": 10,
+            "content": "53 %",
+            "column_min": 903,
+            "row_min": 19,
+            "column_max": 976,
+            "row_max": 50,
+            "width": 73,
+            "height": 31
+        },
+        {
+            "id": 11,
+            "content": "From Twitter",
+            "column_min": 50,
+            "row_min": 1606,
+            "column_max": 398,
+            "row_max": 1648,
+            "width": 348,
+            "height": 42
+        },
+        {
+            "id": 12,
+            "content": "Updates about the performance of your",
+            "column_min": 45,
+            "row_min": 1339,
+            "column_max": 891,
+            "row_max": 1389,
+            "width": 846,
+            "height": 50
+        },
+        {
+            "id": 13,
+            "content": "Tweets",
+            "column_min": 46,
+            "row_min": 1407,
+            "column_max": 195,
+            "row_max": 1442,
+            "width": 149,
+            "height": 35
+        },
+        {
+            "id": 14,
+            "content": "Off",
+            "column_min": 44,
+            "row_min": 1474,
+            "column_max": 112,
+            "row_max": 1506,
+            "width": 68,
+            "height": 32
+        },
+        {
+            "id": 15,
+            "content": "News about updates to Twitter products",
+            "column_min": 46,
+            "row_min": 1740,
+            "column_max": 903,
+            "row_max": 1788,
+            "width": 857,
+            "height": 48
+        },
+        {
+            "id": 16,
+            "content": "and features",
+            "column_min": 45,
+            "row_min": 1809,
+            "column_max": 316,
+            "row_max": 1843,
+            "width": 271,
+            "height": 34
+        },
+        {
+            "id": 17,
+            "content": "Tips on getting more out of Twitter",
+            "column_min": 45,
+            "row_min": 1966,
+            "column_max": 779,
+            "row_max": 2014,
+            "width": 734,
+            "height": 48
+        }
+    ]
+}

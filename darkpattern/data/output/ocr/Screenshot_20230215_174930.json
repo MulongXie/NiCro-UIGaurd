@@ -1,0 +1,429 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "3.9K / s",
+            "column_min": 49,
+            "row_min": 21,
+            "column_max": 155,
+            "row_max": 49,
+            "width": 106,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "For you",
+            "column_min": 176,
+            "row_min": 122,
+            "column_max": 338,
+            "row_max": 173,
+            "width": 162,
+            "height": 51
+        },
+        {
+            "id": 2,
+            "content": "illi",
+            "column_min": 67,
+            "row_min": 1365,
+            "column_max": 155,
+            "row_max": 1418,
+            "width": 88,
+            "height": 53
+        },
+        {
+            "id": 3,
+            "content": "CSIRO",
+            "column_min": 59,
+            "row_min": 1438,
+            "column_max": 176,
+            "row_max": 1464,
+            "width": 117,
+            "height": 26
+        },
+        {
+            "id": 4,
+            "content": "Q2",
+            "column_min": 231,
+            "row_min": 1220,
+            "column_max": 318,
+            "row_max": 1267,
+            "width": 87,
+            "height": 47
+        },
+        {
+            "id": 5,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 22,
+            "column_max": 610,
+            "row_max": 50,
+            "width": 146,
+            "height": 28
+        },
+        {
+            "id": 6,
+            "content": "ALT",
+            "column_min": 264,
+            "row_min": 1830,
+            "column_max": 328,
+            "row_max": 1855,
+            "width": 64,
+            "height": 25
+        },
+        {
+            "id": 7,
+            "content": "2211",
+            "column_min": 411,
+            "row_min": 248,
+            "column_max": 503,
+            "row_max": 282,
+            "width": 92,
+            "height": 34
+        },
+        {
+            "id": 8,
+            "content": "ACCC",
+            "column_min": 227,
+            "row_min": 366,
+            "column_max": 365,
+            "row_max": 409,
+            "width": 138,
+            "height": 43
+        },
+        {
+            "id": 9,
+            "content": "@acccgovau",
+            "column_min": 433,
+            "row_min": 368,
+            "column_max": 697,
+            "row_max": 411,
+            "width": 264,
+            "height": 43
+        },
+        {
+            "id": 10,
+            "content": "3h",
+            "column_min": 743,
+            "row_min": 370,
+            "column_max": 795,
+            "row_max": 411,
+            "width": 52,
+            "height": 41
+        },
+        {
+            "id": 11,
+            "content": "ACCC",
+            "column_min": 53,
+            "row_min": 427,
+            "column_max": 181,
+            "row_max": 469,
+            "width": 128,
+            "height": 42
+        },
+        {
+            "id": 12,
+            "content": "The Federal Government has directed",
+            "column_min": 228,
+            "row_min": 427,
+            "column_max": 1027,
+            "row_max": 473,
+            "width": 799,
+            "height": 46
+        },
+        {
+            "id": 13,
+            "content": "us to investigate how banks set",
+            "column_min": 229,
+            "row_min": 494,
+            "column_max": 896,
+            "row_max": 539,
+            "width": 667,
+            "height": 45
+        },
+        {
+            "id": 14,
+            "content": "interest rates for savers , including",
+            "column_min": 228,
+            "row_min": 556,
+            "column_max": 951,
+            "row_max": 604,
+            "width": 723,
+            "height": 48
+        },
+        {
+            "id": 15,
+            "content": "differences with how rates are set for",
+            "column_min": 229,
+            "row_min": 625,
+            "column_max": 1025,
+            "row_max": 660,
+            "width": 796,
+            "height": 35
+        },
+        {
+            "id": 16,
+            "content": "home loans . bit.ly/40U9EYH",
+            "column_min": 228,
+            "row_min": 684,
+            "column_max": 834,
+            "row_max": 734,
+            "width": 606,
+            "height": 50
+        },
+        {
+            "id": 17,
+            "content": "24",
+            "column_min": 652,
+            "row_min": 249,
+            "column_max": 696,
+            "row_max": 278,
+            "width": 44,
+            "height": 29
+        },
+        {
+            "id": 18,
+            "content": "175",
+            "column_min": 411,
+            "row_min": 1225,
+            "column_max": 494,
+            "row_max": 1261,
+            "width": 83,
+            "height": 36
+        },
+        {
+            "id": 19,
+            "content": "Following",
+            "column_min": 696,
+            "row_min": 125,
+            "column_max": 903,
+            "row_max": 168,
+            "width": 207,
+            "height": 43
+        },
+        {
+            "id": 20,
+            "content": "ACCC launches inquiry",
+            "column_min": 348,
+            "row_min": 896,
+            "column_max": 857,
+            "row_max": 939,
+            "width": 509,
+            "height": 43
+        },
+        {
+            "id": 21,
+            "content": "into retail deposit products",
+            "column_min": 350,
+            "row_min": 950,
+            "column_max": 959,
+            "row_max": 992,
+            "width": 609,
+            "height": 42
+        },
+        {
+            "id": 22,
+            "content": "To :",
+            "column_min": 468,
+            "row_min": 1800,
+            "column_max": 505,
+            "row_max": 1819,
+            "width": 37,
+            "height": 19
+        },
+        {
+            "id": 23,
+            "content": "From :",
+            "column_min": 467,
+            "row_min": 1836,
+            "column_max": 533,
+            "row_max": 1855,
+            "width": 66,
+            "height": 19
+        },
+        {
+            "id": 24,
+            "content": "53 %",
+            "column_min": 903,
+            "row_min": 19,
+            "column_max": 977,
+            "row_max": 50,
+            "width": 74,
+            "height": 31
+        },
+        {
+            "id": 25,
+            "content": "110",
+            "column_min": 524,
+            "row_min": 1930,
+            "column_max": 556,
+            "row_max": 1954,
+            "width": 32,
+            "height": 24
+        },
+        {
+            "id": 26,
+            "content": "CSIRO",
+            "column_min": 229,
+            "row_min": 1348,
+            "column_max": 371,
+            "row_max": 1381,
+            "width": 142,
+            "height": 33
+        },
+        {
+            "id": 27,
+            "content": "@CSIRO . 1d",
+            "column_min": 442,
+            "row_min": 1348,
+            "column_max": 707,
+            "row_max": 1381,
+            "width": 265,
+            "height": 33
+        },
+        {
+            "id": 28,
+            "content": "Roses are red .",
+            "column_min": 229,
+            "row_min": 1411,
+            "column_max": 532,
+            "row_max": 1447,
+            "width": 303,
+            "height": 36
+        },
+        {
+            "id": 29,
+            "content": "Dung beetles like poo .",
+            "column_min": 229,
+            "row_min": 1474,
+            "column_max": 702,
+            "row_max": 1518,
+            "width": 473,
+            "height": 44
+        },
+        {
+            "id": 30,
+            "content": "Need a Valentine's gift ?",
+            "column_min": 231,
+            "row_min": 1537,
+            "column_max": 732,
+            "row_max": 1583,
+            "width": 501,
+            "height": 46
+        },
+        {
+            "id": 31,
+            "content": "We made these cards for you",
+            "column_min": 226,
+            "row_min": 1597,
+            "column_max": 845,
+            "row_max": 1647,
+            "width": 619,
+            "height": 50
+        },
+        {
+            "id": 32,
+            "content": ".",
+            "column_min": 852,
+            "row_min": 1607,
+            "column_max": 863,
+            "row_max": 1647,
+            "width": 11,
+            "height": 40
+        },
+        {
+            "id": 33,
+            "content": "stands for romance .",
+            "column_min": 260,
+            "row_min": 1679,
+            "column_max": 531,
+            "row_max": 1706,
+            "width": 271,
+            "height": 27
+        },
+        {
+            "id": 34,
+            "content": "\u20813,909",
+            "column_min": 792,
+            "row_min": 249,
+            "column_max": 940,
+            "row_max": 285,
+            "width": 148,
+            "height": 36
+        },
+        {
+            "id": 35,
+            "content": "ALT",
+            "column_min": 680,
+            "row_min": 1830,
+            "column_max": 741,
+            "row_max": 1854,
+            "width": 61,
+            "height": 24
+        },
+        {
+            "id": 36,
+            "content": "\u2081584",
+            "column_min": 787,
+            "row_min": 1229,
+            "column_max": 909,
+            "row_max": 1266,
+            "width": 122,
+            "height": 37
+        },
+        {
+            "id": 37,
+            "content": "am li",
+            "column_min": 810,
+            "row_min": 1684,
+            "column_max": 871,
+            "row_max": 1704,
+            "width": 61,
+            "height": 20
+        },
+        {
+            "id": 38,
+            "content": "what",
+            "column_min": 785,
+            "row_min": 1724,
+            "column_max": 849,
+            "row_max": 1745,
+            "width": 64,
+            "height": 21
+        },
+        {
+            "id": 39,
+            "content": "To :",
+            "column_min": 786,
+            "row_min": 1784,
+            "column_max": 822,
+            "row_max": 1803,
+            "width": 36,
+            "height": 19
+        },
+        {
+            "id": 40,
+            "content": "From :",
+            "column_min": 785,
+            "row_min": 1818,
+            "column_max": 852,
+            "row_max": 1837,
+            "width": 67,
+            "height": 19
+        },
+        {
+            "id": 41,
+            "content": "+",
+            "column_min": 925,
+            "row_min": 1707,
+            "column_max": 971,
+            "row_max": 1762,
+            "width": 46,
+            "height": 55
+        }
+    ]
+}

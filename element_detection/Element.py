@@ -61,6 +61,22 @@ class Element:
             info['parent'] = self.parent
         return info
 
+    def wrap_info_ui_guard(self):
+        class_mapping = {"Text Button": "Button",
+                         "Input": "EditText",
+                         "Switch": "CheckBox",
+                         "Image": "ImageView",
+                         "Icon": "ImageButton",
+                         "Checkbox": "CheckBox"}
+        attrs = {'id': self.id, 'bbox': [self.col_min, self.row_min, self.col_max, self.row_max]}
+        if self.category == 'Compo':
+            attrs["category"] = class_mapping[self.compo_class]
+        else:
+            attrs['category'] = 'TextView'
+            attrs["ori_text"] = self.text_content
+            attrs["text"] = self.text_content.lower()
+        return attrs
+
     def draw_element(self, board, color=None, line=2, put_text=None, show=False):
         if color is None:
             color = (0, 255, 0) if self.category == 'Compo' else (0, 0, 255)

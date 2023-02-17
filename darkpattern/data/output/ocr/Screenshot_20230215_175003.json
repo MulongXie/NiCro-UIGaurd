@@ -1,0 +1,179 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "0.5K",
+            "column_min": 49,
+            "row_min": 21,
+            "column_max": 126,
+            "row_max": 48,
+            "width": 77,
+            "height": 27
+        },
+        {
+            "id": 1,
+            "content": "tt +",
+            "column_min": 55,
+            "row_min": 607,
+            "column_max": 114,
+            "row_max": 665,
+            "width": 59,
+            "height": 58
+        },
+        {
+            "id": 2,
+            "content": "5:50 PM",
+            "column_min": 464,
+            "row_min": 24,
+            "column_max": 610,
+            "row_max": 50,
+            "width": 146,
+            "height": 26
+        },
+        {
+            "id": 3,
+            "content": "Select the kinds of notifications you",
+            "column_min": 49,
+            "row_min": 296,
+            "column_max": 780,
+            "row_max": 342,
+            "width": 731,
+            "height": 46
+        },
+        {
+            "id": 4,
+            "content": "get about your activities , interests , and",
+            "column_min": 47,
+            "row_min": 352,
+            "column_max": 843,
+            "row_max": 395,
+            "width": 796,
+            "height": 43
+        },
+        {
+            "id": 5,
+            "content": "recommendations .",
+            "column_min": 49,
+            "row_min": 407,
+            "column_max": 440,
+            "row_max": 440,
+            "width": 391,
+            "height": 33
+        },
+        {
+            "id": 6,
+            "content": "0 ,",
+            "column_min": 57,
+            "row_min": 881,
+            "column_max": 123,
+            "row_max": 935,
+            "width": 66,
+            "height": 54
+        },
+        {
+            "id": 7,
+            "content": "Notifications",
+            "column_min": 217,
+            "row_min": 104,
+            "column_max": 582,
+            "row_max": 147,
+            "width": 365,
+            "height": 43
+        },
+        {
+            "id": 8,
+            "content": "hello86655233",
+            "column_min": 258,
+            "row_min": 172,
+            "column_max": 588,
+            "row_max": 211,
+            "width": 330,
+            "height": 39
+        },
+        {
+            "id": 9,
+            "content": "53 %",
+            "column_min": 903,
+            "row_min": 19,
+            "column_max": 976,
+            "row_max": 50,
+            "width": 73,
+            "height": 31
+        },
+        {
+            "id": 10,
+            "content": "Filters",
+            "column_min": 219,
+            "row_min": 564,
+            "column_max": 355,
+            "row_max": 603,
+            "width": 136,
+            "height": 39
+        },
+        {
+            "id": 11,
+            "content": "Choose the notifications you'd like to",
+            "column_min": 217,
+            "row_min": 623,
+            "column_max": 1012,
+            "row_max": 669,
+            "width": 795,
+            "height": 46
+        },
+        {
+            "id": 12,
+            "content": "see",
+            "column_min": 216,
+            "row_min": 679,
+            "column_max": 291,
+            "row_max": 721,
+            "width": 75,
+            "height": 42
+        },
+        {
+            "id": 13,
+            "content": "and those you don't .",
+            "column_min": 360,
+            "row_min": 679,
+            "column_max": 817,
+            "row_max": 721,
+            "width": 457,
+            "height": 42
+        },
+        {
+            "id": 14,
+            "content": "Preferences",
+            "column_min": 219,
+            "row_min": 836,
+            "column_max": 504,
+            "row_max": 874,
+            "width": 285,
+            "height": 38
+        },
+        {
+            "id": 15,
+            "content": "Select your preferences by notification",
+            "column_min": 216,
+            "row_min": 893,
+            "column_max": 1010,
+            "row_max": 943,
+            "width": 794,
+            "height": 50
+        },
+        {
+            "id": 16,
+            "content": "type .",
+            "column_min": 214,
+            "row_min": 955,
+            "column_max": 317,
+            "row_max": 992,
+            "width": 103,
+            "height": 37
+        }
+    ]
+}

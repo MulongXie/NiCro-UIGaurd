@@ -1,0 +1,289 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "0.4K / s",
+            "column_min": 50,
+            "row_min": 21,
+            "column_max": 154,
+            "row_max": 49,
+            "width": 104,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "For you",
+            "column_min": 175,
+            "row_min": 123,
+            "column_max": 338,
+            "row_max": 174,
+            "width": 163,
+            "height": 51
+        },
+        {
+            "id": 2,
+            "content": "Who to follow",
+            "column_min": 33,
+            "row_min": 275,
+            "column_max": 405,
+            "row_max": 315,
+            "width": 372,
+            "height": 40
+        },
+        {
+            "id": 3,
+            "content": "Dr Karl",
+            "column_min": 140,
+            "row_min": 744,
+            "column_max": 298,
+            "row_max": 776,
+            "width": 158,
+            "height": 32
+        },
+        {
+            "id": 4,
+            "content": "@DoctorKarl",
+            "column_min": 113,
+            "row_min": 797,
+            "column_max": 381,
+            "row_max": 837,
+            "width": 268,
+            "height": 40
+        },
+        {
+            "id": 5,
+            "content": "Follow",
+            "column_min": 174,
+            "row_min": 962,
+            "column_max": 313,
+            "row_max": 997,
+            "width": 139,
+            "height": 35
+        },
+        {
+            "id": 6,
+            "content": "Show more",
+            "column_min": 35,
+            "row_min": 1144,
+            "column_max": 277,
+            "row_max": 1182,
+            "width": 242,
+            "height": 38
+        },
+        {
+            "id": 7,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 22,
+            "column_max": 610,
+            "row_max": 49,
+            "width": 146,
+            "height": 27
+        },
+        {
+            "id": 8,
+            "content": "NFL",
+            "column_min": 56,
+            "row_min": 1362,
+            "column_max": 128,
+            "row_max": 1406,
+            "width": 72,
+            "height": 44
+        },
+        {
+            "id": 9,
+            "content": "AU What a 4th quarter",
+            "column_min": 139,
+            "row_min": 1352,
+            "column_max": 633,
+            "row_max": 1402,
+            "width": 494,
+            "height": 50
+        },
+        {
+            "id": 10,
+            "content": "!",
+            "column_min": 635,
+            "row_min": 1363,
+            "column_max": 647,
+            "row_max": 1402,
+            "width": 12,
+            "height": 39
+        },
+        {
+            "id": 11,
+            "content": "Tanya",
+            "column_min": 640,
+            "row_min": 742,
+            "column_max": 769,
+            "row_max": 788,
+            "width": 129,
+            "height": 46
+        },
+        {
+            "id": 12,
+            "content": "Plibersek",
+            "column_min": 573,
+            "row_min": 807,
+            "column_max": 782,
+            "row_max": 841,
+            "width": 209,
+            "height": 34
+        },
+        {
+            "id": 13,
+            "content": "@tanya_plibersek",
+            "column_min": 520,
+            "row_min": 865,
+            "column_max": 893,
+            "row_max": 909,
+            "width": 373,
+            "height": 44
+        },
+        {
+            "id": 14,
+            "content": "Follow",
+            "column_min": 634,
+            "row_min": 963,
+            "column_max": 773,
+            "row_max": 997,
+            "width": 139,
+            "height": 34
+        },
+        {
+            "id": 15,
+            "content": "#SBLVII",
+            "column_min": 230,
+            "row_min": 1487,
+            "column_max": 397,
+            "row_max": 1522,
+            "width": 167,
+            "height": 35
+        },
+        {
+            "id": 16,
+            "content": "had it all !",
+            "column_min": 479,
+            "row_min": 1487,
+            "column_max": 672,
+            "row_max": 1522,
+            "width": 193,
+            "height": 35
+        },
+        {
+            "id": 17,
+            "content": "Following",
+            "column_min": 695,
+            "row_min": 125,
+            "column_max": 903,
+            "row_max": 169,
+            "width": 208,
+            "height": 44
+        },
+        {
+            "id": 18,
+            "content": "NFL Australia",
+            "column_min": 229,
+            "row_min": 1294,
+            "column_max": 531,
+            "row_max": 1330,
+            "width": 302,
+            "height": 36
+        },
+        {
+            "id": 19,
+            "content": "@NFLAustra ...",
+            "column_min": 657,
+            "row_min": 1294,
+            "column_max": 958,
+            "row_max": 1330,
+            "width": 301,
+            "height": 36
+        },
+        {
+            "id": 20,
+            "content": ":",
+            "column_min": 1008,
+            "row_min": 1295,
+            "column_max": 1026,
+            "row_max": 1322,
+            "width": 18,
+            "height": 27
+        },
+        {
+            "id": 21,
+            "content": "Visit Apple",
+            "column_min": 341,
+            "row_min": 1788,
+            "column_max": 546,
+            "row_max": 1832,
+            "width": 205,
+            "height": 44
+        },
+        {
+            "id": 22,
+            "content": "53 %",
+            "column_min": 903,
+            "row_min": 22,
+            "column_max": 974,
+            "row_max": 48,
+            "width": 71,
+            "height": 26
+        },
+        {
+            "id": 23,
+            "content": "Catch the replay on @ESPNAusNZ",
+            "column_min": 228,
+            "row_min": 1611,
+            "column_max": 962,
+            "row_max": 1658,
+            "width": 734,
+            "height": 47
+        },
+        {
+            "id": 24,
+            "content": "7Plus and NFLGamePass.co",
+            "column_min": 270,
+            "row_min": 1679,
+            "column_max": 869,
+            "row_max": 1714,
+            "width": 599,
+            "height": 35
+        },
+        {
+            "id": 25,
+            "content": "Ada",
+            "column_min": 997,
+            "row_min": 742,
+            "column_max": 1084,
+            "row_max": 777,
+            "width": 87,
+            "height": 35
+        },
+        {
+            "id": 26,
+            "content": "@A",
+            "column_min": 1020,
+            "row_min": 801,
+            "column_max": 1086,
+            "row_max": 835,
+            "width": 66,
+            "height": 34
+        },
+        {
+            "id": 27,
+            "content": "+",
+            "column_min": 920,
+            "row_min": 1709,
+            "column_max": 974,
+            "row_max": 1756,
+            "width": 54,
+            "height": 47
+        }
+    ]
+}

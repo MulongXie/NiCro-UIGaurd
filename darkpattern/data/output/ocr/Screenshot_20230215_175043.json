@@ -1,0 +1,199 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "0.5K",
+            "column_min": 49,
+            "row_min": 21,
+            "column_max": 126,
+            "row_max": 48,
+            "width": 77,
+            "height": 27
+        },
+        {
+            "id": 1,
+            "content": "Push notifications",
+            "column_min": 218,
+            "row_min": 132,
+            "column_max": 728,
+            "row_max": 178,
+            "width": 510,
+            "height": 46
+        },
+        {
+            "id": 2,
+            "content": "Tweets from people you follow",
+            "column_min": 48,
+            "row_min": 285,
+            "column_max": 871,
+            "row_max": 342,
+            "width": 823,
+            "height": 57
+        },
+        {
+            "id": 3,
+            "content": "Tweets",
+            "column_min": 46,
+            "row_min": 431,
+            "column_max": 194,
+            "row_max": 466,
+            "width": 148,
+            "height": 35
+        },
+        {
+            "id": 4,
+            "content": "people",
+            "column_min": 88,
+            "row_min": 499,
+            "column_max": 220,
+            "row_max": 537,
+            "width": 132,
+            "height": 38
+        },
+        {
+            "id": 5,
+            "content": "Related to you and your Tweets",
+            "column_min": 49,
+            "row_min": 628,
+            "column_max": 899,
+            "row_max": 680,
+            "width": 850,
+            "height": 52
+        },
+        {
+            "id": 6,
+            "content": "Mentions and replies",
+            "column_min": 48,
+            "row_min": 763,
+            "column_max": 489,
+            "row_max": 810,
+            "width": 441,
+            "height": 47
+        },
+        {
+            "id": 7,
+            "content": "Tailored for",
+            "column_min": 43,
+            "row_min": 831,
+            "column_max": 272,
+            "row_max": 875,
+            "width": 229,
+            "height": 44
+        },
+        {
+            "id": 8,
+            "content": "you",
+            "column_min": 279,
+            "row_min": 839,
+            "column_max": 352,
+            "row_max": 876,
+            "width": 73,
+            "height": 37
+        },
+        {
+            "id": 9,
+            "content": "Retweets",
+            "column_min": 48,
+            "row_min": 963,
+            "column_max": 243,
+            "row_max": 998,
+            "width": 195,
+            "height": 35
+        },
+        {
+            "id": 10,
+            "content": "Tailored for you",
+            "column_min": 42,
+            "row_min": 1028,
+            "column_max": 351,
+            "row_max": 1070,
+            "width": 309,
+            "height": 42
+        },
+        {
+            "id": 11,
+            "content": "Likes",
+            "column_min": 47,
+            "row_min": 1157,
+            "column_max": 154,
+            "row_max": 1193,
+            "width": 107,
+            "height": 36
+        },
+        {
+            "id": 12,
+            "content": "Tailored for you",
+            "column_min": 44,
+            "row_min": 1224,
+            "column_max": 352,
+            "row_max": 1270,
+            "width": 308,
+            "height": 46
+        },
+        {
+            "id": 13,
+            "content": "5:50 PM",
+            "column_min": 464,
+            "row_min": 23,
+            "column_max": 608,
+            "row_max": 51,
+            "width": 144,
+            "height": 28
+        },
+        {
+            "id": 14,
+            "content": "Photo tags",
+            "column_min": 46,
+            "row_min": 1385,
+            "column_max": 272,
+            "row_max": 1429,
+            "width": 226,
+            "height": 44
+        },
+        {
+            "id": 15,
+            "content": "Moments",
+            "column_min": 46,
+            "row_min": 1579,
+            "column_max": 243,
+            "row_max": 1611,
+            "width": 197,
+            "height": 32
+        },
+        {
+            "id": 16,
+            "content": "Followers and contacts",
+            "column_min": 50,
+            "row_min": 1741,
+            "column_max": 678,
+            "row_max": 1786,
+            "width": 628,
+            "height": 45
+        },
+        {
+            "id": 17,
+            "content": "New followers",
+            "column_min": 46,
+            "row_min": 1912,
+            "column_max": 344,
+            "row_max": 1946,
+            "width": 298,
+            "height": 34
+        },
+        {
+            "id": 18,
+            "content": "53 %",
+            "column_min": 904,
+            "row_min": 21,
+            "column_max": 975,
+            "row_max": 49,
+            "width": 71,
+            "height": 28
+        }
+    ]
+}

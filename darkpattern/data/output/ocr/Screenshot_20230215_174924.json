@@ -1,0 +1,249 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "1K / s",
+            "column_min": 50,
+            "row_min": 21,
+            "column_max": 120,
+            "row_max": 50,
+            "width": 70,
+            "height": 29
+        },
+        {
+            "id": 1,
+            "content": "For you",
+            "column_min": 174,
+            "row_min": 122,
+            "column_max": 337,
+            "row_max": 174,
+            "width": 163,
+            "height": 52
+        },
+        {
+            "id": 2,
+            "content": "#SBLVII",
+            "column_min": 229,
+            "row_min": 265,
+            "column_max": 398,
+            "row_max": 299,
+            "width": 169,
+            "height": 34
+        },
+        {
+            "id": 3,
+            "content": "had it all !",
+            "column_min": 479,
+            "row_min": 265,
+            "column_max": 671,
+            "row_max": 299,
+            "width": 192,
+            "height": 34
+        },
+        {
+            "id": 4,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 22,
+            "column_max": 610,
+            "row_max": 50,
+            "width": 146,
+            "height": 28
+        },
+        {
+            "id": 5,
+            "content": "Ad",
+            "column_min": 266,
+            "row_min": 1277,
+            "column_max": 308,
+            "row_max": 1301,
+            "width": 42,
+            "height": 24
+        },
+        {
+            "id": 6,
+            "content": "0:02",
+            "column_min": 341,
+            "row_min": 1277,
+            "column_max": 420,
+            "row_max": 1301,
+            "width": 79,
+            "height": 24
+        },
+        {
+            "id": 7,
+            "content": "21",
+            "column_min": 287,
+            "row_min": 1385,
+            "column_max": 330,
+            "row_max": 1416,
+            "width": 43,
+            "height": 31
+        },
+        {
+            "id": 8,
+            "content": "Catch the replay on @ESPNAusNZ",
+            "column_min": 229,
+            "row_min": 393,
+            "column_max": 964,
+            "row_max": 437,
+            "width": 735,
+            "height": 44
+        },
+        {
+            "id": 9,
+            "content": "7Plus and NFLGamePass.com",
+            "column_min": 269,
+            "row_min": 457,
+            "column_max": 907,
+            "row_max": 492,
+            "width": 638,
+            "height": 35
+        },
+        {
+            "id": 10,
+            "content": "Visit Apple",
+            "column_min": 340,
+            "row_min": 569,
+            "column_max": 545,
+            "row_max": 609,
+            "width": 205,
+            "height": 40
+        },
+        {
+            "id": 11,
+            "content": "18",
+            "column_min": 470,
+            "row_min": 1384,
+            "column_max": 510,
+            "row_max": 1414,
+            "width": 40,
+            "height": 30
+        },
+        {
+            "id": 12,
+            "content": "Promoted by Apple",
+            "column_min": 289,
+            "row_min": 1468,
+            "column_max": 634,
+            "row_max": 1507,
+            "width": 345,
+            "height": 39
+        },
+        {
+            "id": 13,
+            "content": "Following",
+            "column_min": 695,
+            "row_min": 126,
+            "column_max": 903,
+            "row_max": 170,
+            "width": 208,
+            "height": 44
+        },
+        {
+            "id": 14,
+            "content": "53 %",
+            "column_min": 903,
+            "row_min": 19,
+            "column_max": 977,
+            "row_max": 50,
+            "width": 74,
+            "height": 31
+        },
+        {
+            "id": 15,
+            "content": "Stable video",
+            "column_min": 489,
+            "row_min": 905,
+            "column_max": 786,
+            "row_max": 944,
+            "width": 297,
+            "height": 39
+        },
+        {
+            "id": 16,
+            "content": "110",
+            "column_min": 524,
+            "row_min": 1930,
+            "column_max": 556,
+            "row_max": 1953,
+            "width": 32,
+            "height": 23
+        },
+        {
+            "id": 17,
+            "content": "306",
+            "column_min": 654,
+            "row_min": 1387,
+            "column_max": 723,
+            "row_max": 1413,
+            "width": 69,
+            "height": 26
+        },
+        {
+            "id": 18,
+            "content": "2737",
+            "column_min": 768,
+            "row_min": 644,
+            "column_max": 835,
+            "row_max": 671,
+            "width": 67,
+            "height": 27
+        },
+        {
+            "id": 19,
+            "content": "1.6M",
+            "column_min": 830,
+            "row_min": 1384,
+            "column_max": 918,
+            "row_max": 1418,
+            "width": 88,
+            "height": 34
+        },
+        {
+            "id": 20,
+            "content": "CSIRO follows",
+            "column_min": 228,
+            "row_min": 1580,
+            "column_max": 502,
+            "row_max": 1616,
+            "width": 274,
+            "height": 36
+        },
+        {
+            "id": 21,
+            "content": "Guardian Environment",
+            "column_min": 230,
+            "row_min": 1654,
+            "column_max": 735,
+            "row_max": 1694,
+            "width": 505,
+            "height": 40
+        },
+        {
+            "id": 22,
+            "content": "World's oldest European hedg +",
+            "column_min": 225,
+            "row_min": 1706,
+            "column_max": 971,
+            "row_max": 1762,
+            "width": 746,
+            "height": 56
+        },
+        {
+            "id": 23,
+            "content": "discovered in Denmark",
+            "column_min": 228,
+            "row_min": 1784,
+            "column_max": 714,
+            "row_max": 1819,
+            "width": 486,
+            "height": 35
+        }
+    ]
+}

@@ -1,0 +1,279 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "4.2K",
+            "column_min": 49,
+            "row_min": 22,
+            "column_max": 124,
+            "row_max": 50,
+            "width": 75,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "&",
+            "column_min": 57,
+            "row_min": 1363,
+            "column_max": 105,
+            "row_max": 1403,
+            "width": 48,
+            "height": 40
+        },
+        {
+            "id": 2,
+            "content": "5:50 PM",
+            "column_min": 464,
+            "row_min": 23,
+            "column_max": 611,
+            "row_max": 50,
+            "width": 147,
+            "height": 27
+        },
+        {
+            "id": 3,
+            "content": "Settings",
+            "column_min": 216,
+            "row_min": 102,
+            "column_max": 446,
+            "row_max": 158,
+            "width": 230,
+            "height": 56
+        },
+        {
+            "id": 4,
+            "content": "hello86655233",
+            "column_min": 257,
+            "row_min": 174,
+            "column_max": 589,
+            "row_max": 208,
+            "width": 332,
+            "height": 34
+        },
+        {
+            "id": 5,
+            "content": "53 %",
+            "column_min": 906,
+            "row_min": 21,
+            "column_max": 976,
+            "row_max": 51,
+            "width": 70,
+            "height": 30
+        },
+        {
+            "id": 6,
+            "content": "Search settings",
+            "column_min": 400,
+            "row_min": 296,
+            "column_max": 729,
+            "row_max": 354,
+            "width": 329,
+            "height": 58
+        },
+        {
+            "id": 7,
+            "content": "See how you can make money",
+            "column_min": 217,
+            "row_min": 418,
+            "column_max": 859,
+            "row_max": 465,
+            "width": 642,
+            "height": 47
+        },
+        {
+            "id": 8,
+            "content": "on",
+            "column_min": 872,
+            "row_min": 426,
+            "column_max": 918,
+            "row_max": 465,
+            "width": 46,
+            "height": 39
+        },
+        {
+            "id": 9,
+            "content": "Twitter and manage your monetization",
+            "column_min": 215,
+            "row_min": 475,
+            "column_max": 1013,
+            "row_max": 516,
+            "width": 798,
+            "height": 41
+        },
+        {
+            "id": 10,
+            "content": "options .",
+            "column_min": 216,
+            "row_min": 528,
+            "column_max": 379,
+            "row_max": 568,
+            "width": 163,
+            "height": 40
+        },
+        {
+            "id": 11,
+            "content": "Privacy and safety",
+            "column_min": 218,
+            "row_min": 681,
+            "column_max": 649,
+            "row_max": 730,
+            "width": 431,
+            "height": 49
+        },
+        {
+            "id": 12,
+            "content": "Manage what information you see and",
+            "column_min": 218,
+            "row_min": 746,
+            "column_max": 1015,
+            "row_max": 787,
+            "width": 797,
+            "height": 41
+        },
+        {
+            "id": 13,
+            "content": "share on Twitter .",
+            "column_min": 217,
+            "row_min": 800,
+            "column_max": 560,
+            "row_max": 833,
+            "width": 343,
+            "height": 33
+        },
+        {
+            "id": 14,
+            "content": "Notifications",
+            "column_min": 217,
+            "row_min": 956,
+            "column_max": 511,
+            "row_max": 992,
+            "width": 294,
+            "height": 36
+        },
+        {
+            "id": 15,
+            "content": "Select the kinds of notifications you",
+            "column_min": 216,
+            "row_min": 1015,
+            "column_max": 947,
+            "row_max": 1059,
+            "width": 731,
+            "height": 44
+        },
+        {
+            "id": 16,
+            "content": "get about your activities , interests , and",
+            "column_min": 216,
+            "row_min": 1069,
+            "column_max": 1011,
+            "row_max": 1113,
+            "width": 795,
+            "height": 44
+        },
+        {
+            "id": 17,
+            "content": "recommendations .",
+            "column_min": 217,
+            "row_min": 1124,
+            "column_max": 608,
+            "row_max": 1158,
+            "width": 391,
+            "height": 34
+        },
+        {
+            "id": 18,
+            "content": "Accessibility , display and",
+            "column_min": 215,
+            "row_min": 1281,
+            "column_max": 799,
+            "row_max": 1328,
+            "width": 584,
+            "height": 47
+        },
+        {
+            "id": 19,
+            "content": "languages",
+            "column_min": 216,
+            "row_min": 1339,
+            "column_max": 460,
+            "row_max": 1385,
+            "width": 244,
+            "height": 46
+        },
+        {
+            "id": 20,
+            "content": "Manage how Twitter content is",
+            "column_min": 216,
+            "row_min": 1398,
+            "column_max": 854,
+            "row_max": 1443,
+            "width": 638,
+            "height": 45
+        },
+        {
+            "id": 21,
+            "content": "displayed to you .",
+            "column_min": 215,
+            "row_min": 1453,
+            "column_max": 569,
+            "row_max": 1497,
+            "width": 354,
+            "height": 44
+        },
+        {
+            "id": 22,
+            "content": "Proxy",
+            "column_min": 218,
+            "row_min": 1935,
+            "column_max": 350,
+            "row_max": 1981,
+            "width": 132,
+            "height": 46
+        },
+        {
+            "id": 23,
+            "content": "Additional resources",
+            "column_min": 214,
+            "row_min": 1608,
+            "column_max": 701,
+            "row_max": 1653,
+            "width": 487,
+            "height": 45
+        },
+        {
+            "id": 24,
+            "content": "Check out other places for helpful",
+            "column_min": 217,
+            "row_min": 1668,
+            "column_max": 918,
+            "row_max": 1717,
+            "width": 701,
+            "height": 49
+        },
+        {
+            "id": 25,
+            "content": "information to learn more about Twitter",
+            "column_min": 216,
+            "row_min": 1727,
+            "column_max": 1029,
+            "row_max": 1761,
+            "width": 813,
+            "height": 34
+        },
+        {
+            "id": 26,
+            "content": "products and services .",
+            "column_min": 216,
+            "row_min": 1776,
+            "column_max": 687,
+            "row_max": 1821,
+            "width": 471,
+            "height": 45
+        }
+    ]
+}

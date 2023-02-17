@@ -1,0 +1,239 @@
+{
+    "img_shape": [
+        2160,
+        1080,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "0.9K / s",
+            "column_min": 49,
+            "row_min": 21,
+            "column_max": 154,
+            "row_max": 49,
+            "width": 105,
+            "height": 28
+        },
+        {
+            "id": 1,
+            "content": "CSIRO",
+            "column_min": 59,
+            "row_min": 516,
+            "column_max": 174,
+            "row_max": 543,
+            "width": 115,
+            "height": 27
+        },
+        {
+            "id": 2,
+            "content": "For you",
+            "column_min": 174,
+            "row_min": 291,
+            "column_max": 337,
+            "row_max": 342,
+            "width": 163,
+            "height": 51
+        },
+        {
+            "id": 3,
+            "content": "5:49 PM",
+            "column_min": 464,
+            "row_min": 23,
+            "column_max": 610,
+            "row_max": 50,
+            "width": 146,
+            "height": 27
+        },
+        {
+            "id": 4,
+            "content": "53 %",
+            "column_min": 906,
+            "row_min": 21,
+            "column_max": 976,
+            "row_max": 51,
+            "width": 70,
+            "height": 30
+        },
+        {
+            "id": 5,
+            "content": "Following",
+            "column_min": 697,
+            "row_min": 291,
+            "column_max": 902,
+            "row_max": 336,
+            "width": 205,
+            "height": 45
+        },
+        {
+            "id": 6,
+            "content": "CSIRO",
+            "column_min": 229,
+            "row_min": 426,
+            "column_max": 371,
+            "row_max": 459,
+            "width": 142,
+            "height": 33
+        },
+        {
+            "id": 7,
+            "content": "@CSIRO . 1d",
+            "column_min": 442,
+            "row_min": 426,
+            "column_max": 707,
+            "row_max": 459,
+            "width": 265,
+            "height": 33
+        },
+        {
+            "id": 8,
+            "content": "Planting the seeds of success in",
+            "column_min": 230,
+            "row_min": 491,
+            "column_max": 911,
+            "row_max": 533,
+            "width": 681,
+            "height": 42
+        },
+        {
+            "id": 9,
+            "content": "STEM .",
+            "column_min": 227,
+            "row_min": 555,
+            "column_max": 365,
+            "row_max": 589,
+            "width": 138,
+            "height": 34
+        },
+        {
+            "id": 10,
+            "content": "Our STEM Community Partnerships",
+            "column_min": 228,
+            "row_min": 680,
+            "column_max": 987,
+            "row_max": 728,
+            "width": 759,
+            "height": 48
+        },
+        {
+            "id": 11,
+            "content": "Program has partnered with @Telstra",
+            "column_min": 230,
+            "row_min": 742,
+            "column_max": 1011,
+            "row_max": 792,
+            "width": 781,
+            "height": 50
+        },
+        {
+            "id": 12,
+            "content": "to inspire students to pursue a career",
+            "column_min": 227,
+            "row_min": 810,
+            "column_max": 1028,
+            "row_max": 858,
+            "width": 801,
+            "height": 48
+        },
+        {
+            "id": 13,
+            "content": "in STEM .",
+            "column_min": 227,
+            "row_min": 874,
+            "column_max": 415,
+            "row_max": 912,
+            "width": 188,
+            "height": 38
+        },
+        {
+            "id": 14,
+            "content": "The program empowers students by",
+            "column_min": 228,
+            "row_min": 999,
+            "column_max": 991,
+            "row_max": 1051,
+            "width": 763,
+            "height": 52
+        },
+        {
+            "id": 15,
+            "content": "showcasing the relevance of STEM in",
+            "column_min": 229,
+            "row_min": 1063,
+            "column_max": 1019,
+            "row_max": 1110,
+            "width": 790,
+            "height": 47
+        },
+        {
+            "id": 16,
+            "content": "everyday life",
+            "column_min": 227,
+            "row_min": 1125,
+            "column_max": 490,
+            "row_max": 1177,
+            "width": 263,
+            "height": 52
+        },
+        {
+            "id": 17,
+            "content": ".",
+            "column_min": 497,
+            "row_min": 1125,
+            "column_max": 506,
+            "row_max": 1168,
+            "width": 9,
+            "height": 43
+        },
+        {
+            "id": 18,
+            "content": "110",
+            "column_min": 524,
+            "row_min": 1930,
+            "column_max": 556,
+            "row_max": 1953,
+            "width": 32,
+            "height": 23
+        },
+        {
+            "id": 19,
+            "content": "csiro.au",
+            "column_min": 253,
+            "row_min": 1662,
+            "column_max": 418,
+            "row_max": 1695,
+            "width": 165,
+            "height": 33
+        },
+        {
+            "id": 20,
+            "content": "Generation STEM partners",
+            "column_min": 253,
+            "row_min": 1704,
+            "column_max": 819,
+            "row_max": 1761,
+            "width": 566,
+            "height": 57
+        },
+        {
+            "id": 21,
+            "content": "+",
+            "column_min": 922,
+            "row_min": 1710,
+            "column_max": 972,
+            "row_max": 1761,
+            "width": 50,
+            "height": 51
+        },
+        {
+            "id": 22,
+            "content": "Telstra to build the future STEM",
+            "column_min": 252,
+            "row_min": 1781,
+            "column_max": 918,
+            "row_max": 1817,
+            "width": 666,
+            "height": 36
+        }
+    ]
+}

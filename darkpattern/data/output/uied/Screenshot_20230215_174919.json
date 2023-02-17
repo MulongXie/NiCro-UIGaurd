@@ -1,0 +1,415 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Compo",
+            "height": 30,
+            "width": 150,
+            "position": {
+                "column_min": 34,
+                "row_min": 75,
+                "column_max": 184,
+                "row_max": 105
+            }
+        },
+        {
+            "id": 1,
+            "class": "Compo",
+            "height": 14,
+            "width": 13,
+            "position": {
+                "column_min": 57,
+                "row_min": 164,
+                "column_max": 70,
+                "row_max": 178
+            }
+        },
+        {
+            "id": 2,
+            "class": "Compo",
+            "height": 60,
+            "width": 61,
+            "position": {
+                "column_min": 12,
+                "row_min": 189,
+                "column_max": 73,
+                "row_max": 249
+            },
+            "children": [
+                17
+            ]
+        },
+        {
+            "id": 3,
+            "class": "Compo",
+            "height": 17,
+            "width": 17,
+            "position": {
+                "column_min": 274,
+                "row_min": 190,
+                "column_max": 291,
+                "row_max": 207
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 240,
+            "width": 303,
+            "position": {
+                "column_min": 83,
+                "row_min": 288,
+                "column_max": 386,
+                "row_max": 528
+            },
+            "children": [
+                18,
+                19
+            ]
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 16,
+            "width": 17,
+            "position": {
+                "column_min": 220,
+                "row_min": 545,
+                "column_max": 237,
+                "row_max": 561
+            }
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "height": 17,
+            "width": 17,
+            "position": {
+                "column_min": 354,
+                "row_min": 544,
+                "column_max": 371,
+                "row_max": 561
+            }
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 11,
+            "width": 7,
+            "position": {
+                "column_min": 241,
+                "row_min": 547,
+                "column_max": 248,
+                "row_max": 558
+            }
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 79,
+            "width": 217,
+            "position": {
+                "column_min": 182,
+                "row_min": 611,
+                "column_max": 399,
+                "row_max": 690
+            }
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 44,
+            "width": 146,
+            "position": {
+                "column_min": 12,
+                "row_min": 646,
+                "column_max": 158,
+                "row_max": 690
+            }
+        },
+        {
+            "id": 10,
+            "class": "Compo",
+            "height": 23,
+            "width": 26,
+            "position": {
+                "column_min": 26,
+                "row_min": 711,
+                "column_max": 52,
+                "row_max": 734
+            }
+        },
+        {
+            "id": 11,
+            "class": "Compo",
+            "height": 22,
+            "width": 23,
+            "position": {
+                "column_min": 107,
+                "row_min": 711,
+                "column_max": 130,
+                "row_max": 733
+            }
+        },
+        {
+            "id": 12,
+            "class": "Compo",
+            "height": 23,
+            "width": 24,
+            "position": {
+                "column_min": 187,
+                "row_min": 711,
+                "column_max": 211,
+                "row_max": 734
+            }
+        },
+        {
+            "id": 13,
+            "class": "Compo",
+            "height": 23,
+            "width": 21,
+            "position": {
+                "column_min": 269,
+                "row_min": 711,
+                "column_max": 290,
+                "row_max": 734
+            }
+        },
+        {
+            "id": 14,
+            "class": "Compo",
+            "height": 20,
+            "width": 22,
+            "position": {
+                "column_min": 348,
+                "row_min": 712,
+                "column_max": 370,
+                "row_max": 732
+            }
+        },
+        {
+            "id": 15,
+            "class": "Compo",
+            "height": 17,
+            "width": 26,
+            "position": {
+                "column_min": 186,
+                "row_min": 768,
+                "column_max": 212,
+                "row_max": 785
+            }
+        },
+        {
+            "id": 16,
+            "class": "Compo",
+            "height": 16,
+            "width": 19,
+            "position": {
+                "column_min": 311,
+                "row_min": 768,
+                "column_max": 330,
+                "row_max": 784
+            }
+        },
+        {
+            "id": 17,
+            "class": "Compo",
+            "height": 37,
+            "width": 58,
+            "position": {
+                "column_min": 14,
+                "row_min": 190,
+                "column_max": 72,
+                "row_max": 227
+            },
+            "parent": 2
+        },
+        {
+            "id": 18,
+            "class": "Compo",
+            "height": 39,
+            "width": 107,
+            "position": {
+                "column_min": 278,
+                "row_min": 405,
+                "column_max": 385,
+                "row_max": 444
+            },
+            "parent": 4
+        },
+        {
+            "id": 19,
+            "class": "Compo",
+            "height": 81,
+            "width": 300,
+            "position": {
+                "column_min": 85,
+                "row_min": 446,
+                "column_max": 385,
+                "row_max": 527
+            },
+            "parent": 4
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 17,
+            "width": 61,
+            "position": {
+                "column_min": 64,
+                "row_min": 46,
+                "column_max": 125,
+                "row_max": 63
+            },
+            "text_content": "For you"
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 11,
+            "width": 102,
+            "position": {
+                "column_min": 85,
+                "row_min": 164,
+                "column_max": 187,
+                "row_max": 175
+            },
+            "text_content": "CSIRO follows"
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 13,
+            "width": 188,
+            "position": {
+                "column_min": 84,
+                "row_min": 191,
+                "column_max": 272,
+                "row_max": 204
+            },
+            "text_content": "Guardian Environment"
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 13,
+            "width": 46,
+            "position": {
+                "column_min": 296,
+                "row_min": 191,
+                "column_max": 342,
+                "row_max": 204
+            },
+            "text_content": ". 55m"
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 14,
+            "width": 276,
+            "position": {
+                "column_min": 84,
+                "row_min": 214,
+                "column_max": 360,
+                "row_max": 228
+            },
+            "text_content": "More than 350 birds found dead at"
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 14,
+            "width": 302,
+            "position": {
+                "column_min": 84,
+                "row_min": 238,
+                "column_max": 386,
+                "row_max": 252
+            },
+            "text_content": "Victorian nature reserve as authorities"
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 16,
+            "width": 138,
+            "position": {
+                "column_min": 84,
+                "row_min": 262,
+                "column_max": 222,
+                "row_max": 278
+            },
+            "text_content": "investigate cause"
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 16,
+            "width": 29,
+            "position": {
+                "column_min": 85,
+                "row_min": 543,
+                "column_max": 114,
+                "row_max": 559
+            },
+            "text_content": "Q1"
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 13,
+            "width": 32,
+            "position": {
+                "column_min": 151,
+                "row_min": 545,
+                "column_max": 183,
+                "row_max": 558
+            },
+            "text_content": "123"
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 15,
+            "width": 136,
+            "position": {
+                "column_min": 13,
+                "row_min": 599,
+                "column_max": 149,
+                "row_max": 614
+            },
+            "text_content": "Who to follow"
+        },
+        {
+            "id": 30,
+            "class": "Text",
+            "height": 17,
+            "width": 76,
+            "position": {
+                "column_min": 258,
+                "row_min": 46,
+                "column_max": 334,
+                "row_max": 63
+            },
+            "text_content": "Following"
+        },
+        {
+            "id": 31,
+            "class": "Text",
+            "height": 13,
+            "width": 53,
+            "position": {
+                "column_min": 293,
+                "row_min": 546,
+                "column_max": 346,
+                "row_max": 559
+            },
+            "text_content": "\u20811,035"
+        }
+    ],
+    "img_shape": [
+        800,
+        400,
+        3
+    ]
+}

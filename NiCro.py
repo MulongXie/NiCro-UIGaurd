@@ -6,9 +6,9 @@ import numpy as np
 import os
 from os.path import join as pjoin
 
-from Device import Device
+from utils.Device import Device
 from element_matching.GUI_pair import GUIPair
-from Robot import Robot
+from utils.Robot import Robot
 
 from ppadb.client import Client as AdbClient
 client = AdbClient(host="127.0.0.1", port=5037)

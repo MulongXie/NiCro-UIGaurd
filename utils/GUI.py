@@ -313,9 +313,15 @@ class GUI:
             cv2.destroyAllWindows()
         return board
 
+    def get_elements_info_ui_guard(self):
+        ele_info = []
+        for ele in self.elements:
+            ele_info.append(ele.wrap_info_ui_guard())
+        return ele_info
+
 
 if __name__ == '__main__':
-    gui = GUI('data/input/2.png')
+    gui = GUI('../data/input/2.png')
     gui.detect_element(True, True, True, ocr_opt='google')
     gui.show_detection_result()
 
