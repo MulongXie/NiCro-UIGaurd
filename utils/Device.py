@@ -1,6 +1,7 @@
 import cv2
 import time
-from GUI import GUI
+from utils.GUI import GUI
+from utils.UIGuard import UIGuard
 
 
 class Device:
@@ -39,6 +40,14 @@ class Device:
             self.GUI.detect_element(True, True, True, paddle_ocr=paddle_ocr, ocr_opt=ocr_opt, verbose=verbose)
         if show:
             self.GUI.show_detection_result()
+
+    def detect_dark_pattern(self, model_loader):
+        '''
+        Detect if the gui has dark pattern according to the GUI information
+        '''
+        self.GUI.classify_compos(model_loader=model_loader)
+        dark_pattern = UIGuard(model_loader=model_loader)
+        dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
 
     def update_screenshot_and_gui(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', verbose=True):
         self.cap_screenshot()

@@ -71,19 +71,27 @@ class NiCro:
         self.source_device = self.devices[device_id]
         self.get_devices_info()
 
-    def detect_gui_info_for_all_devices(self, load_detection_result=False, show=True, verbose=True):
+    def detect_gui_info_for_all_devices(self, load_detection_result=False, show=True, verbose=True, dark_pattern=False, model_loader=None):
         '''
         Detect GUI elements from the GUI images of all devices
         :param load_detection_result: True to load previous detection result if any
         :param show: True to visualize the detection results
         :param verbose: True to print out the detailed log of detection
+        :param dark_pattern: True to detect dark pattern
+        :param model_loader: ModelLoader for dark pattern detection
         '''
         for i, device in enumerate(self.devices):
             print('\n****** GUI Component Detection Device [%d / %d] ******' % (i + 1, len(self.devices)))
             device.update_screenshot_and_gui(self.paddle_ocr, load_detection_result, show, ocr_opt=self.ocr_opt, verbose=verbose)
+            if dark_pattern:
+                print('*** Dark Pattern Detection ***')
+                device.detect_dark_pattern(model_loader)
         if self.robot is not None:
             print('\n****** GUI Component Detection Robot Arm [1 / 1] ******')
             self.robot.detect_gui_element(self.paddle_ocr, load_detection_result, show=show, ocr_opt=self.ocr_opt, verbose=verbose)
+            if dark_pattern:
+                print('*** Dark Pattern Detection ***')
+                self.robot.detect_dark_pattern(model_loader)
 
     def show_all_device_detection_results(self):
         for device in self.devices:

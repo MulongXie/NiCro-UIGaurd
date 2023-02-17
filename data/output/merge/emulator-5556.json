@@ -15,59 +15,511 @@
         {
             "id": 1,
             "class": "Compo",
-            "height": 18,
-            "width": 18,
+            "height": 39,
+            "width": 348,
             "position": {
-                "column_min": 345,
-                "row_min": 744,
-                "column_max": 363,
-                "row_max": 762
+                "column_min": 14,
+                "row_min": 85,
+                "column_max": 362,
+                "row_max": 124
             },
             "children": [
-                3
+                2,
+                12
             ]
         },
         {
             "id": 2,
-            "class": "Text",
-            "height": 14,
-            "width": 53,
+            "class": "Compo",
+            "height": 20,
+            "width": 20,
             "position": {
-                "column_min": 69,
-                "row_min": 42,
-                "column_max": 122,
-                "row_max": 56
+                "column_min": 121,
+                "row_min": 94,
+                "column_max": 141,
+                "row_max": 114
             },
-            "text_content": "Tweet",
-            "keyboard": false
+            "parent": 1
         },
         {
             "id": 3,
+            "class": "Compo",
+            "height": 19,
+            "width": 18,
+            "position": {
+                "column_min": 17,
+                "row_min": 172,
+                "column_max": 35,
+                "row_max": 191
+            }
+        },
+        {
+            "id": 4,
+            "class": "Compo",
+            "height": 19,
+            "width": 16,
+            "position": {
+                "column_min": 18,
+                "row_min": 275,
+                "column_max": 34,
+                "row_max": 294
+            },
+            "children": [
+                19
+            ]
+        },
+        {
+            "id": 5,
+            "class": "Compo",
+            "height": 18,
+            "width": 20,
+            "position": {
+                "column_min": 16,
+                "row_min": 370,
+                "column_max": 36,
+                "row_max": 388
+            }
+        },
+        {
+            "id": 6,
+            "class": "Compo",
+            "height": 18,
+            "width": 22,
+            "position": {
+                "column_min": 15,
+                "row_min": 457,
+                "column_max": 37,
+                "row_max": 475
+            }
+        },
+        {
+            "id": 7,
+            "class": "Compo",
+            "height": 20,
+            "width": 18,
+            "position": {
+                "column_min": 17,
+                "row_min": 542,
+                "column_max": 35,
+                "row_max": 562
+            }
+        },
+        {
+            "id": 8,
+            "class": "Compo",
+            "height": 20,
+            "width": 18,
+            "position": {
+                "column_min": 17,
+                "row_min": 628,
+                "column_max": 35,
+                "row_max": 648
+            }
+        },
+        {
+            "id": 9,
+            "class": "Compo",
+            "height": 21,
+            "width": 20,
+            "position": {
+                "column_min": 16,
+                "row_min": 706,
+                "column_max": 36,
+                "row_max": 727
+            }
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 19,
+            "width": 74,
+            "position": {
+                "column_min": 69,
+                "row_min": 32,
+                "column_max": 143,
+                "row_max": 51
+            },
+            "text_content": "Settings",
+            "keyboard": false
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 14,
+            "width": 74,
+            "position": {
+                "column_min": 69,
+                "row_min": 56,
+                "column_max": 143,
+                "row_max": 70
+            },
+            "text_content": "@MulongX",
+            "keyboard": false
+        },
+        {
+            "id": 12,
             "class": "Text",
             "height": 13,
-            "width": 12,
+            "width": 99,
             "position": {
-                "column_min": 348,
-                "row_min": 742,
-                "column_max": 360,
-                "row_max": 755
+                "column_min": 148,
+                "row_min": 98,
+                "column_max": 247,
+                "row_max": 111
             },
-            "text_content": "o(",
+            "text_content": "Search settings",
             "keyboard": false,
             "parent": 1
         },
         {
-            "id": 4,
+            "id": 13,
+            "class": "Text",
+            "height": 11,
+            "width": 91,
+            "position": {
+                "column_min": 69,
+                "row_min": 152,
+                "column_max": 160,
+                "row_max": 163
+            },
+            "text_content": "Your account",
+            "keyboard": false
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 13,
+            "width": 282,
+            "position": {
+                "column_min": 69,
+                "row_min": 171,
+                "column_max": 351,
+                "row_max": 184
+            },
+            "text_content": "See information about your account , download",
+            "keyboard": false
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 13,
+            "width": 259,
+            "position": {
+                "column_min": 69,
+                "row_min": 187,
+                "column_max": 328,
+                "row_max": 200
+            },
+            "text_content": "an archive of your data , or learn about your",
+            "keyboard": false
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 12,
+            "width": 181,
+            "position": {
+                "column_min": 69,
+                "row_min": 203,
+                "column_max": 250,
+                "row_max": 215
+            },
+            "text_content": "account deactivation options .",
+            "keyboard": false
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 13,
+            "width": 195,
+            "position": {
+                "column_min": 69,
+                "row_min": 254,
+                "column_max": 264,
+                "row_max": 267
+            },
+            "text_content": "Security and account access",
+            "keyboard": false
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 13,
+            "width": 283,
+            "position": {
+                "column_min": 70,
+                "row_min": 274,
+                "column_max": 353,
+                "row_max": 287
+            },
+            "text_content": "Manage your account's security and keep track",
+            "keyboard": false
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 13,
+            "width": 10,
+            "position": {
+                "column_min": 23,
+                "row_min": 276,
+                "column_max": 33,
+                "row_max": 289
+            },
+            "text_content": "do",
+            "keyboard": false,
+            "parent": 4
+        },
+        {
+            "id": 20,
             "class": "Text",
             "height": 14,
-            "width": 105,
+            "width": 286,
             "position": {
-                "column_min": 11,
-                "row_min": 746,
-                "column_max": 116,
-                "row_max": 760
+                "column_min": 69,
+                "row_min": 289,
+                "column_max": 355,
+                "row_max": 303
             },
-            "text_content": "Tweet your reply",
+            "text_content": "of your account's usage including apps that you",
+            "keyboard": false
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 14,
+            "width": 197,
+            "position": {
+                "column_min": 69,
+                "row_min": 305,
+                "column_max": 266,
+                "row_max": 319
+            },
+            "text_content": "have connected to your account .",
+            "keyboard": false
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 11,
+            "width": 81,
+            "position": {
+                "column_min": 69,
+                "row_min": 356,
+                "column_max": 150,
+                "row_max": 367
+            },
+            "text_content": "Twitter Blue",
+            "keyboard": false
+        },
+        {
+            "id": 23,
+            "class": "Text",
+            "height": 14,
+            "width": 217,
+            "position": {
+                "column_min": 69,
+                "row_min": 376,
+                "column_max": 286,
+                "row_max": 390
+            },
+            "text_content": "Manage your subscription's features",
+            "keyboard": false
+        },
+        {
+            "id": 24,
+            "class": "Text",
+            "height": 14,
+            "width": 54,
+            "position": {
+                "column_min": 293,
+                "row_min": 376,
+                "column_max": 347,
+                "row_max": 390
+            },
+            "text_content": "including",
+            "keyboard": false
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 15,
+            "width": 119,
+            "position": {
+                "column_min": 68,
+                "row_min": 391,
+                "column_max": 187,
+                "row_max": 406
+            },
+            "text_content": "Undo Tweet timing .",
+            "keyboard": false
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 13,
+            "width": 86,
+            "position": {
+                "column_min": 70,
+                "row_min": 441,
+                "column_max": 156,
+                "row_max": 454
+            },
+            "text_content": "Monetization",
+            "keyboard": false
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 13,
+            "width": 272,
+            "position": {
+                "column_min": 69,
+                "row_min": 462,
+                "column_max": 341,
+                "row_max": 475
+            },
+            "text_content": "See how you can make money on Twitter and",
+            "keyboard": false
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 11,
+            "width": 216,
+            "position": {
+                "column_min": 69,
+                "row_min": 480,
+                "column_max": 285,
+                "row_max": 491
+            },
+            "text_content": "manage your monetization options .",
+            "keyboard": false
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 15,
+            "width": 125,
+            "position": {
+                "column_min": 69,
+                "row_min": 528,
+                "column_max": 194,
+                "row_max": 543
+            },
+            "text_content": "Privacy and safety",
+            "keyboard": false
+        },
+        {
+            "id": 30,
+            "class": "Text",
+            "height": 13,
+            "width": 287,
+            "position": {
+                "column_min": 69,
+                "row_min": 549,
+                "column_max": 356,
+                "row_max": 562
+            },
+            "text_content": "Manage what information you see and share on",
+            "keyboard": false
+        },
+        {
+            "id": 31,
+            "class": "Text",
+            "height": 12,
+            "width": 45,
+            "position": {
+                "column_min": 69,
+                "row_min": 565,
+                "column_max": 114,
+                "row_max": 577
+            },
+            "text_content": "Twitter .",
+            "keyboard": false
+        },
+        {
+            "id": 32,
+            "class": "Text",
+            "height": 11,
+            "width": 86,
+            "position": {
+                "column_min": 69,
+                "row_min": 615,
+                "column_max": 155,
+                "row_max": 626
+            },
+            "text_content": "Notifications",
+            "keyboard": false
+        },
+        {
+            "id": 33,
+            "class": "Text",
+            "height": 13,
+            "width": 278,
+            "position": {
+                "column_min": 69,
+                "row_min": 635,
+                "column_max": 347,
+                "row_max": 648
+            },
+            "text_content": "Select the kinds of notifications you get about",
+            "keyboard": false
+        },
+        {
+            "id": 34,
+            "class": "Text",
+            "height": 12,
+            "width": 291,
+            "position": {
+                "column_min": 68,
+                "row_min": 651,
+                "column_max": 359,
+                "row_max": 663
+            },
+            "text_content": "your activities , interests , and recommendations .",
+            "keyboard": false
+        },
+        {
+            "id": 35,
+            "class": "Text",
+            "height": 14,
+            "width": 247,
+            "position": {
+                "column_min": 68,
+                "row_min": 701,
+                "column_max": 315,
+                "row_max": 715
+            },
+            "text_content": "Accessibility , display and languages",
+            "keyboard": false
+        },
+        {
+            "id": 36,
+            "class": "Text",
+            "height": 14,
+            "width": 293,
+            "position": {
+                "column_min": 69,
+                "row_min": 720,
+                "column_max": 362,
+                "row_max": 734
+            },
+            "text_content": "Manage how Twitter content is displayed to you .",
+            "keyboard": false
+        },
+        {
+            "id": 37,
+            "class": "Text",
+            "height": 7,
+            "width": 67,
+            "position": {
+                "column_min": 71,
+                "row_min": 770,
+                "column_max": 138,
+                "row_max": 777
+            },
+            "text_content": "Additional",
             "keyboard": false
         }
     ],

@@ -1,6 +1,7 @@
 import cv2
 from robot.robot_control import RobotController
 from utils.GUI import GUI
+from utils.UIGuard import UIGuard
 
 
 class Robot(RobotController):
@@ -97,6 +98,14 @@ class Robot(RobotController):
                 blur = not blur
         cv2.destroyWindow('camera')
         self.camera.release()
+
+    def detect_dark_pattern(self, model_loader):
+        '''
+        Detect if the gui has dark pattern according to the GUI information
+        '''
+        self.GUI.classify_compos(model_loader=model_loader)
+        dark_pattern = UIGuard(model_loader=model_loader)
+        dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
 
     def detect_gui_element(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', adjust_by_screen_area=True, verbose=True):
         # self.cap_frame()

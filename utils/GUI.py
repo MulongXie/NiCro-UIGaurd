@@ -36,7 +36,7 @@ class GUI:
         self.screen = None      # Element object
         self.screen_img = None
 
-        self.model_compo_classifier = model_loader.model_compo_classifier
+        self.model_compo_classifier = model_loader.model_compo_classifier if model_loader is not None else None
 
     '''
     *******************************
@@ -79,13 +79,15 @@ class GUI:
         # convert elements as Element objects
         self.cvt_elements()
 
-    def classify_compos(self):
+    def classify_compos(self, model_loader=None):
         '''
         Classify compos: ['Text Button', 'Input', 'Switch', 'Image', 'Icon', 'Checkbox']
         '''
         os.makedirs(pjoin(self.output_dir, 'cls'), exist_ok=True)
         save_file = pjoin(self.output_dir, 'cls', str(self.ui_name) + '.json')
 
+        if model_loader is not None:
+            self.model_compo_classifier = model_loader.model_compo_classifier
         labels = self.model_compo_classifier.predict_images([compo.clip for compo in self.ele_compos])
         result = {'compos': [], 'img_shape': self.img.shape}
         for i, compo in enumerate(self.ele_compos):
