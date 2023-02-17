@@ -3,6 +3,7 @@
         {
             "id": 0,
             "class": "Compo",
+            "compo_class": "Image",
             "height": 14,
             "width": 16,
             "position": {
@@ -15,6 +16,7 @@
         {
             "id": 1,
             "class": "Compo",
+            "compo_class": "Input",
             "height": 19,
             "width": 31,
             "position": {
@@ -27,6 +29,7 @@
         {
             "id": 2,
             "class": "Compo",
+            "compo_class": "Icon",
             "height": 16,
             "width": 9,
             "position": {
@@ -39,6 +42,7 @@
         {
             "id": 3,
             "class": "Compo",
+            "compo_class": "Icon",
             "height": 16,
             "width": 9,
             "position": {
@@ -51,6 +55,7 @@
         {
             "id": 4,
             "class": "Compo",
+            "compo_class": "Icon",
             "height": 15,
             "width": 9,
             "position": {
@@ -63,6 +68,7 @@
         {
             "id": 5,
             "class": "Compo",
+            "compo_class": "Icon",
             "height": 15,
             "width": 13,
             "position": {
@@ -75,6 +81,7 @@
         {
             "id": 6,
             "class": "Compo",
+            "compo_class": "Image",
             "height": 13,
             "width": 14,
             "position": {
@@ -87,6 +94,7 @@
         {
             "id": 7,
             "class": "Compo",
+            "compo_class": "Image",
             "height": 15,
             "width": 14,
             "position": {
@@ -99,6 +107,7 @@
         {
             "id": 8,
             "class": "Text",
+            "compo_class": null,
             "height": 19,
             "width": 100,
             "position": {
@@ -113,6 +122,7 @@
         {
             "id": 9,
             "class": "Text",
+            "compo_class": null,
             "height": 13,
             "width": 56,
             "position": {
@@ -127,6 +137,7 @@
         {
             "id": 10,
             "class": "Text",
+            "compo_class": null,
             "height": 14,
             "width": 351,
             "position": {
@@ -141,6 +152,7 @@
         {
             "id": 11,
             "class": "Text",
+            "compo_class": null,
             "height": 16,
             "width": 227,
             "position": {
@@ -155,6 +167,7 @@
         {
             "id": 12,
             "class": "Text",
+            "compo_class": null,
             "height": 15,
             "width": 589,
             "position": {
@@ -169,6 +182,7 @@
         {
             "id": 13,
             "class": "Text",
+            "compo_class": null,
             "height": 13,
             "width": 129,
             "position": {
@@ -183,6 +197,7 @@
         {
             "id": 14,
             "class": "Text",
+            "compo_class": null,
             "height": 13,
             "width": 125,
             "position": {
@@ -197,6 +212,7 @@
         {
             "id": 15,
             "class": "Text",
+            "compo_class": null,
             "height": 13,
             "width": 132,
             "position": {
@@ -211,6 +227,7 @@
         {
             "id": 16,
             "class": "Text",
+            "compo_class": null,
             "height": 14,
             "width": 382,
             "position": {

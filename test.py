@@ -5,7 +5,7 @@ from utils.ModelLoader import modelLoader
 ml= modelLoader()
 ml.load_models()
 
-gui = GUI('data/input/0.jpg', model_loader=ml)
+gui = GUI('data/input/2.jpg', model_loader=ml)
 gui.detect_element(True, True, True, ocr_opt='google')
 gui.classify_compos()
 

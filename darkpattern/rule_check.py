@@ -191,8 +191,8 @@ def examine_text_content(tmp_text, idx, flags, pro_yes=False):
     if not (mo1 is None) and len(tmp_text.split()) <100:
         append_item(flags, "flag_pre_privacy_by", idx)
         # print(mo1)
-    if "signing" in tmp_text:
-        print(tmp_text)
+    # if "signing" in tmp_text:
+    #     print(tmp_text)
 
     ## countdown
     free_pattern = re.compile(r'(.*) (reward|offer).* (end|expire).*(at|in)(.*)') 
@@ -736,12 +736,12 @@ def final_check(output_results, img_h, img_w, all_items):
                 if flag_top_right:
                     if y1 > screen_bbox[1]-10 and screen_bbox[2]>=img_w//3:
                         flag_top_right = False
-                        print("flags", flag_top_right, flag_bottom_left)
+                        # print("flags", flag_top_right, flag_bottom_left)
                         
                 if flag_bottom_left:
                     if y2 < screen_bbox[3]+10 and screen_bbox[0]<=img_w//3:
                         flag_bottom_left = False
-                        print("flags", flag_top_right, flag_bottom_left)
+                        # print("flags", flag_top_right, flag_bottom_left)
 
                 
             # print("flags", flag_top_right, flag_bottom_left)
