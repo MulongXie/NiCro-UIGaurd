@@ -87,8 +87,9 @@ class UIGuard:
 		all_properties = self.extract_property(image_path, img_cv, elements_info, vis)
 		final_results = self.darkpatternChecker(all_properties, img_cv)
 		android_output = self.organise_output_for_android(final_results)
-		print("Reorganise results Using {:.02f}s".format(time.time() - start_time))
-		print("++ android_output", android_output)
+		print(android_output)
+		print("Reorganise results Using {:.02f}s Dark Pattern Detected:".format(time.time() - start_time), len(android_output['results']) > 0)
+		# print("++ android_output", android_output)
 		return android_output
 
 	def organise_output_for_android(self, output):

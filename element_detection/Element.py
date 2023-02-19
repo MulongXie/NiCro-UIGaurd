@@ -73,6 +73,7 @@ class Element:
             attrs["category"] = class_mapping[self.compo_class]
         else:
             attrs['category'] = 'TextView'
+        if self.text_content is not None:
             attrs["ori_text"] = self.text_content
             attrs["text"] = self.text_content.lower()
         return attrs

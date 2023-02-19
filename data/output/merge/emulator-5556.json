@@ -3,235 +3,243 @@
         {
             "id": 0,
             "class": "Compo",
-            "height": 14,
-            "width": 17,
+            "height": 13,
+            "width": 15,
             "position": {
-                "column_min": 18,
-                "row_min": 43,
-                "column_max": 35,
-                "row_max": 57
+                "column_min": 16,
+                "row_min": 38,
+                "column_max": 31,
+                "row_max": 51
             }
         },
         {
             "id": 1,
             "class": "Compo",
-            "height": 21,
-            "width": 34,
+            "height": 19,
+            "width": 30,
             "position": {
-                "column_min": 326,
-                "row_min": 158,
-                "column_max": 360,
-                "row_max": 179
+                "column_min": 664,
+                "row_min": 136,
+                "column_max": 694,
+                "row_max": 155
             }
         },
         {
             "id": 2,
             "class": "Compo",
-            "height": 16,
+            "height": 15,
             "width": 9,
             "position": {
-                "column_min": 346,
-                "row_min": 227,
-                "column_max": 355,
-                "row_max": 243
+                "column_min": 680,
+                "row_min": 194,
+                "column_max": 689,
+                "row_max": 209
             }
         },
         {
             "id": 3,
             "class": "Compo",
-            "height": 16,
+            "height": 14,
             "width": 9,
             "position": {
-                "column_min": 346,
-                "row_min": 281,
-                "column_max": 355,
-                "row_max": 297
+                "column_min": 680,
+                "row_min": 242,
+                "column_max": 689,
+                "row_max": 256
             }
         },
         {
             "id": 4,
             "class": "Compo",
-            "height": 16,
+            "height": 15,
             "width": 9,
             "position": {
-                "column_min": 346,
-                "row_min": 348,
-                "column_max": 355,
-                "row_max": 364
+                "column_min": 680,
+                "row_min": 298,
+                "column_max": 689,
+                "row_max": 313
             }
         },
         {
             "id": 5,
-            "class": "Text",
-            "height": 11,
-            "width": 94,
+            "class": "Compo",
+            "height": 14,
+            "width": 13,
             "position": {
-                "column_min": 69,
-                "row_min": 37,
-                "column_max": 163,
-                "row_max": 48
-            },
-            "text_content": "Preferences",
-            "keyboard": false
+                "column_min": 238,
+                "row_min": 773,
+                "column_max": 251,
+                "row_max": 787
+            }
         },
         {
             "id": 6,
-            "class": "Text",
+            "class": "Compo",
             "height": 13,
-            "width": 47,
+            "width": 13,
             "position": {
-                "column_min": 69,
-                "row_min": 53,
-                "column_max": 116,
-                "row_max": 66
-            },
-            "text_content": "MulongX",
-            "keyboard": false
+                "column_min": 347,
+                "row_min": 773,
+                "column_max": 360,
+                "row_max": 786
+            }
         },
         {
             "id": 7,
-            "class": "Text",
-            "height": 11,
-            "width": 307,
+            "class": "Compo",
+            "height": 13,
+            "width": 13,
             "position": {
-                "column_min": 15,
-                "row_min": 98,
-                "column_max": 322,
-                "row_max": 109
-            },
-            "text_content": "Select your preferences by notification type . Learn more",
-            "keyboard": false
+                "column_min": 455,
+                "row_min": 773,
+                "column_max": 468,
+                "row_max": 786
+            }
         },
         {
             "id": 8,
             "class": "Text",
-            "height": 12,
-            "width": 212,
+            "height": 14,
+            "width": 107,
             "position": {
-                "column_min": 15,
-                "row_min": 146,
-                "column_max": 227,
-                "row_max": 158
+                "column_min": 62,
+                "row_min": 28,
+                "column_max": 169,
+                "row_max": 42
             },
-            "text_content": "Unread notification count badge",
+            "text_content": "Preferences",
             "keyboard": false
         },
         {
             "id": 9,
             "class": "Text",
             "height": 13,
-            "width": 238,
+            "width": 56,
             "position": {
-                "column_min": 69,
-                "row_min": 161,
-                "column_max": 307,
-                "row_max": 174
+                "column_min": 61,
+                "row_min": 49,
+                "column_max": 117,
+                "row_max": 62
             },
-            "text_content": "a badge with the number of notifications",
+            "text_content": "MulongX",
             "keyboard": false
         },
         {
             "id": 10,
             "class": "Text",
-            "height": 13,
-            "width": 48,
+            "height": 14,
+            "width": 354,
             "position": {
-                "column_min": 15,
-                "row_min": 162,
-                "column_max": 63,
-                "row_max": 175
+                "column_min": 13,
+                "row_min": 84,
+                "column_max": 367,
+                "row_max": 98
             },
-            "text_content": "Displays",
+            "text_content": "Select your preferences by notification type . Learn more",
             "keyboard": false
         },
         {
             "id": 11,
             "class": "Text",
-            "height": 12,
-            "width": 223,
+            "height": 14,
+            "width": 231,
             "position": {
-                "column_min": 15,
-                "row_min": 178,
-                "column_max": 238,
-                "row_max": 190
+                "column_min": 13,
+                "row_min": 129,
+                "column_max": 244,
+                "row_max": 143
             },
-            "text_content": "waiting for you inside the Twitter app .",
+            "text_content": "Unread notification count badge",
             "keyboard": false
         },
         {
             "id": 12,
             "class": "Text",
-            "height": 10,
-            "width": 119,
+            "height": 15,
+            "width": 436,
             "position": {
-                "column_min": 15,
-                "row_min": 230,
-                "column_max": 134,
-                "row_max": 240
+                "column_min": 13,
+                "row_min": 148,
+                "column_max": 449,
+                "row_max": 163
             },
-            "text_content": "Push notifications",
+            "text_content": "Displays a badge with the number of notifications waiting for you",
             "keyboard": false
         },
         {
             "id": 13,
             "class": "Text",
-            "height": 11,
-            "width": 116,
+            "height": 15,
+            "width": 149,
             "position": {
-                "column_min": 15,
-                "row_min": 283,
-                "column_max": 131,
-                "row_max": 294
+                "column_min": 456,
+                "row_min": 148,
+                "column_max": 605,
+                "row_max": 163
             },
-            "text_content": "SMS notifications",
+            "text_content": "inside the Twitter app .",
             "keyboard": false
         },
         {
             "id": 14,
             "class": "Text",
-            "height": 11,
-            "width": 122,
+            "height": 12,
+            "width": 130,
             "position": {
-                "column_min": 15,
-                "row_min": 334,
-                "column_max": 137,
-                "row_max": 345
+                "column_min": 14,
+                "row_min": 195,
+                "column_max": 144,
+                "row_max": 207
             },
-            "text_content": "Email notifications",
+            "text_content": "Push notifications",
             "keyboard": false
         },
         {
             "id": 15,
             "class": "Text",
-            "height": 10,
-            "width": 309,
+            "height": 13,
+            "width": 127,
             "position": {
-                "column_min": 15,
-                "row_min": 351,
-                "column_max": 324,
-                "row_max": 361
+                "column_min": 14,
+                "row_min": 242,
+                "column_max": 141,
+                "row_max": 255
             },
-            "text_content": "Control when and how often Twitter sends emails to",
+            "text_content": "SMS notifications",
             "keyboard": false
         },
         {
             "id": 16,
             "class": "Text",
-            "height": 11,
-            "width": 26,
+            "height": 12,
+            "width": 134,
             "position": {
-                "column_min": 14,
-                "row_min": 369,
-                "column_max": 40,
-                "row_max": 380
+                "column_min": 13,
+                "row_min": 290,
+                "column_max": 147,
+                "row_max": 302
             },
-            "text_content": "you .",
+            "text_content": "Email notifications",
+            "keyboard": false
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 14,
+            "width": 385,
+            "position": {
+                "column_min": 13,
+                "row_min": 308,
+                "column_max": 398,
+                "row_max": 322
+            },
+            "text_content": "Control when and how often Twitter sends emails to you .",
             "keyboard": false
         }
     ],
     "img_shape": [
         800,
-        378,
+        709,
         3
     ]
 }

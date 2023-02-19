@@ -9,14 +9,14 @@ from element_detection.detect_merge.Element import Element
 
 
 def show_elements(org_img, eles, show=False, win_name='element', wait_key=0, shown_resize=None, line=2):
-    color_map = {'Text':(0, 0, 255), 'Compo':(0, 255, 0), 'Block':(0, 255, 0), 'Text Content':(255, 0, 255)}
+    color_map = {'Text':(166, 0, 0), 'Compo':(0, 255, 0), 'Block':(0, 255, 0), 'Text Content':(255, 0, 255)}
     img = org_img.copy()
     for ele in eles:
         if ele.category == 'Text':
             if ele.keyboard:
                 color = (0, 166, 255)
             else:
-                color = (0, 0, 255)
+                color = (224, 182, 0)
         else:
             color = color_map[ele.category]
         ele.visualize_element(img, color, line)

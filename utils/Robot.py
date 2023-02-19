@@ -11,19 +11,19 @@ class Robot(RobotController):
         self.name = 'robot'
 
         self.camera = None  # height/width = 1000/540
-        self.camera_clip_range_height = [80, 900]
-        self.camera_clip_range_width = [0, 540]
+        self.camera_clip_range_height = [189, 947]
+        self.camera_clip_range_width = [15, 522]
 
-        self.x_robot2y_cam = round((295-120)/820, 2)    # x_robot_range : cam.height_range
-        self.y_robot2x_cam = round(120/540, 2)          # y_robot_range : cam.width_range
+        self.x_robot2y_cam = round((300-120)/(self.camera_clip_range_height[1] - self.camera_clip_range_height[0]), 2)    # x_robot_range : cam.height_range
+        self.y_robot2x_cam = round(120/(self.camera_clip_range_width[1] - self.camera_clip_range_width[0]), 2)          # y_robot_range : cam.width_range
 
         self.GUI = None
         self.photo = None   # image
-        self.photo_save_path = '../data/screen/robot_photo.png'
+        self.photo_save_path = 'data/screen/robot_photo.png'
         self.photo_screen_area = None    # image of screen area
         self.detect_resize_ratio = None  # self.GUI.detection_resize_height / self.photo.shape[0]
         self.dp_model_loader = dp_model_loader      # model loader for dark pattern detection
-        # self.cap_frame()
+        self.cap_frame()
 
     def cap_frame(self):
         if not self.camera or not self.camera.read()[0]:
@@ -38,8 +38,8 @@ class Robot(RobotController):
         return frame
 
     def convert_coord_from_camera_to_robot(self, x_cam, y_cam):
-        x_robot = int((820 - y_cam) * self.x_robot2y_cam) + 120
-        y_robot = int((270 - x_cam) * self.y_robot2x_cam)
+        x_robot = int(((self.camera_clip_range_height[1] - self.camera_clip_range_height[0]) - y_cam) * self.x_robot2y_cam) + 120
+        y_robot = int(((self.camera_clip_range_width[1] - self.camera_clip_range_width[0]) / 2 - x_cam) * self.y_robot2x_cam)
         return x_robot, y_robot
 
     def adjust_camera_clip_range(self):
@@ -109,7 +109,7 @@ class Robot(RobotController):
         dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
 
     def detect_gui_element(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', adjust_by_screen_area=True, verbose=True):
-        # self.cap_frame()
+        self.cap_frame()
         self.GUI = GUI(self.photo_save_path)
         self.detect_resize_ratio = self.GUI.detection_resize_height / self.photo.shape[0]
         if is_load:

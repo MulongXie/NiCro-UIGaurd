@@ -189,7 +189,7 @@ class GUIPair:
             if similarities is not None:
                 text = similarities[i]
                 cv2.putText(board2, text, (ele.col_min[0] + 3, ele.row_min[1] - 5), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-            cv2.circle(board2, (ele.center_x, ele.center_y), 10, (255, 0, 255), 2)
+            cv2.circle(board2, (ele.center_x, ele.center_y), 10, (255, 0, 255), -1)
             # ele.draw_element(board2, put_text=text, show=False)
         # cv2.imshow('Target', board1)
         cv2.imshow('Matched Elements', board2)

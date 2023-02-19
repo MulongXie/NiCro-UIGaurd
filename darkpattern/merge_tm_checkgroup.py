@@ -95,7 +95,7 @@ def merge_checkbox_w_text(item_list):
                 status = checkbox["status"]
             tmp = {"category": "check_group", 
                    "bbox":merged_bbox, 
-                   "text": matched_texts[0]["text"], 
+                   "text": matched_texts[0].get("text",""),
                    "status": status,
                    "meta_items": [checkbox, matched_texts[0]]}
             final_checkbox_group.append(tmp)
@@ -121,7 +121,7 @@ def merge_checkbox_w_text(item_list):
 
                 tmp = {"category": "check_group", 
                        "bbox":merged_bbox, 
-                       "text": ",".join([text_item["text"] for text_item in corrected_text_items]), 
+                       "text": ",".join([text_item.get("text","") for text_item in corrected_text_items]),
                        "status": status,
                        "meta_items": [checkbox, *corrected_text_items]}
                 final_checkbox_group.append(tmp)

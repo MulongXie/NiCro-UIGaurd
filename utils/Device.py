@@ -2,6 +2,7 @@ import cv2
 import time
 from utils.GUI import GUI
 from utils.UIGuard import UIGuard
+from darkpattern.draw_results import draw_results
 
 
 class Device:
@@ -49,14 +50,15 @@ class Device:
         print('*** Dark Pattern Detection ***')
         self.GUI.classify_compos(model_loader=model_loader)
         dark_pattern = UIGuard(model_loader=model_loader)
-        dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
+        result = dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
+        if len(result['results']) > 0:
+            draw_results(self.GUI.det_result_imgs['merge'], result, self.GUI.img_path, 'data/darkpattern', self.GUI.img_org.shape)
 
-    def update_screenshot_and_gui(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', verbose=True):
+    def update_screenshot_and_gui(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', verbose=True, dp=False):
         self.cap_screenshot()
         self.detect_gui_info(paddle_ocr, is_load=is_load, ocr_opt=ocr_opt, verbose=verbose)
-        self.detect_dark_pattern(self.dp_model_loader)
-        if show:
-            self.GUI.show_detection_result()
+        if dp:
+            self.detect_dark_pattern(self.dp_model_loader)
 
     def find_element_by_coordinate(self, x, y, show=False):
         '''

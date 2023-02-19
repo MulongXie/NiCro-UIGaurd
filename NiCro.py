@@ -119,7 +119,7 @@ class NiCro:
             if event == cv2.EVENT_LBUTTONDOWN:
                 params[2] = True
                 # draw the press location
-                cv2.circle(params[0], (x, y), 10, (255, 0, 255), 2)
+                cv2.circle(params[0], (x, y), 10, (255, 0, 255), -1)
                 cv2.imshow(win_name, params[0])
                 self.action['coordinate'][0] = (x_app, y_app)
                 # reset press_time
@@ -170,10 +170,11 @@ class NiCro:
 
                 # update the screenshot and GUI of the selected target device
                 print("****** Re-detect Source Device's screenshot and GUI ******")
-                s_dev.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=False)
+                s_dev.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=False, dp=True)
                 params[0] = s_dev.GUI.det_result_imgs['merge'].copy()
                 cv2.imshow(win_name, params[0])
                 params[1] += 1
+                print('*** Done this turn ***')
 
         self.detect_gui_info_for_all_devices(verbose=True, show=False)
 
@@ -231,7 +232,7 @@ class NiCro:
             # skip the Selected Source Device
             if dev.id != self.source_device.id:
                 self.replay_action_on_device(dev, detection_verbose, save_action_execution_path)
-            dev.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
+                dev.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
         if self.robot is not None:
             self.replay_action_on_robot()
             self.robot.detect_gui_element(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)

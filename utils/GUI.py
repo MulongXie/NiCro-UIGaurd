@@ -270,7 +270,7 @@ class GUI:
         '''
         Draw detected elements based on det_result_data
         '''
-        color_map = {'Compo': (0,255,0), 'Text': (0,0,255), 'Block':(0,255,255)}
+        color_map = {'Compo': (0,255,0), 'Text': (166,0,0), 'Block':(0,255,255)}
 
         board = self.img.copy()
         for i, element in enumerate(self.elements):
