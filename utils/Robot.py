@@ -7,12 +7,13 @@ from utils.UIGuard import UIGuard
 class Robot(RobotController):
     def __init__(self, speed=100000, press_depth=20, dp_model_loader=None):
         super().__init__(speed=speed)
+        self.id = -1
         self.press_depth = press_depth
         self.name = 'robot'
 
         self.camera = None  # height/width = 1000/540
-        self.camera_clip_range_height = [189, 947]
-        self.camera_clip_range_width = [15, 522]
+        self.camera_clip_range_height = [111, 914]
+        self.camera_clip_range_width = [0, 540]
 
         self.x_robot2y_cam = round((300-120)/(self.camera_clip_range_height[1] - self.camera_clip_range_height[0]), 2)    # x_robot_range : cam.height_range
         self.y_robot2x_cam = round(120/(self.camera_clip_range_width[1] - self.camera_clip_range_width[0]), 2)          # y_robot_range : cam.width_range
@@ -20,10 +21,13 @@ class Robot(RobotController):
         self.GUI = None
         self.photo = None   # image
         self.photo_save_path = 'data/screen/robot_photo.png'
-        self.photo_screen_area = None    # image of screen area
+        # self.photo_screen_area = None    # image of screen area
         self.detect_resize_ratio = None  # self.GUI.detection_resize_height / self.photo.shape[0]
         self.dp_model_loader = dp_model_loader      # model loader for dark pattern detection
         self.cap_frame()
+
+    def get_devices_info(self):
+        print("Device Robot")
 
     def cap_frame(self):
         if not self.camera or not self.camera.read()[0]:
@@ -100,6 +104,15 @@ class Robot(RobotController):
         cv2.destroyWindow('camera')
         self.camera.release()
 
+    def screen_swipe(self, x_start_screen, y_start_screen, x_end_screen, y_end_screen):
+        x1_robot, y1_robot = self.convert_coord_from_camera_to_robot(x_start_screen, y_start_screen)
+        x2_robot, y2_robot = self.convert_coord_from_camera_to_robot(x_end_screen, y_end_screen)
+        self.swipe((x1_robot, y1_robot, self.press_depth), (x2_robot, y2_robot, self.press_depth))
+
+    def screen_click(self, x_screen, y_screen):
+        x_robot, y_robot = self.convert_coord_from_camera_to_robot(x_screen, y_screen)
+        self.click((x_robot, y_robot, self.press_depth))
+
     def detect_dark_pattern(self, model_loader):
         '''
         Detect if the gui has dark pattern according to the GUI information
@@ -108,7 +121,7 @@ class Robot(RobotController):
         dark_pattern = UIGuard(model_loader=model_loader)
         dark_pattern.detect_dark_pattern(image_path=self.GUI.img_path, elements_info=self.GUI.get_elements_info_ui_guard(), vis=False)
 
-    def detect_gui_element(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', adjust_by_screen_area=True, verbose=True):
+    def update_screenshot_and_gui(self, paddle_ocr, is_load=False, show=False, ocr_opt='paddle', adjust_by_screen_area=False, verbose=True, dp=False):
         self.cap_frame()
         self.GUI = GUI(self.photo_save_path)
         self.detect_resize_ratio = self.GUI.detection_resize_height / self.photo.shape[0]
@@ -121,6 +134,18 @@ class Robot(RobotController):
             self.adjust_elements_by_screen_area(show)
         elif show:
             self.GUI.show_detection_result()
+
+    def find_element_by_coordinate(self, x, y, show=False):
+        '''
+        x, y: in the scale of app screen size
+        '''
+        x_resize, y_resize = x * self.detect_resize_ratio, y * self.detect_resize_ratio
+        ele = self.GUI.get_element_by_coordinate(x_resize, y_resize)
+        if ele is None:
+            print('No element found at (%d, %d)' % (x_resize, y_resize))
+        elif show:
+            ele.show_clip()
+        return ele
 
     '''
     **************************************
@@ -215,21 +240,25 @@ class Robot(RobotController):
     *** Action Replay ***
     *********************
     '''
-    def replay_action(self, action, matched_element=None, screen_ratio=None):
+    def replay_action(self, action, matched_element=None, screen_ratio=None, src_shape=None, phone_ratio_width=0.7):
         if action['type'] == 'click':
             if matched_element is not None:
-                self.click((int(matched_element.center_x / self.detect_resize_ratio), int(matched_element.center_y / self.detect_resize_ratio), self.press_depth))
+                x_screen, y_screen = int(matched_element.center_x / self.detect_resize_ratio), int(matched_element.center_y / self.detect_resize_ratio)
+                x_robot, y_robot = self.convert_coord_from_camera_to_robot(x_screen, y_screen)
+                self.click((x_robot, y_robot, self.press_depth))
             else:
-                x_rescreen, y_rescreen = int(action['coordinate'][0][0] / screen_ratio), int(action['coordinate'][0][1] / screen_ratio)
-                x_robot, y_robot = self.convert_coord_from_camera_to_robot(x_rescreen, y_rescreen)
-                print('Screen Coord(%d, %d), Robot Coord(%d, %d)' % (x_rescreen, y_rescreen, x_robot, y_robot))
+                x_screen, y_screen = int((action['coordinate'][0][0] / src_shape[0]) * self.photo.shape[1] * phone_ratio_width), int((action['coordinate'][0][1] / src_shape[1]) * self.photo.shape[0])
+                x_robot, y_robot = self.convert_coord_from_camera_to_robot(x_screen, y_screen)
+                print('Screen Coord(%d, %d), Robot Coord(%d, %d)' % (x_screen, y_screen, x_robot, y_robot), src_shape, self.photo.shape, action['coordinate'])
                 self.click((x_robot, y_robot, self.press_depth))
         elif action['type'] == 'swipe':
-            x_rescreen, y_rescreen = int(action['coordinate'][0][0] / screen_ratio), int(action['coordinate'][0][1] / screen_ratio)
-            x_robot, y_robot = self.convert_coord_from_camera_to_robot(x_rescreen, y_rescreen)
+            x_screen, y_screen = int((action['coordinate'][0][0] / src_shape[0]) * self.photo.shape[1] * phone_ratio_width), int((action['coordinate'][0][1] / src_shape[1]) * self.photo.shape[0])
+            x_robot, y_robot = self.convert_coord_from_camera_to_robot(x_screen, y_screen)
             start_coord = (x_robot, y_robot, self.press_depth)
-            re_dist = (int((action['coordinate'][1][1] - action['coordinate'][0][1]) / screen_ratio), int((action['coordinate'][1][0] - action['coordinate'][0][0]) / screen_ratio))
-            end_coord = (int(start_coord[0] - re_dist[0]), int(start_coord[1] + re_dist[1]), self.press_depth)
+            x_screen_end, y_screen_end = int((action['coordinate'][1][0] / src_shape[0]) * self.photo.shape[1] * phone_ratio_width), int((action['coordinate'][1][1] / src_shape[1]) * self.photo.shape[0])
+            x_robot_end, y_robot_end = self.convert_coord_from_camera_to_robot(x_screen_end, y_screen_end)
+            end_coord = (x_robot_end, y_robot_end, self.press_depth)
+            print('Swipe robot:', start_coord, end_coord, screen_ratio)
             self.swipe(start_coord, end_coord)
 
 
