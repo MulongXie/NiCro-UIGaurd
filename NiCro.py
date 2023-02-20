@@ -70,7 +70,10 @@ class NiCro:
             print('No Robot Arm System')
 
     def select_source_device(self, device_id):
-        self.source_device = self.devices[device_id]
+        if device_id == -1:
+            self.source_device = self.robot
+        else:
+            self.source_device = self.devices[device_id]
         self.get_devices_info()
 
     def detect_gui_info_for_all_devices(self, load_detection_result=False, show=True, verbose=True):
@@ -85,7 +88,7 @@ class NiCro:
             device.update_screenshot_and_gui(self.paddle_ocr, load_detection_result, show, ocr_opt=self.ocr_opt, verbose=verbose)
         if self.robot is not None:
             print('\n****** GUI Component Detection Robot Arm [1 / 1] ******')
-            self.robot.detect_gui_element(self.paddle_ocr, load_detection_result, show=show, ocr_opt=self.ocr_opt, verbose=verbose)
+            self.robot.update_screenshot_and_gui(self.paddle_ocr, load_detection_result, show=show, ocr_opt=self.ocr_opt, verbose=verbose)
 
     def show_all_device_detection_results(self):
         for device in self.devices:
@@ -107,7 +110,7 @@ class NiCro:
         :param is_replay: Boolean, True to replay and store the actions on all devices
         '''
         s_dev = self.source_device
-        win_name = s_dev.device.get_serial_no() + ' screen (Press "q" to exit)'
+        win_name = 'Control panel screen (Press "q" to exit)'
 
         def on_mouse(event, x, y, flags, params):
             '''
@@ -135,7 +138,10 @@ class NiCro:
                 # swipe
                 if abs(x_start - x_app) >= 10 or abs(y_start - y_app) >= 10:
                     print('\n****** Scroll from (%d, %d) to (%d, %d) ******' % (x_start, y_start, x_app, y_app))
-                    s_dev.device.input_swipe(x_start, y_start, x_app, y_app, 500)
+                    if s_dev.id == -1:
+                        s_dev.screen_swipe(x_start, y_start, x_app, y_app)
+                    else:
+                        s_dev.device.input_swipe(x_start, y_start, x_app, y_app, 500)
                     # record action
                     self.action['type'] = 'swipe'
                     self.action['coordinate'][1] = (x_app, y_app)
@@ -150,7 +156,10 @@ class NiCro:
                 # click
                 else:
                     print('\n****** Click (%d, %d) ******' % (x_start, y_start))
-                    s_dev.device.input_tap(x_start, y_start)
+                    if s_dev.id == -1:
+                        s_dev.screen_click(x_start, y_start)
+                    else:
+                        s_dev.device.input_tap(x_start, y_start)
                     # record action
                     self.action['type'] = 'click'
                     self.action['coordinate'][1] = (-1, -1)
@@ -163,10 +172,13 @@ class NiCro:
                     cv2.imwrite(pjoin(testcase_dir, step_id + '_act.jpg'), params[0])      # actions drawn on detection result
                 # replay the action on all devices
                 if is_replay:
-                    save_action_execution_dir = pjoin(testcase_dir, step_id)
-                    os.makedirs(save_action_execution_dir, exist_ok=True)
-                    cv2.imwrite(pjoin(save_action_execution_dir, str(s_dev.id) + '.jpg'), params[0])      # actions drawn on detection result
-                    self.replay_action_on_all_devices(detection_verbose=False, save_action_execution_dir=save_action_execution_dir)
+                    try:
+                        save_action_execution_dir = pjoin(testcase_dir, step_id)
+                        os.makedirs(save_action_execution_dir, exist_ok=True)
+                        cv2.imwrite(pjoin(save_action_execution_dir, str(s_dev.id) + '.jpg'), params[0])      # actions drawn on detection result
+                        self.replay_action_on_all_devices(detection_verbose=False, save_action_execution_dir=save_action_execution_dir)
+                    except Exception as e:
+                        print(e)
 
                 # update the screenshot and GUI of the selected target device
                 print("****** Re-detect Source Device's screenshot and GUI ******")
@@ -205,23 +217,26 @@ class NiCro:
         if self.target_element is not None:
             matched_element = GUIPair(self.source_device.GUI, device.GUI, self.resnet_model).match_target_element(self.target_element)
             # scroll down and match again
-            if matched_element is None:
-                print('Scroll down and try to match again')
-                device.device.input_swipe(50, device.device.wm_size().height * 0.5, 50, 20, 500)
-                device.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
-                matched_element = GUIPair(self.source_device.GUI, device.GUI, self.resnet_model).match_target_element(self.target_element)
+            # if matched_element is None:
+            #     print('Scroll down and try to match again')
+            #     device.device.input_swipe(50, device.device.wm_size().height * 0.5, 50, 20, 500)
+            #     device.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
+            #     matched_element = GUIPair(self.source_device.GUI, device.GUI, self.resnet_model).match_target_element(self.target_element)
         # replay action on device
-        device.replay_action(self.action, self.source_device.device.wm_size(), matched_element, save_action_execution_path)
+        if self.source_device.id != -1:
+            device.replay_action(self.action, self.source_device.device.wm_size(), matched_element, save_action_execution_path)
+        else:
+            device.replay_action(self.action, self.source_device.GUI.img.shape, matched_element, save_action_execution_path)
 
     def replay_action_on_robot(self):
         print('*** Replay on Robot ***')
-        screen_area_actual_height = self.robot.photo_screen_area.shape[0] / self.robot.detect_resize_ratio
-        screen_ratio = self.source_device.device.wm_size()[1] / screen_area_actual_height
+        # screen_area_actual_height = self.robot.photo.shape[0] / self.robot.detect_resize_ratio
+        screen_ratio = (self.source_device.device.wm_size()[0] / self.robot.photo.shape[0], self.source_device.device.wm_size()[1] / self.robot.photo.shape[1])
         matched_element = None
         if self.target_element is not None:
             gui_matcher = GUIPair(self.source_device.GUI, self.robot.GUI, self.resnet_model)
             matched_element = gui_matcher.match_target_element(self.target_element)
-        self.robot.replay_action(self.action, matched_element, screen_ratio)
+        self.robot.replay_action(self.action, matched_element, screen_ratio, src_shape=self.source_device.device.wm_size())
 
     def replay_action_on_all_devices(self, detection_verbose=True, save_action_execution_dir=None):
         print('Action:', self.action)
@@ -233,9 +248,9 @@ class NiCro:
             if dev.id != self.source_device.id:
                 self.replay_action_on_device(dev, detection_verbose, save_action_execution_path)
                 dev.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
-        if self.robot is not None:
+        if self.source_device.id != -1 and self.robot is not None:
             self.replay_action_on_robot()
-            self.robot.detect_gui_element(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
+            self.robot.update_screenshot_and_gui(self.paddle_ocr, ocr_opt=self.ocr_opt, verbose=detection_verbose)
 
     '''
     ****************************
