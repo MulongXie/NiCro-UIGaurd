@@ -116,7 +116,7 @@ class Device:
         if save_action_execution_path is not None:
             self.save_action_execution(action_type, coordinates, save_action_execution_path)
 
-    def save_action_execution(self, action_type, coordinates, save_path, num_dots=5, show=True):
+    def save_action_execution(self, action_type, coordinates, save_path, num_dots=5, show=False):
         coordinates = ((int(coordinates[0][0] * self.detect_resize_ratio), int(coordinates[0][1] * self.detect_resize_ratio)),
                        (int(coordinates[1][0] * self.detect_resize_ratio), int(coordinates[1][1] * self.detect_resize_ratio)))
         board = self.GUI.det_result_imgs['merge'].copy()
