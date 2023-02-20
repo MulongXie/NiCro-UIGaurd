@@ -85,17 +85,17 @@ def examine_text_content(tmp_text, idx, flags, pro_yes=False):
     pro_pattern2 = re.compile(r'^(.*)\b(no ad|no ads|no advertisement|no advertisements|no advertising|noadverts|ad free|no-ad)\b') 
     mo2 = pro_pattern2.search(tmp_text)
     # print(tmp_text)
-    if not (mo1 is None) or not (mo2 is None):
-        append_item(flags, "flag_pro", idx)
-        # print("[PRO]", tmp_text)
-        pro_yes = True
+    # if not (mo1 is None) or not (mo2 is None):
+    #     append_item(flags, "flag_pro", idx)
+    #     # print("[PRO]", tmp_text)
+    #     pro_yes = True
 
     ## watch ad to unlock feature
-    watch_pattern = re.compile(r'^(.*)\b(watch).*\b(ad|ads|advertisement|advertisements|advertising|adverts)\b') 
-    mo1 = watch_pattern.search(tmp_text)
-    if not (mo1 is None) :
-        append_item(flags, "flag_watch", idx)
-        pro_yes = True
+    # watch_pattern = re.compile(r'^(.*)\b(watch).*\b(ad|ads|advertisement|advertisements|advertising|adverts)\b')
+    # mo1 = watch_pattern.search(tmp_text)
+    # if not (mo1 is None) :
+    #     append_item(flags, "flag_watch", idx)
+    #     pro_yes = True
 
 
     ad_keywords = ["ads", "ad", "sponsored", "advertisement", "advertisements", "adchoices", "promoted"] #, "google play"]

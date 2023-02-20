@@ -33,7 +33,7 @@ def draw_circle(number):
 
 def draw_results(img, output_results, img_path, output_folder, org_shape):
     h, w, _ = img.shape
-    print(h, w, output_results)
+    # print(h, w, output_results)
 
     scale = h/org_shape[0]
 
@@ -50,7 +50,7 @@ def draw_results(img, output_results, img_path, output_folder, org_shape):
     diff = 30
     num_text_per_line = 28
     if h < 1000:
-        thickness = 1
+        thickness = 2
         TextScale = 0.8
         line_gap = 40
         num_text_per_line = 20
@@ -107,7 +107,7 @@ def draw_results(img, output_results, img_path, output_folder, org_shape):
                 # print(curr_text[-1], text_line_id, subtype[(text_line_id+1)*num_text_per_line])
                 if curr_text[-1] != " " and text_line_id != text_lines-1 and subtype[(text_line_id+1)*num_text_per_line] != " ":
                     curr_text+="-"
-                combined_img = cv2.putText(combined_img, curr_text, (w+30+40, 10+count*line_gap), cv2.FONT_HERSHEY_SIMPLEX, fontScale=TextScale, color=curr_color, thickness=thickness)
+                combined_img = cv2.putText(combined_img, curr_text, (w+30, 10+count*line_gap), cv2.FONT_HERSHEY_SIMPLEX, fontScale=TextScale, color=curr_color, thickness=thickness)
                 count += 1
             color_count += 1
     if ins_id == 0:
