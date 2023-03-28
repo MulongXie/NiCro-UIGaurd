@@ -11,9 +11,9 @@ class Robot(RobotController):
         self.press_depth = press_depth
         self.name = 'robot'
 
-        self.camera = None  # height/width = 1000/540
-        self.camera_clip_range_height = [111, 914]
-        self.camera_clip_range_width = [0, 540]
+        self.camera = None  # adjust in adjust_camera.py
+        self.camera_clip_range_height = [20, 816]  # [top, bottom]
+        self.camera_clip_range_width = [0, 540]     # [left, right]
 
         self.x_robot2y_cam = round((300-120)/(self.camera_clip_range_height[1] - self.camera_clip_range_height[0]), 2)    # x_robot_range : cam.height_range
         self.y_robot2x_cam = round(120/(self.camera_clip_range_width[1] - self.camera_clip_range_width[0]), 2)          # y_robot_range : cam.width_range
